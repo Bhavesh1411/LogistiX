@@ -1,0 +1,25 @@
+metric,value
+verified_date_range.earliest_date,2009-01-12
+verified_date_range.latest_date,2010-12-11
+verified_date_range.total_calendar_days,699
+total_products,4262
+inventory_health_score,52.44
+abc_class_distribution.A.count,889
+abc_class_distribution.A.pct_at_risk,47.36
+abc_class_distribution.B.count,1025
+abc_class_distribution.B.pct_at_risk,47.71
+abc_class_distribution.C.count,2348
+abc_class_distribution.C.pct_at_risk,47.83
+risk_category_counts.Critical,1536
+risk_category_counts.High,497
+risk_category_counts.Medium,1095
+risk_category_counts.Low,1134
+total_simulated_inventory_value_usd,561830.32
+excess_stock_value_usd,144873.52
+avg_days_to_stockout_class_a,33.58
+avg_days_to_stockout_class_b,44.87
+avg_days_to_stockout_class_c,66.65
+avg_eoq_class_a,750.31
+avg_eoq_class_b,531.08
+avg_eoq_class_c,203.41
+disclaimer,Current stock levels are simulated because actual inventory balance data was not available in the source dataset. Inventory optimization outputs should be interpreted as a decision-support simulation rather than a live inventory audit.

@@ -1,0 +1,71 @@
+{
+    "total_products": 4262,
+    "date_min": "2009-01-12",
+    "date_max": "2010-12-11",
+    "total_days": 699,
+    "product_features_columns": [
+        "product_id",
+        "total_product_sales",
+        "total_product_quantity",
+        "average_product_revenue",
+        "product_velocity",
+        "product_total_revenue",
+        "product_rank_by_revenue",
+        "product_popularity_rank",
+        "product_revenue_contribution",
+        "weekend_sales_ratio",
+        "slow_moving_inventory_flag",
+        "daily_demand_std",
+        "safety_stock",
+        "reorder_point",
+        "assumed_current_stock",
+        "days_to_stockout",
+        "low_stock_flag",
+        "inventory_risk_score"
+    ],
+    "abc_analysis": [
+        {
+            "abc_class": "A",
+            "product_count": 889,
+            "total_revenue": 7735541.5,
+            "total_quantity": 3832620,
+            "revenue_contribution_pct": 79.99102261396959,
+            "quantity_contribution_pct": 68.44400616253571,
+            "product_count_pct": 20.858751759737213
+        },
+        {
+            "abc_class": "B",
+            "product_count": 1025,
+            "total_revenue": 1451100.73,
+            "total_quantity": 1249844,
+            "revenue_contribution_pct": 15.005417695526265,
+            "quantity_contribution_pct": 22.320065761335144,
+            "product_count_pct": 24.049741905208823
+        },
+        {
+            "abc_class": "C",
+            "product_count": 2348,
+            "total_revenue": 483869.844,
+            "total_quantity": 517179,
+            "revenue_contribution_pct": 5.003559690504141,
+            "quantity_contribution_pct": 9.23592807612914,
+            "product_count_pct": 55.091506335053964
+        }
+    ],
+    "available_features": [
+        "product_id",
+        "total_revenue",
+        "total_quantity",
+        "transactions",
+        "avg_daily_demand",
+        "demand_std_dev",
+        "revenue_pct",
+        "cum_revenue_pct",
+        "abc_class"
+    ],
+    "missing_features": [
+        "lead_time",
+        "holding_cost",
+        "ordering_cost"
+    ]
+}
