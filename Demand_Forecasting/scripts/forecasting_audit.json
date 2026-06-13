@@ -1,0 +1,92 @@
+{
+    "daily_sales": {
+        "row_count": 374,
+        "min_date": "2009-12-01",
+        "max_date": "2010-12-09",
+        "missing_values": {
+            "lag_1_sales": 1,
+            "lag_1_qty": 1,
+            "lag_7_sales": 7,
+            "lag_7_qty": 7,
+            "lag_30_sales": 30,
+            "lag_30_qty": 30
+        },
+        "duplicates": 0,
+        "is_sorted": true,
+        "missing_dates": 0,
+        "outliers_count": 12,
+        "outliers_pct": 3.21,
+        "columns": [
+            "date",
+            "sales_amount",
+            "quantity_sold",
+            "rolling_7_day_sales",
+            "rolling_30_day_sales",
+            "rolling_7_day_quantity",
+            "rolling_30_day_quantity",
+            "lag_1_sales",
+            "lag_1_qty",
+            "lag_7_sales",
+            "lag_7_qty",
+            "lag_30_sales",
+            "lag_30_qty",
+            "weekday_seasonality_index",
+            "monthly_seasonality_index",
+            "seasonality_index",
+            "sales_growth_rate",
+            "sales_volatility_30_day",
+            "demand_momentum",
+            "quantity_momentum"
+        ]
+    },
+    "product_sales": {
+        "row_count": 269427,
+        "min_date": "2009-12-01",
+        "max_date": "2010-12-09",
+        "missing_values": {
+            "product_lag_1_sales": 4262,
+            "product_lag_7_sales": 27170,
+            "product_lag_1_qty": 4262,
+            "product_lag_7_qty": 27170
+        },
+        "duplicates": 0,
+        "is_sorted": true,
+        "missing_dates": 187,
+        "outliers_count": 28881,
+        "outliers_pct": 10.72,
+        "columns": [
+            "date",
+            "product_id",
+            "daily_sales_amount",
+            "daily_quantity_sold",
+            "product_lag_1_sales",
+            "product_lag_7_sales",
+            "product_lag_1_qty",
+            "product_lag_7_qty",
+            "product_rolling_7_sales",
+            "product_rolling_30_sales",
+            "product_rolling_7_qty",
+            "product_rolling_30_qty",
+            "product_demand_momentum",
+            "global_weekday_seasonality",
+            "global_monthly_seasonality"
+        ]
+    },
+    "stationarity": {
+        "daily_sales_amount": {
+            "test_statistic": -2.879344191862941,
+            "p_value": 0.047803252667568276,
+            "is_stationary": true
+        },
+        "daily_quantity": {
+            "test_statistic": -3.5268915428324585,
+            "p_value": 0.007322731614721143,
+            "is_stationary": true
+        }
+    },
+    "decomposition": {
+        "trend_mean": 25499.90725465838,
+        "seasonal_amplitude": 35052.36045656232,
+        "residual_std": 9971.763209392713
+    }
+}
