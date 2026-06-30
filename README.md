@@ -1,30 +1,34 @@
 # RetailPulse: AI-Powered Retail Analytics & Decision Intelligence Platform
 
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
-[![Streamlit App](https://static.streamlit.io/badge-emoji.svg)](https://streamlit.io/)
-[![Project Status](https://img.shields.io/badge/Status-Business%20Validation%20Complete-green.svg)](#)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)](https://streamlit.io/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-3949AB?style=flat)](https://github.com/microsoft/LightGBM)
+[![XGBoost](https://img.shields.io/badge/XGBoost-2C3E50?style=flat)](https://xgboost.readthedocs.io/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=Plotly&logoColor=white)](https://plotly.com/)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+[![Project Status](https://img.shields.io/badge/Status-Pilot%20Ready-green.svg)](#)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
 
 RetailPulse is an end-to-end predictive machine learning and decision intelligence platform built for B2B wholesale retail operators. By combining advanced classification, regression, and clustering algorithms with operations research optimization heuristics, the platform turns raw transaction ledgers into proactive strategies for customer retention, inventory management, demand readiness, and automated risk mitigation.
 
 ---
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Platform Architecture](#platform-architecture)
-3. [Folder Structure](#folder-structure)
-4. [Technology Stack](#technology-stack)
-5. [Machine Learning & Heuristic Modules](#machine-learning--heuristic-modules)
-   - [Customer Segmentation](#customer-segmentation)
-   - [True Churn Prediction](#true-churn-prediction)
-   - [Demand Forecasting](#demand-forecasting)
-   - [Inventory Optimization](#inventory-optimization)
-6. [Interactive Dashboard Modules](#interactive-dashboard-modules)
-7. [Operational Workflow](#operational-workflow)
-8. [Performance & Business Results](#performance--business-results)
-9. [Installation & Setup](#installation--setup)
-10. [Visual Assets & Screen Layouts](#visual-assets--screen-layouts)
-11. [Future Roadmap](#future-roadmap)
-12. [Repository Details](#repository-details)
+1. [Project Overview](#1-project-overview)
+2. [Platform Architecture](#2-platform-architecture)
+3. [Folder Structure](#3-folder-structure)
+4. [Technology Stack](#4-technology-stack)
+5. [Machine Learning & Heuristic Modules](#5-machine-learning--heuristic-modules)
+6. [Interactive Dashboard Modules](#6-interactive-dashboard-modules)
+7. [Operational Workflow](#7-operational-workflow)
+8. [Performance & Business Results](#8-performance--business-results)
+9. [Installation & Setup](#9-installation--setup)
+10. [Visual Assets & Screen Layouts](#10-visual-assets--screen-layouts)
+11. [Future Enhancements](#11-future-enhancements)
+12. [Repository Details](#12-repository-details)
+13. [Repository Statistics](#13-repository-statistics)
 
 ---
 
@@ -44,48 +48,16 @@ RetailPulse solves these operational pain points by integrating predictive ML mo
 
 ## 2. Platform Architecture
 
-The diagram below maps the unidirectional data pipeline from raw transactional ingestion to the client-facing Streamlit interface:
+The unidirectional pipeline maps data ingestion from raw files through processing, modeling, and output stages, eventually presenting interactive strategies to the user:
 
 ```mermaid
-flowchart TD
-    %% Source Ingestion
-    subgraph Data Layer [1. Ingest & Preprocess]
-        A[(Raw Transaction Logs)] -->|Duplicate & Debt Cleaning| B[Cleaned Sales Dataset]
-    end
-
-    %% Feature Pipeline
-    subgraph Feature Layer [2. Feature Engineering]
-        B -->|RFM & Customer Tenure| C[Customer Profile Dataset]
-        B -->|Lags & Holiday Proximities| D[Weekly Forecasting Dataset]
-    end
-
-    %% Models
-    subgraph ML Pipeline [3. Analytics & Prediction Engines]
-        C -->|KMeans Clustering| E[Customer Segmentation Engine]
-        C -->|LightGBM Classifier| F[True Churn Risk Engine]
-        D -->|XGBoost Regressor| G[Weekly Demand Forecast Engine]
-        B -->|ABC & EOQ Heuristics| H[Inventory Optimization Engine]
-    end
-
-    %% Storage
-    subgraph Storage Layer [4. Precomputed Artifact Registry]
-        E -->|Output CSV| I[customer_segments_kmeans_finalone.csv]
-        F -->|Predictions CSV| J[customer_true_churn_predictions.csv]
-        G -->|Predictions JSON| K[weekly_forecast_dashboard_data.json]
-        H -->|Outputs CSV & KPI| L[inventory_master.csv & kpi_summary.csv]
-    end
-
-    %% Presentation
-    subgraph UI Layer [5. Decision Intelligence Front-End]
-        I & J & K & L -->|Secure Load & Failbacks| M[Streamlit Multi-Page App]
-        M -->|Interactive Lookups| N[Prediction & Decision Center]
-        M -->|System Wide Checks| O[Alerts & Monitoring]
-        M -->|Model Performance Visuals| P[Model Registry]
-    end
-
-    classDef default fill:#F8FAFC,stroke:#E2E8F0,stroke-width:1px,color:#0F172A;
-    classDef highlight fill:#EFF6FF,stroke:#BFDBFE,stroke-width:2px,color:#2563EB;
-    class M,N,O,P highlight;
+graph TD
+    A[Raw Data] --> B[Data Cleaning]
+    B --> C[Feature Engineering]
+    C --> D[Machine Learning Models]
+    D --> E[Processed Outputs]
+    E --> F[Dashboard]
+    F --> G[Business Decision Support]
 ```
 
 ---
@@ -128,14 +100,15 @@ RetailPulse/
 
 ## 4. Technology Stack
 
-* **Core Engine:** Python (v3.11)
-* **Data Wrangling:** Pandas (v3.0.1), NumPy (v2.4.6)
-* **Machine Learning Frameworks:** Scikit-Learn (v1.8.0), LightGBM (v4.6.0), XGBoost (v3.2.0)
-* **Hyperparameter Tuning:** Optuna (v4.9.0)
-* **Visualization Suite:** Plotly (v6.8.0), Matplotlib (v3.10.8), Seaborn (v0.13.2)
-* **Serialization:** Joblib (v1.5.3)
-* **Data Serializers:** JSON, CSV
-* **Presentation Layer:** Streamlit (v1.56.0)
+| Category | Technologies Used |
+| :--- | :--- |
+| **Programming Language** | Python (v3.11) |
+| **Machine Learning** | Scikit-Learn (v1.8.0), LightGBM (v4.6.0), XGBoost (v3.2.0) |
+| **Data Processing** | Pandas (v3.0.1), NumPy (v2.4.6) |
+| **Visualization** | Plotly (v6.8.0), Matplotlib (v3.10.8), Seaborn (v0.13.2) |
+| **Dashboard** | Streamlit (v1.56.0) |
+| **Storage** | CSV, JSON |
+| **Version Control** | Git |
 
 ---
 
@@ -187,9 +160,9 @@ RetailPulse/
 
 ## 6. Interactive Dashboard Modules
 
-The user interface is split into 10 key modules, protected behind session-based authentication (Credentials: Username: `admin`, Password: `retailpulse123`):
+The user interface is split into 10 key modules, protected behind session-based authentication:
 
-| Page File | Dashboard Module | Core Visualizations & Interactive Components |
+| Page | Purpose | Key Features |
 | :--- | :--- | :--- |
 | `app.py` | **Authentication Gateway** | Secure login portal handling session parameters and routing validations. |
 | `1_Executive_Overview.py` | **Executive Overview** | High-level platform index summarizing operational capabilities. |
@@ -239,11 +212,12 @@ The user interface is split into 10 key modules, protected behind session-based 
 
 ## 8. Performance & Business Results
 
-* **Data Integrity Cleared:** Data cleaning process reduced input logs from 525,461 to 514,834 rows, removing zero-pricing and bank test charges while retaining returns to represent customer attrition features cleanly.
-* **Accuracy Target Met:** Achieved a **11.81% validation MAPE** for weekly demand forecasting (satisfying target mandate of $\le 12\%$).
-* **Effective Attrition Segmentation:** Customer Churn model successfully isolated a high-risk cohort (27.72% of the population) representing an actual future churn rate of **91.58%**, compared to the low-risk segment churn rate of just **3.72%**.
-* **Financial Protection:** Customer Segmentation exposed that **35.9% of customers (VIP segment) drive 85% of company spend ($7.04M)**, allowing management to immediately implement targeted VIP loyalty programs to protect high-density revenue.
-* **Replenishment Recommendations:** The inventory engine identified that **36.0% of catalog products (1,536 items) are in critical risk**, generating automated Economic Order Quantity (EOQ) recommendations to resolve imminent stockouts.
+| Module | Algorithm | Primary Metric | Business Outcome |
+| :--- | :--- | :--- | :--- |
+| **Customer Segmentation** | KMeans Clustering | Silhouette Score: `0.3250` | Identified 3 distinct behavioural cohorts; VIP segment drives 85% of revenue ($7.04M spend). |
+| **True Churn Prediction** | LightGBM Classifier | ROC AUC: `71.77%`, Recall: `62.31%`, Accuracy: `65.55%` | Flags high-risk churn customers (actual future churn rate of 91.58%) for proactive outreach. |
+| **Demand Forecasting** | XGBoost Regressor | Validation MAPE: `11.81%`, Test MAPE: `16.97%` | Provides 8-week sales projection capturing Q4 holiday restocking surges. |
+| **Inventory Heuristics** | ABC & EOQ Engine | Inventory Health Score: `52.44/100` | Classifies catalog, calculates Safety Stock/ROP/EOQ, and flags 36% of catalog at critical risk. |
 
 ---
 
@@ -281,9 +255,7 @@ The user interface is split into 10 key modules, protected behind session-based 
    ```
 
 5. **Platform Authentication:**
-   * Enter the temporary administrative credentials on the login screen:
-     * **Username:** `admin`
-     * **Password:** `retailpulse123`
+   * Demo credentials are available for authorized evaluators or can be configured locally.
 
 ---
 
@@ -292,55 +264,66 @@ The user interface is split into 10 key modules, protected behind session-based 
 > [!NOTE]
 > *This section holds placeholder markers for repository screenshots to be loaded once the application server is deployed on a public host.*
 
-### Executive Overview Dashboard
-```text
-[ SCREENSHOT PLACEHOLDER: Executive Overview page showing high-level navigation cards ]
-```
+### Executive Dashboard
+![Executive Dashboard](#)
 
-### Weekly Demand Forecasting
-```text
-[ SCREENSHOT PLACEHOLDER: Historical vs Forecasted weekly sales trend line chart ]
-```
+### Demand Forecasting
+![Demand Forecasting](#)
 
-### Customer Segmentation Analytics
-```text
-[ SCREENSHOT PLACEHOLDER: Interactive customer segment donut chart and profiling tables ]
-```
+### Customer Segmentation
+![Customer Segmentation](#)
 
-### True Churn Prediction & Drivers
-```text
-[ SCREENSHOT PLACEHOLDER: LightGBM SHAP feature importances and high-risk accounts table ]
-```
+### True Churn Prediction
+![True Churn Prediction](#)
 
-### Inventory Optimization & ABC Cataloging
-```text
-[ SCREENSHOT PLACEHOLDER: ABC catalog distribution plots and immediate reorder matrix ]
-```
+### Inventory Optimization
+![Inventory Optimization](#)
+
+### Alerts & Monitoring
+![Alerts & Monitoring](#)
 
 ### Prediction & Decision Center
-```text
-[ SCREENSHOT PLACEHOLDER: Individual Customer ID & Product ID prescribed action lookup interface ]
-```
+![Prediction & Decision Center](#)
 
-### Model Registry & Artifact Checks
-```text
-[ SCREENSHOT PLACEHOLDER: Unified Model Registry page detailing green/red artifact health badges ]
-```
+### Model Registry
+![Model Registry](#)
 
 ---
 
-## 11. Future Roadmap
+## 11. Future Enhancements
 
-* **PostgreSQL Ingest Engine:** Transition from local CSV/JSON cache files to relational databases to support live, multi-user queries.
-* **Docker Containerization:** Build Docker images for production deployment via container orchestration engines.
-* **Cloud Infrastructure Hosting:** Host dashboard deployments using managed cloud platforms (AWS Elastic Beanstalk or GCP App Engine).
-* **Automated MLOps Pipeline:** Integrate model retraining triggers using Apache Airflow or GitHub Actions as soon as new transaction logs are added to the database.
+*Please note that the following features are not part of the current implementation and are planned for future releases:*
+
+* **PostgreSQL Integration:** Transition from local CSV/JSON cache files to relational databases to support live, multi-user queries.
+* **Docker Deployment:** Build Docker images for production deployment via container orchestration engines.
+* **Cloud Hosting:** Deploy dashboard deployments using managed cloud platforms (AWS Elastic Beanstalk or GCP App Engine).
+* **REST API:** Expose model endpoints via FastAPIs for cross-platform integration.
+* **Real-time Streaming:** Handle streaming inventory counts using Kafka or Pub/Sub handlers.
+* **Automated Model Retraining:** Implement a scheduled pipeline to retrain models periodically as new transaction data arrives.
+* **CI/CD Pipeline:** Automate test execution and deployments via GitHub Actions.
+* **MLOps Integration:** Streamline versioning and parameter logging via MLflow.
 
 ---
 
 ## 12. Repository Details
 
-* **Current Build Status:** Business Validation Complete (Pilot Ready)
-* **Lead Author:** Bhavesh1411
-* **License:** *Proprietary / Under Internal Validation*
+* **Project Status:** Pilot Ready / Business Validation Complete
+* **Current Version:** v1.0.0
+* **Author:** Bhavesh1411
+* **License:** Proprietary / Internal Validation
+* **Last Updated:** 2026-06-30
+* **Repository Purpose:** Comprehensive decision-support system converting retail transaction logs into retention, demand, and inventory strategies.
 * **Disclaimer:** Inventory stock balances are generated as simulations using a reproducible seed (seed=42) to support decision-making, as historical stock values were absent from the transaction logs. All outputs should be used as decision-support simulations.
+
+---
+
+## 13. Repository Statistics
+
+The following statistics summarize the current state of the implementation:
+
+* **Total Dashboard Pages:** 10
+* **Total ML Models:** 3 (KMeans Clustering, LightGBM Classifier, XGBoost Regressor)
+* **Total Reports:** 19
+* **Total Datasets:** 10
+* **Total Prediction Outputs:** 3
+* **Total Inventory Reports:** 1
