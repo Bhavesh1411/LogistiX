@@ -266,42 +266,39 @@ The user interface is split into 10 key modules, protected behind session-based 
 
 ## 10. Visual Assets & Screen Layouts
 
-> [!NOTE]
-> *This section holds placeholder markers for repository screenshots to be loaded once the application server is deployed on a public host.*
+The RetailPulse dashboard is built with a focus on delivering high-value business intelligence. Below are the key modules comprising the application:
 
 ### Executive Dashboard
+*A high-level index summarizing overall operational capabilities and top-level KPIs.*
 ![Executive Dashboard - KPIs](assets/executive_overview_1.png)
 ![Executive Dashboard - Business Summary](assets/executive_overview_2.png)
 
 ### Demand Forecasting
+*Provides 8-week out-of-sample sales projections, tracking validation metrics and holiday-driven demand trends.*
 ![Demand Forecasting - KPIs](assets/demand_forecasting_1.png)
 ![Demand Forecasting - Validation](assets/demand_forecasting_2.png)
 ![Demand Forecasting - 8-Week Forecast](assets/demand_forecasting_3.png)
 ![Demand Forecasting - Data](assets/demand_forecasting_4.png)
 
 ### Customer Segmentation
-![Customer Segmentation](#)
+*Identifies high-value VIPs and at-risk cohorts using RFM profiling and KMeans clustering to power targeted marketing.*
+![Customer Segmentation](assets/customer_segmentation.png)
 
 ### True Churn Prediction
-![True Churn Prediction](#)
+*Flags customers with a >70% probability of churn over the next 90 days, highlighting key risk factors via SHAP values.*
+![True Churn Prediction](assets/churn_prediction.png)
 
 ### Inventory Optimization
-![Inventory Optimization](#)
+*Calculates Safety Stock, ROP, and EOQ to prevent stockouts while categorizing the catalog via ABC heuristic logic.*
+![Inventory Optimization](assets/inventory_optimization.png)
 
 ### Alerts & Monitoring
-![Alerts & Monitoring](#)
-
-### Export Center
-![Export Center](#)
-
-### Admin Panel
-![Admin Panel](#)
+*A centralized warning hub that automatically surfaces critical inventory deficits, revenue at risk, and actionable opportunities.*
+![Alerts & Monitoring](assets/alerts_and_monitoring.png)
 
 ### Prediction & Decision Center
-![Prediction & Decision Center](#)
-
-### Model Registry
-![Model Registry](#)
+*An interactive query portal providing prescriptive, tailored recommendations for any specific Customer ID or Product ID.*
+![Prediction & Decision Center](assets/prediction_center.png)
 
 ---
 
