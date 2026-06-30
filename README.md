@@ -9,7 +9,9 @@
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=Plotly&logoColor=white)](https://plotly.com/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![Project Status](https://img.shields.io/badge/Status-Pilot%20Ready-green.svg)](#)
-[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](#)
+
+> **Academic Notice:** This repository was developed as an academic capstone project.
 
 RetailPulse is an end-to-end predictive machine learning and decision intelligence platform built for B2B wholesale retail operators. By combining advanced classification, regression, and clustering algorithms with operations research optimization heuristics, the platform turns raw transaction ledgers into proactive strategies for customer retention, inventory management, demand readiness, and automated risk mitigation.
 
@@ -151,8 +153,11 @@ RetailPulse/
   * **Class B:** 1,025 products (24.0% of catalog). Generates ~15% of revenue. Set to 95% Service Level (Z=1.65, Lead Time=10 days).
   * **Class C:** 2,348 products (55.1% of catalog). Generates ~5% of revenue. Set to 90% Service Level (Z=1.28, Lead Time=14 days).
 * **Safety Stock & ROP Formulas:**
+
   $$SS = Z \times \sigma_{\text{daily demand}} \times \sqrt{LT}$$
+
   $$ROP = (d_{\text{daily demand}} \times LT) + SS$$
+
   $$EOQ = \sqrt{\frac{2 \times \text{Annual Demand} \times \text{Order Cost (\$50.00)}}{\text{Holding Cost (20\% of Unit price)}}}$$
 * **Current Operations Metrics:** Evaluated catalog health yields an **Inventory Health Score of 52.44/100** (🔴 Critical Attention Required) due to simulated stock falling below safety limits on 36% of the catalog.
 
@@ -265,10 +270,14 @@ The user interface is split into 10 key modules, protected behind session-based 
 > *This section holds placeholder markers for repository screenshots to be loaded once the application server is deployed on a public host.*
 
 ### Executive Dashboard
-![Executive Dashboard](#)
+![Executive Dashboard - KPIs](assets/executive_overview_1.png)
+![Executive Dashboard - Business Summary](assets/executive_overview_2.png)
 
 ### Demand Forecasting
-![Demand Forecasting](#)
+![Demand Forecasting - KPIs](assets/demand_forecasting_1.png)
+![Demand Forecasting - Validation](assets/demand_forecasting_2.png)
+![Demand Forecasting - 8-Week Forecast](assets/demand_forecasting_3.png)
+![Demand Forecasting - Data](assets/demand_forecasting_4.png)
 
 ### Customer Segmentation
 ![Customer Segmentation](#)
@@ -281,6 +290,12 @@ The user interface is split into 10 key modules, protected behind session-based 
 
 ### Alerts & Monitoring
 ![Alerts & Monitoring](#)
+
+### Export Center
+![Export Center](#)
+
+### Admin Panel
+![Admin Panel](#)
 
 ### Prediction & Decision Center
 ![Prediction & Decision Center](#)
@@ -310,7 +325,7 @@ The user interface is split into 10 key modules, protected behind session-based 
 * **Project Status:** Pilot Ready / Business Validation Complete
 * **Current Version:** v1.0.0
 * **Author:** Bhavesh1411
-* **License:** Proprietary / Internal Validation
+* **License:** MIT License
 * **Last Updated:** 2026-06-30
 * **Repository Purpose:** Comprehensive decision-support system converting retail transaction logs into retention, demand, and inventory strategies.
 * **Disclaimer:** Inventory stock balances are generated as simulations using a reproducible seed (seed=42) to support decision-making, as historical stock values were absent from the transaction logs. All outputs should be used as decision-support simulations.
@@ -319,7 +334,7 @@ The user interface is split into 10 key modules, protected behind session-based 
 
 ## 13. Repository Statistics
 
-The following statistics summarize the current state of the implementation:
+The following statistics summarize the current state of the implementation *(Note: These statistics reflect the state of the repository at the time of generation)*:
 
 * **Total Dashboard Pages:** 10
 * **Total ML Models:** 3 (KMeans Clustering, LightGBM Classifier, XGBoost Regressor)
