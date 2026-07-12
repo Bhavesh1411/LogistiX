@@ -15,5 +15,3 @@ Thumbs.db
 odoo.conf
 filestore/
 *.filestore
-addons/
-data/

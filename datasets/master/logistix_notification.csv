@@ -1,0 +1,1001 @@
+id,type,related_id,date
+notif_1,Vehicle Permit Expired,vehicle_2,2024-06-21
+notif_2,Vehicle RC Expired,vehicle_8,2025-08-31
+notif_3,Vehicle Fitness Expired,vehicle_9,2025-08-05
+notif_4,Vehicle Permit Expired,vehicle_9,2025-03-15
+notif_5,Vehicle Road Tax Expired,vehicle_9,2024-11-25
+notif_6,Vehicle Permit Expired,vehicle_13,2025-06-24
+notif_7,Vehicle Insurance Expired,vehicle_14,2024-09-14
+notif_8,Vehicle Fitness Expired,vehicle_16,2025-12-14
+notif_9,Vehicle Road Tax Expired,vehicle_18,2025-08-19
+notif_10,Vehicle Road Tax Expired,vehicle_22,2024-10-11
+notif_11,Vehicle Road Tax Expired,vehicle_24,2025-10-14
+notif_12,Vehicle Fitness Expired,vehicle_25,2025-01-17
+notif_13,Vehicle Insurance Expired,vehicle_30,2024-09-21
+notif_14,Vehicle Road Tax Expired,vehicle_30,2024-05-08
+notif_15,Vehicle PUC Expired,vehicle_31,2024-05-15
+notif_16,Vehicle Fitness Expired,vehicle_32,2024-09-28
+notif_17,Vehicle Insurance Expired,vehicle_36,2025-03-27
+notif_18,Vehicle PUC Expired,vehicle_37,2025-02-16
+notif_19,Vehicle Road Tax Expired,vehicle_38,2025-12-13
+notif_20,Vehicle PUC Expired,vehicle_39,2024-05-03
+notif_21,Vehicle Fitness Expired,vehicle_39,2025-05-29
+notif_22,Vehicle RC Expired,vehicle_41,2024-03-11
+notif_23,Vehicle Insurance Expired,vehicle_42,2025-01-31
+notif_24,Vehicle Road Tax Expired,vehicle_43,2025-05-29
+notif_25,Vehicle RC Expired,vehicle_49,2025-05-07
+notif_26,Vehicle Insurance Expired,vehicle_49,2025-04-05
+notif_27,Vehicle Insurance Expired,vehicle_53,2024-08-18
+notif_28,Vehicle RC Expired,vehicle_54,2024-10-01
+notif_29,Vehicle RC Expired,vehicle_58,2025-02-11
+notif_30,Vehicle Road Tax Expired,vehicle_59,2025-12-22
+notif_31,Vehicle Insurance Expired,vehicle_63,2024-01-31
+notif_32,Vehicle PUC Expired,vehicle_64,2024-02-08
+notif_33,Vehicle RC Expired,vehicle_65,2025-12-25
+notif_34,Vehicle Insurance Expired,vehicle_65,2025-11-25
+notif_35,Vehicle PUC Expired,vehicle_67,2025-06-15
+notif_36,Driver Identity Proof Expired,driver_18,2022-10-19
+notif_37,Driver Training Certificate Expired,driver_22,2021-08-15
+notif_38,Driver Medical Certificate Expired,driver_30,2025-11-26
+notif_39,Driver Medical Certificate Expired,driver_34,2023-10-03
+notif_40,Driver Driving Licence Expired,driver_36,2025-05-17
+notif_41,Driver Identity Proof Expired,driver_37,2023-07-28
+notif_42,Driver Training Certificate Expired,driver_38,2023-02-09
+notif_43,Driver Medical Certificate Expired,driver_46,2025-11-28
+notif_44,Driver Training Certificate Expired,driver_47,2021-09-15
+notif_45,Driver Training Certificate Expired,driver_48,2022-01-02
+notif_46,Driver Identity Proof Expired,driver_48,2023-05-23
+notif_47,Driver Medical Certificate Expired,driver_50,2023-10-09
+notif_48,Driver Training Certificate Expired,driver_50,2021-12-05
+notif_49,Driver Medical Certificate Expired,driver_52,2025-04-27
+notif_50,Driver Identity Proof Expired,driver_53,2025-12-03
+notif_51,Driver Medical Certificate Expired,driver_63,2025-05-26
+notif_52,Driver Training Certificate Expired,driver_65,2022-01-13
+notif_53,Driver Medical Certificate Expired,driver_71,2024-10-23
+notif_54,Driver Training Certificate Expired,driver_71,2023-07-28
+notif_55,Driver Identity Proof Expired,driver_71,2022-09-22
+notif_56,Driver Medical Certificate Expired,driver_73,2025-12-04
+notif_57,Driver Identity Proof Expired,driver_73,2025-01-02
+notif_58,Driver Training Certificate Expired,driver_75,2025-07-12
+notif_59,Driver Medical Certificate Expired,driver_79,2021-08-26
+notif_60,Emergency Alert,sys_60,2025-10-18T08:15:35
+notif_61,Trip Delay,sys_61,2025-01-11T02:13:14
+notif_62,Trip Delay,sys_62,2025-02-04T21:06:42
+notif_63,High Fuel Consumption,sys_63,2025-08-26T23:30:17
+notif_64,High Fuel Consumption,sys_64,2025-04-22T03:34:30
+notif_65,Vehicle Breakdown,sys_65,2025-01-27T20:11:44
+notif_66,Trip Delay,sys_66,2025-06-18T08:07:49
+notif_67,Vehicle Breakdown,sys_67,2025-03-27T06:37:09
+notif_68,Emergency Alert,sys_68,2025-07-16T03:15:35
+notif_69,Emergency Alert,sys_69,2025-07-27T19:27:56
+notif_70,Vehicle Breakdown,sys_70,2025-12-09T01:50:18
+notif_71,Trip Delay,sys_71,2025-11-22T20:16:00
+notif_72,Emergency Alert,sys_72,2025-08-20T10:00:14
+notif_73,Trip Delay,sys_73,2025-06-15T16:21:01
+notif_74,High Fuel Consumption,sys_74,2025-09-07T14:04:40
+notif_75,Emergency Alert,sys_75,2025-11-27T07:52:27
+notif_76,High Fuel Consumption,sys_76,2025-08-29T03:07:35
+notif_77,Trip Delay,sys_77,2025-03-30T20:48:27
+notif_78,Trip Delay,sys_78,2025-07-21T11:27:40
+notif_79,Vehicle Breakdown,sys_79,2025-01-12T12:42:02
+notif_80,Vehicle Breakdown,sys_80,2025-12-08T00:25:15
+notif_81,Trip Delay,sys_81,2025-11-06T13:54:15
+notif_82,Vehicle Breakdown,sys_82,2025-11-20T15:44:49
+notif_83,Emergency Alert,sys_83,2025-05-04T18:43:13
+notif_84,High Fuel Consumption,sys_84,2025-10-12T15:36:52
+notif_85,Emergency Alert,sys_85,2025-01-22T11:18:14
+notif_86,Trip Delay,sys_86,2025-01-16T01:58:10
+notif_87,Emergency Alert,sys_87,2025-11-22T12:17:03
+notif_88,Trip Delay,sys_88,2025-10-23T08:03:08
+notif_89,Emergency Alert,sys_89,2025-08-14T17:32:32
+notif_90,Trip Delay,sys_90,2025-01-26T09:39:34
+notif_91,Trip Delay,sys_91,2025-02-11T11:22:24
+notif_92,High Fuel Consumption,sys_92,2025-04-13T07:39:15
+notif_93,Vehicle Breakdown,sys_93,2025-08-11T22:34:00
+notif_94,Vehicle Breakdown,sys_94,2025-02-17T07:01:30
+notif_95,High Fuel Consumption,sys_95,2025-10-15T23:29:10
+notif_96,Emergency Alert,sys_96,2025-05-19T22:17:01
+notif_97,Emergency Alert,sys_97,2025-08-19T01:08:26
+notif_98,Vehicle Breakdown,sys_98,2025-04-13T11:32:58
+notif_99,High Fuel Consumption,sys_99,2025-05-02T12:55:26
+notif_100,Trip Delay,sys_100,2025-12-03T02:52:29
+notif_101,Trip Delay,sys_101,2025-08-01T07:44:19
+notif_102,Trip Delay,sys_102,2025-03-14T16:27:05
+notif_103,High Fuel Consumption,sys_103,2025-09-06T16:34:11
+notif_104,Vehicle Breakdown,sys_104,2025-07-27T06:14:23
+notif_105,Trip Delay,sys_105,2025-11-06T03:06:04
+notif_106,High Fuel Consumption,sys_106,2025-01-11T03:35:43
+notif_107,Emergency Alert,sys_107,2025-02-13T09:13:52
+notif_108,High Fuel Consumption,sys_108,2025-12-02T01:21:04
+notif_109,Emergency Alert,sys_109,2025-10-03T05:18:01
+notif_110,Trip Delay,sys_110,2025-08-11T12:03:51
+notif_111,Trip Delay,sys_111,2025-01-03T14:21:45
+notif_112,Vehicle Breakdown,sys_112,2025-09-21T18:38:32
+notif_113,Vehicle Breakdown,sys_113,2025-03-06T01:09:57
+notif_114,Emergency Alert,sys_114,2025-04-04T03:47:19
+notif_115,Trip Delay,sys_115,2025-08-02T09:37:08
+notif_116,Vehicle Breakdown,sys_116,2025-04-11T10:52:57
+notif_117,Emergency Alert,sys_117,2025-06-16T17:38:11
+notif_118,High Fuel Consumption,sys_118,2025-05-03T21:40:48
+notif_119,Trip Delay,sys_119,2025-02-11T16:33:50
+notif_120,Trip Delay,sys_120,2025-03-14T03:31:37
+notif_121,Emergency Alert,sys_121,2025-05-17T16:12:31
+notif_122,High Fuel Consumption,sys_122,2025-03-22T23:08:46
+notif_123,Trip Delay,sys_123,2025-12-04T11:49:32
+notif_124,Emergency Alert,sys_124,2025-08-06T10:21:59
+notif_125,Trip Delay,sys_125,2025-10-05T00:30:49
+notif_126,Vehicle Breakdown,sys_126,2025-01-07T07:58:52
+notif_127,Trip Delay,sys_127,2025-05-02T16:20:55
+notif_128,Vehicle Breakdown,sys_128,2025-07-21T01:28:39
+notif_129,Emergency Alert,sys_129,2025-08-25T06:25:15
+notif_130,High Fuel Consumption,sys_130,2025-11-15T02:34:24
+notif_131,Vehicle Breakdown,sys_131,2025-01-29T04:34:42
+notif_132,High Fuel Consumption,sys_132,2025-07-03T13:31:39
+notif_133,Vehicle Breakdown,sys_133,2025-06-16T16:08:23
+notif_134,Emergency Alert,sys_134,2025-06-15T07:29:23
+notif_135,Emergency Alert,sys_135,2025-11-26T16:58:18
+notif_136,Vehicle Breakdown,sys_136,2025-07-18T20:45:39
+notif_137,Vehicle Breakdown,sys_137,2025-04-10T00:16:57
+notif_138,High Fuel Consumption,sys_138,2025-06-17T19:26:17
+notif_139,Vehicle Breakdown,sys_139,2025-01-25T16:01:03
+notif_140,Trip Delay,sys_140,2025-11-01T03:39:11
+notif_141,Vehicle Breakdown,sys_141,2025-12-05T17:55:03
+notif_142,Emergency Alert,sys_142,2025-05-21T02:17:53
+notif_143,Emergency Alert,sys_143,2025-08-30T18:23:10
+notif_144,Emergency Alert,sys_144,2025-04-12T08:13:00
+notif_145,Vehicle Breakdown,sys_145,2025-09-21T17:39:59
+notif_146,Emergency Alert,sys_146,2025-04-16T13:47:13
+notif_147,Emergency Alert,sys_147,2025-01-02T05:53:04
+notif_148,High Fuel Consumption,sys_148,2025-06-10T22:05:43
+notif_149,High Fuel Consumption,sys_149,2025-11-10T09:02:20
+notif_150,High Fuel Consumption,sys_150,2025-07-18T17:18:29
+notif_151,Emergency Alert,sys_151,2025-04-22T04:02:57
+notif_152,Trip Delay,sys_152,2025-08-22T08:32:11
+notif_153,Vehicle Breakdown,sys_153,2025-07-17T01:17:32
+notif_154,Vehicle Breakdown,sys_154,2025-07-16T05:30:46
+notif_155,Vehicle Breakdown,sys_155,2025-12-25T04:42:38
+notif_156,Emergency Alert,sys_156,2025-02-24T17:22:18
+notif_157,Trip Delay,sys_157,2025-09-05T09:45:36
+notif_158,Vehicle Breakdown,sys_158,2025-05-12T12:05:11
+notif_159,Vehicle Breakdown,sys_159,2025-12-14T00:38:34
+notif_160,High Fuel Consumption,sys_160,2025-07-25T16:09:58
+notif_161,Vehicle Breakdown,sys_161,2025-09-11T00:58:25
+notif_162,High Fuel Consumption,sys_162,2025-08-11T19:08:01
+notif_163,Trip Delay,sys_163,2025-09-25T15:06:11
+notif_164,High Fuel Consumption,sys_164,2025-03-22T19:42:15
+notif_165,Vehicle Breakdown,sys_165,2025-02-07T03:05:04
+notif_166,High Fuel Consumption,sys_166,2025-05-08T14:26:11
+notif_167,High Fuel Consumption,sys_167,2025-03-12T23:37:52
+notif_168,Vehicle Breakdown,sys_168,2025-06-25T02:41:58
+notif_169,Emergency Alert,sys_169,2025-03-29T11:56:19
+notif_170,Vehicle Breakdown,sys_170,2025-07-29T19:15:02
+notif_171,High Fuel Consumption,sys_171,2025-09-29T09:45:49
+notif_172,High Fuel Consumption,sys_172,2025-03-20T03:22:36
+notif_173,High Fuel Consumption,sys_173,2025-06-13T00:56:03
+notif_174,Trip Delay,sys_174,2025-12-11T19:52:38
+notif_175,Vehicle Breakdown,sys_175,2025-03-23T23:17:45
+notif_176,Emergency Alert,sys_176,2025-06-24T02:18:11
+notif_177,High Fuel Consumption,sys_177,2025-04-05T03:56:03
+notif_178,Trip Delay,sys_178,2025-01-05T03:15:20
+notif_179,Trip Delay,sys_179,2025-03-01T13:16:56
+notif_180,Trip Delay,sys_180,2025-06-21T00:46:41
+notif_181,Vehicle Breakdown,sys_181,2025-09-09T22:39:52
+notif_182,Trip Delay,sys_182,2025-07-22T09:20:03
+notif_183,Emergency Alert,sys_183,2025-02-02T21:26:44
+notif_184,Emergency Alert,sys_184,2025-01-03T13:58:27
+notif_185,Vehicle Breakdown,sys_185,2025-05-31T15:03:32
+notif_186,High Fuel Consumption,sys_186,2025-06-26T08:24:17
+notif_187,Trip Delay,sys_187,2025-09-18T19:17:48
+notif_188,High Fuel Consumption,sys_188,2025-05-04T21:05:34
+notif_189,Trip Delay,sys_189,2025-06-24T05:40:37
+notif_190,High Fuel Consumption,sys_190,2025-08-11T01:17:28
+notif_191,Vehicle Breakdown,sys_191,2025-02-12T08:28:09
+notif_192,Trip Delay,sys_192,2025-07-31T12:49:10
+notif_193,Emergency Alert,sys_193,2025-04-08T14:51:30
+notif_194,Vehicle Breakdown,sys_194,2025-05-09T07:18:09
+notif_195,Emergency Alert,sys_195,2025-08-26T21:52:11
+notif_196,Vehicle Breakdown,sys_196,2025-01-02T02:35:44
+notif_197,High Fuel Consumption,sys_197,2025-01-23T06:40:45
+notif_198,High Fuel Consumption,sys_198,2025-05-24T11:09:27
+notif_199,Emergency Alert,sys_199,2025-03-17T23:50:56
+notif_200,Emergency Alert,sys_200,2025-07-19T22:17:33
+notif_201,Vehicle Breakdown,sys_201,2025-05-30T19:31:47
+notif_202,Emergency Alert,sys_202,2025-02-15T20:48:29
+notif_203,Trip Delay,sys_203,2025-06-09T21:20:39
+notif_204,Trip Delay,sys_204,2025-08-14T02:26:49
+notif_205,Emergency Alert,sys_205,2025-10-11T18:38:37
+notif_206,Vehicle Breakdown,sys_206,2025-05-21T07:23:30
+notif_207,High Fuel Consumption,sys_207,2025-04-21T17:07:02
+notif_208,Emergency Alert,sys_208,2025-03-12T03:16:56
+notif_209,High Fuel Consumption,sys_209,2025-07-21T06:44:29
+notif_210,High Fuel Consumption,sys_210,2025-07-01T08:22:58
+notif_211,Emergency Alert,sys_211,2025-08-27T21:40:47
+notif_212,Vehicle Breakdown,sys_212,2025-07-11T14:27:27
+notif_213,Vehicle Breakdown,sys_213,2025-11-06T21:54:45
+notif_214,Trip Delay,sys_214,2025-10-30T00:49:00
+notif_215,Vehicle Breakdown,sys_215,2025-07-13T08:37:29
+notif_216,Vehicle Breakdown,sys_216,2025-02-06T03:46:29
+notif_217,High Fuel Consumption,sys_217,2025-09-04T15:51:23
+notif_218,High Fuel Consumption,sys_218,2025-01-15T14:15:22
+notif_219,Emergency Alert,sys_219,2025-10-01T14:22:25
+notif_220,High Fuel Consumption,sys_220,2025-10-19T01:56:08
+notif_221,Vehicle Breakdown,sys_221,2025-08-12T20:40:36
+notif_222,High Fuel Consumption,sys_222,2025-02-23T21:30:47
+notif_223,Trip Delay,sys_223,2025-06-09T00:53:15
+notif_224,Trip Delay,sys_224,2025-09-20T14:16:35
+notif_225,High Fuel Consumption,sys_225,2025-11-26T08:23:55
+notif_226,Emergency Alert,sys_226,2025-03-06T21:53:53
+notif_227,High Fuel Consumption,sys_227,2025-10-02T12:26:00
+notif_228,Emergency Alert,sys_228,2025-02-09T01:45:57
+notif_229,Emergency Alert,sys_229,2025-05-17T07:49:49
+notif_230,Emergency Alert,sys_230,2025-02-13T14:26:10
+notif_231,Trip Delay,sys_231,2025-04-07T08:08:10
+notif_232,Trip Delay,sys_232,2025-06-02T13:25:35
+notif_233,Trip Delay,sys_233,2025-12-12T07:55:57
+notif_234,Vehicle Breakdown,sys_234,2025-06-14T01:38:45
+notif_235,Emergency Alert,sys_235,2025-01-22T05:19:08
+notif_236,High Fuel Consumption,sys_236,2025-04-26T23:36:54
+notif_237,High Fuel Consumption,sys_237,2025-03-24T06:39:51
+notif_238,Trip Delay,sys_238,2025-01-06T04:48:54
+notif_239,Trip Delay,sys_239,2025-07-03T22:35:03
+notif_240,Trip Delay,sys_240,2025-10-13T20:34:28
+notif_241,High Fuel Consumption,sys_241,2025-04-14T02:04:47
+notif_242,Trip Delay,sys_242,2025-04-27T05:55:53
+notif_243,Vehicle Breakdown,sys_243,2025-05-04T16:30:59
+notif_244,High Fuel Consumption,sys_244,2025-06-24T13:23:05
+notif_245,Vehicle Breakdown,sys_245,2025-10-05T20:46:26
+notif_246,High Fuel Consumption,sys_246,2025-09-19T18:22:28
+notif_247,High Fuel Consumption,sys_247,2025-08-03T03:10:20
+notif_248,Trip Delay,sys_248,2025-10-07T17:05:10
+notif_249,Vehicle Breakdown,sys_249,2025-02-12T03:19:31
+notif_250,Vehicle Breakdown,sys_250,2025-03-03T06:28:17
+notif_251,Emergency Alert,sys_251,2025-03-30T00:22:46
+notif_252,Vehicle Breakdown,sys_252,2025-05-29T06:05:27
+notif_253,High Fuel Consumption,sys_253,2025-11-14T23:50:06
+notif_254,Trip Delay,sys_254,2025-03-26T13:23:45
+notif_255,High Fuel Consumption,sys_255,2025-06-30T11:56:11
+notif_256,Trip Delay,sys_256,2025-06-23T04:06:23
+notif_257,Trip Delay,sys_257,2025-12-14T00:16:45
+notif_258,High Fuel Consumption,sys_258,2025-02-13T11:04:09
+notif_259,Trip Delay,sys_259,2025-01-31T04:38:01
+notif_260,Trip Delay,sys_260,2025-12-11T22:53:36
+notif_261,High Fuel Consumption,sys_261,2025-12-22T06:16:15
+notif_262,Emergency Alert,sys_262,2025-08-18T17:00:05
+notif_263,Vehicle Breakdown,sys_263,2025-01-20T10:08:01
+notif_264,Emergency Alert,sys_264,2025-10-16T20:54:57
+notif_265,Vehicle Breakdown,sys_265,2025-05-25T05:47:50
+notif_266,Trip Delay,sys_266,2025-11-10T14:57:48
+notif_267,Trip Delay,sys_267,2025-12-18T08:47:48
+notif_268,Vehicle Breakdown,sys_268,2025-03-21T21:05:51
+notif_269,Trip Delay,sys_269,2025-07-05T03:38:24
+notif_270,Vehicle Breakdown,sys_270,2025-08-26T00:51:20
+notif_271,High Fuel Consumption,sys_271,2025-08-15T16:06:46
+notif_272,Emergency Alert,sys_272,2025-07-28T06:19:52
+notif_273,Emergency Alert,sys_273,2025-09-30T18:52:37
+notif_274,High Fuel Consumption,sys_274,2025-11-09T14:26:10
+notif_275,Trip Delay,sys_275,2025-10-03T05:31:52
+notif_276,High Fuel Consumption,sys_276,2025-09-04T19:11:52
+notif_277,Trip Delay,sys_277,2025-06-29T17:33:57
+notif_278,Emergency Alert,sys_278,2025-12-17T22:16:06
+notif_279,Vehicle Breakdown,sys_279,2025-04-29T21:12:58
+notif_280,High Fuel Consumption,sys_280,2025-11-24T00:46:05
+notif_281,Emergency Alert,sys_281,2025-08-18T00:00:14
+notif_282,Emergency Alert,sys_282,2025-01-06T16:33:08
+notif_283,Vehicle Breakdown,sys_283,2025-11-08T16:02:18
+notif_284,Vehicle Breakdown,sys_284,2025-02-28T19:10:34
+notif_285,Vehicle Breakdown,sys_285,2025-08-05T22:39:58
+notif_286,Vehicle Breakdown,sys_286,2025-01-13T18:14:08
+notif_287,Trip Delay,sys_287,2025-04-27T10:01:30
+notif_288,Vehicle Breakdown,sys_288,2025-04-14T19:34:08
+notif_289,Vehicle Breakdown,sys_289,2025-08-29T15:52:51
+notif_290,Emergency Alert,sys_290,2025-05-01T17:00:15
+notif_291,Emergency Alert,sys_291,2025-02-05T10:01:35
+notif_292,Vehicle Breakdown,sys_292,2025-04-27T01:12:51
+notif_293,Vehicle Breakdown,sys_293,2025-04-08T03:09:26
+notif_294,Vehicle Breakdown,sys_294,2025-05-26T16:25:24
+notif_295,Trip Delay,sys_295,2025-07-19T17:54:33
+notif_296,Trip Delay,sys_296,2025-03-06T18:10:49
+notif_297,High Fuel Consumption,sys_297,2025-01-22T00:14:45
+notif_298,Trip Delay,sys_298,2025-09-25T01:18:30
+notif_299,Trip Delay,sys_299,2025-11-15T18:04:56
+notif_300,Trip Delay,sys_300,2025-04-22T17:34:32
+notif_301,Vehicle Breakdown,sys_301,2025-01-28T16:35:16
+notif_302,Vehicle Breakdown,sys_302,2025-01-02T18:58:10
+notif_303,High Fuel Consumption,sys_303,2025-10-05T20:15:35
+notif_304,Trip Delay,sys_304,2025-01-17T20:08:11
+notif_305,Trip Delay,sys_305,2025-01-14T00:44:23
+notif_306,Trip Delay,sys_306,2025-08-20T20:29:05
+notif_307,Emergency Alert,sys_307,2025-11-30T11:54:11
+notif_308,High Fuel Consumption,sys_308,2025-01-01T17:44:17
+notif_309,High Fuel Consumption,sys_309,2025-01-21T00:14:41
+notif_310,Vehicle Breakdown,sys_310,2025-02-28T08:36:38
+notif_311,Emergency Alert,sys_311,2025-08-21T20:00:04
+notif_312,Trip Delay,sys_312,2025-08-23T19:30:57
+notif_313,Trip Delay,sys_313,2025-07-21T23:43:29
+notif_314,Trip Delay,sys_314,2025-04-30T19:54:12
+notif_315,Vehicle Breakdown,sys_315,2025-11-18T03:05:59
+notif_316,High Fuel Consumption,sys_316,2025-12-29T20:18:02
+notif_317,High Fuel Consumption,sys_317,2025-11-25T09:32:20
+notif_318,Emergency Alert,sys_318,2025-01-24T11:11:35
+notif_319,Emergency Alert,sys_319,2025-07-08T18:20:21
+notif_320,High Fuel Consumption,sys_320,2025-06-07T15:49:43
+notif_321,Emergency Alert,sys_321,2025-02-19T04:00:12
+notif_322,Vehicle Breakdown,sys_322,2025-06-18T03:20:44
+notif_323,High Fuel Consumption,sys_323,2025-05-24T11:43:16
+notif_324,High Fuel Consumption,sys_324,2025-11-24T20:30:11
+notif_325,Vehicle Breakdown,sys_325,2025-11-05T07:43:32
+notif_326,Emergency Alert,sys_326,2025-08-12T21:56:42
+notif_327,Emergency Alert,sys_327,2025-05-27T23:11:42
+notif_328,Trip Delay,sys_328,2025-04-14T03:26:40
+notif_329,High Fuel Consumption,sys_329,2025-04-01T11:15:45
+notif_330,Trip Delay,sys_330,2025-10-04T23:09:08
+notif_331,Vehicle Breakdown,sys_331,2025-12-22T18:58:02
+notif_332,Emergency Alert,sys_332,2025-10-28T03:23:57
+notif_333,Trip Delay,sys_333,2025-09-29T23:56:48
+notif_334,Vehicle Breakdown,sys_334,2025-08-25T21:13:06
+notif_335,Emergency Alert,sys_335,2025-02-25T05:29:08
+notif_336,High Fuel Consumption,sys_336,2025-05-31T05:10:57
+notif_337,Trip Delay,sys_337,2025-01-01T23:40:27
+notif_338,Vehicle Breakdown,sys_338,2025-10-28T17:59:06
+notif_339,Emergency Alert,sys_339,2025-02-07T15:58:20
+notif_340,Emergency Alert,sys_340,2025-01-15T10:29:09
+notif_341,High Fuel Consumption,sys_341,2025-07-13T17:28:37
+notif_342,Vehicle Breakdown,sys_342,2025-10-04T08:36:24
+notif_343,Emergency Alert,sys_343,2025-03-31T16:50:12
+notif_344,Emergency Alert,sys_344,2025-06-12T03:43:24
+notif_345,High Fuel Consumption,sys_345,2025-12-29T06:37:40
+notif_346,High Fuel Consumption,sys_346,2025-12-30T01:21:23
+notif_347,Vehicle Breakdown,sys_347,2025-05-24T15:33:04
+notif_348,Vehicle Breakdown,sys_348,2025-09-04T05:25:11
+notif_349,Vehicle Breakdown,sys_349,2025-08-19T06:30:33
+notif_350,Emergency Alert,sys_350,2025-03-03T07:15:34
+notif_351,High Fuel Consumption,sys_351,2025-12-27T23:30:05
+notif_352,Vehicle Breakdown,sys_352,2025-07-19T16:41:32
+notif_353,High Fuel Consumption,sys_353,2025-06-15T11:15:53
+notif_354,Trip Delay,sys_354,2025-10-16T02:40:22
+notif_355,Vehicle Breakdown,sys_355,2025-02-24T00:07:45
+notif_356,Vehicle Breakdown,sys_356,2025-09-04T03:13:21
+notif_357,Trip Delay,sys_357,2025-09-08T15:58:22
+notif_358,Trip Delay,sys_358,2025-06-12T01:07:22
+notif_359,Trip Delay,sys_359,2025-09-19T04:28:36
+notif_360,Vehicle Breakdown,sys_360,2025-11-28T01:05:22
+notif_361,Emergency Alert,sys_361,2025-08-27T13:35:33
+notif_362,Vehicle Breakdown,sys_362,2025-01-20T20:50:06
+notif_363,Emergency Alert,sys_363,2025-06-03T06:51:59
+notif_364,Emergency Alert,sys_364,2025-10-29T00:05:55
+notif_365,Emergency Alert,sys_365,2025-07-29T13:59:12
+notif_366,Emergency Alert,sys_366,2025-03-16T06:33:10
+notif_367,Emergency Alert,sys_367,2025-12-17T16:47:04
+notif_368,Vehicle Breakdown,sys_368,2025-05-26T17:22:47
+notif_369,High Fuel Consumption,sys_369,2025-05-26T02:13:43
+notif_370,Vehicle Breakdown,sys_370,2025-12-14T14:13:51
+notif_371,Vehicle Breakdown,sys_371,2025-07-23T10:41:55
+notif_372,Emergency Alert,sys_372,2025-12-18T12:36:30
+notif_373,Vehicle Breakdown,sys_373,2025-12-22T13:43:49
+notif_374,Trip Delay,sys_374,2025-01-06T02:44:48
+notif_375,Trip Delay,sys_375,2025-03-24T23:59:06
+notif_376,High Fuel Consumption,sys_376,2025-04-18T21:26:05
+notif_377,High Fuel Consumption,sys_377,2025-11-21T14:45:38
+notif_378,Vehicle Breakdown,sys_378,2025-04-10T15:17:27
+notif_379,Trip Delay,sys_379,2025-11-21T03:06:56
+notif_380,Emergency Alert,sys_380,2025-06-20T17:41:36
+notif_381,Vehicle Breakdown,sys_381,2025-08-27T09:41:33
+notif_382,Trip Delay,sys_382,2025-10-20T05:25:17
+notif_383,Emergency Alert,sys_383,2025-06-19T02:49:59
+notif_384,Vehicle Breakdown,sys_384,2025-02-25T05:08:18
+notif_385,Vehicle Breakdown,sys_385,2025-05-22T09:53:51
+notif_386,High Fuel Consumption,sys_386,2025-01-14T20:24:22
+notif_387,Vehicle Breakdown,sys_387,2025-12-24T20:42:07
+notif_388,High Fuel Consumption,sys_388,2025-04-06T22:16:48
+notif_389,Vehicle Breakdown,sys_389,2025-11-10T18:35:32
+notif_390,Trip Delay,sys_390,2025-01-10T17:03:13
+notif_391,High Fuel Consumption,sys_391,2025-03-16T15:21:13
+notif_392,Emergency Alert,sys_392,2025-11-23T23:34:45
+notif_393,Vehicle Breakdown,sys_393,2025-09-16T13:49:45
+notif_394,Trip Delay,sys_394,2025-08-09T06:33:47
+notif_395,Trip Delay,sys_395,2025-07-01T15:19:40
+notif_396,Trip Delay,sys_396,2025-03-21T10:52:52
+notif_397,Trip Delay,sys_397,2025-11-23T03:01:05
+notif_398,Emergency Alert,sys_398,2025-03-25T21:18:34
+notif_399,Emergency Alert,sys_399,2025-04-13T10:36:19
+notif_400,High Fuel Consumption,sys_400,2025-10-13T04:58:39
+notif_401,Vehicle Breakdown,sys_401,2025-01-07T03:16:20
+notif_402,Emergency Alert,sys_402,2025-05-18T17:17:32
+notif_403,High Fuel Consumption,sys_403,2025-12-28T02:56:41
+notif_404,Trip Delay,sys_404,2025-02-03T15:02:45
+notif_405,High Fuel Consumption,sys_405,2025-05-18T18:47:39
+notif_406,Emergency Alert,sys_406,2025-07-06T20:55:27
+notif_407,High Fuel Consumption,sys_407,2025-10-04T10:15:59
+notif_408,Emergency Alert,sys_408,2025-11-20T06:31:05
+notif_409,Emergency Alert,sys_409,2025-06-15T13:08:32
+notif_410,Vehicle Breakdown,sys_410,2025-02-17T22:18:20
+notif_411,Vehicle Breakdown,sys_411,2025-04-25T05:28:15
+notif_412,Vehicle Breakdown,sys_412,2025-02-02T11:08:26
+notif_413,Emergency Alert,sys_413,2025-12-10T08:05:05
+notif_414,Emergency Alert,sys_414,2025-07-31T16:59:01
+notif_415,Emergency Alert,sys_415,2025-07-20T20:08:04
+notif_416,Trip Delay,sys_416,2025-07-17T10:59:20
+notif_417,Vehicle Breakdown,sys_417,2025-11-13T11:32:05
+notif_418,Emergency Alert,sys_418,2025-05-23T01:01:52
+notif_419,Trip Delay,sys_419,2025-02-11T09:49:11
+notif_420,Trip Delay,sys_420,2025-05-26T07:30:57
+notif_421,Trip Delay,sys_421,2025-06-10T16:40:01
+notif_422,Emergency Alert,sys_422,2025-03-06T14:05:42
+notif_423,Emergency Alert,sys_423,2025-08-25T22:55:39
+notif_424,Trip Delay,sys_424,2025-10-23T07:46:46
+notif_425,Emergency Alert,sys_425,2025-06-21T07:05:35
+notif_426,Emergency Alert,sys_426,2025-09-09T04:46:32
+notif_427,High Fuel Consumption,sys_427,2025-05-27T16:23:26
+notif_428,Vehicle Breakdown,sys_428,2025-06-30T02:23:39
+notif_429,Emergency Alert,sys_429,2025-12-28T19:24:40
+notif_430,Vehicle Breakdown,sys_430,2025-11-27T00:54:04
+notif_431,High Fuel Consumption,sys_431,2025-10-06T21:09:18
+notif_432,Trip Delay,sys_432,2025-07-15T22:40:17
+notif_433,High Fuel Consumption,sys_433,2025-04-14T23:09:07
+notif_434,Trip Delay,sys_434,2025-06-07T18:48:39
+notif_435,High Fuel Consumption,sys_435,2025-11-18T23:22:14
+notif_436,Emergency Alert,sys_436,2025-08-11T16:01:07
+notif_437,Emergency Alert,sys_437,2025-12-12T08:21:20
+notif_438,High Fuel Consumption,sys_438,2025-01-09T13:52:42
+notif_439,Emergency Alert,sys_439,2025-12-10T02:31:46
+notif_440,Emergency Alert,sys_440,2025-01-28T05:31:12
+notif_441,Trip Delay,sys_441,2025-01-16T19:56:23
+notif_442,Trip Delay,sys_442,2025-07-19T23:58:24
+notif_443,Emergency Alert,sys_443,2025-01-07T17:41:01
+notif_444,High Fuel Consumption,sys_444,2025-03-31T22:12:23
+notif_445,Trip Delay,sys_445,2025-04-17T12:24:38
+notif_446,High Fuel Consumption,sys_446,2025-04-03T00:54:47
+notif_447,Emergency Alert,sys_447,2025-04-18T19:28:36
+notif_448,Vehicle Breakdown,sys_448,2025-09-17T20:57:38
+notif_449,Trip Delay,sys_449,2025-03-09T02:19:42
+notif_450,High Fuel Consumption,sys_450,2025-10-10T18:30:05
+notif_451,Vehicle Breakdown,sys_451,2025-09-21T20:49:33
+notif_452,High Fuel Consumption,sys_452,2025-10-08T08:04:15
+notif_453,Vehicle Breakdown,sys_453,2025-07-04T13:55:07
+notif_454,Emergency Alert,sys_454,2025-09-25T01:40:02
+notif_455,Emergency Alert,sys_455,2025-02-20T12:21:55
+notif_456,Trip Delay,sys_456,2025-08-18T03:33:16
+notif_457,Emergency Alert,sys_457,2025-06-19T22:59:24
+notif_458,Trip Delay,sys_458,2025-03-23T18:06:25
+notif_459,Vehicle Breakdown,sys_459,2025-09-11T17:21:09
+notif_460,High Fuel Consumption,sys_460,2025-05-14T03:36:54
+notif_461,Vehicle Breakdown,sys_461,2025-10-31T01:44:01
+notif_462,Vehicle Breakdown,sys_462,2025-08-14T00:49:23
+notif_463,Emergency Alert,sys_463,2025-07-13T19:32:07
+notif_464,Vehicle Breakdown,sys_464,2025-03-31T17:54:23
+notif_465,Emergency Alert,sys_465,2025-01-18T15:57:40
+notif_466,High Fuel Consumption,sys_466,2025-05-09T16:50:32
+notif_467,Trip Delay,sys_467,2025-11-06T02:24:19
+notif_468,Vehicle Breakdown,sys_468,2025-06-09T08:04:54
+notif_469,High Fuel Consumption,sys_469,2025-05-04T16:20:30
+notif_470,High Fuel Consumption,sys_470,2025-06-22T02:25:04
+notif_471,Emergency Alert,sys_471,2025-03-13T05:34:15
+notif_472,Trip Delay,sys_472,2025-04-24T22:39:18
+notif_473,Emergency Alert,sys_473,2025-03-04T01:18:48
+notif_474,High Fuel Consumption,sys_474,2025-05-18T13:47:05
+notif_475,Trip Delay,sys_475,2025-10-30T06:41:59
+notif_476,Trip Delay,sys_476,2025-12-20T02:05:58
+notif_477,Vehicle Breakdown,sys_477,2025-12-09T06:24:52
+notif_478,Vehicle Breakdown,sys_478,2025-01-14T11:49:10
+notif_479,High Fuel Consumption,sys_479,2025-09-06T12:18:54
+notif_480,Vehicle Breakdown,sys_480,2025-08-02T20:11:58
+notif_481,Vehicle Breakdown,sys_481,2025-03-07T10:35:32
+notif_482,High Fuel Consumption,sys_482,2025-02-02T17:21:40
+notif_483,Vehicle Breakdown,sys_483,2025-02-21T02:59:32
+notif_484,Emergency Alert,sys_484,2025-11-20T16:54:22
+notif_485,High Fuel Consumption,sys_485,2025-02-16T13:57:21
+notif_486,High Fuel Consumption,sys_486,2025-05-14T17:39:55
+notif_487,High Fuel Consumption,sys_487,2025-05-07T17:51:25
+notif_488,High Fuel Consumption,sys_488,2025-10-03T21:43:20
+notif_489,Vehicle Breakdown,sys_489,2025-03-18T11:31:17
+notif_490,Emergency Alert,sys_490,2025-10-22T19:07:12
+notif_491,Trip Delay,sys_491,2025-03-27T05:38:56
+notif_492,Emergency Alert,sys_492,2025-12-05T21:17:16
+notif_493,High Fuel Consumption,sys_493,2025-09-12T23:57:01
+notif_494,Emergency Alert,sys_494,2025-11-29T08:28:17
+notif_495,Trip Delay,sys_495,2025-01-16T11:20:19
+notif_496,High Fuel Consumption,sys_496,2025-01-28T12:40:13
+notif_497,Emergency Alert,sys_497,2025-12-26T00:27:01
+notif_498,High Fuel Consumption,sys_498,2025-07-07T04:46:55
+notif_499,High Fuel Consumption,sys_499,2025-06-20T06:28:41
+notif_500,High Fuel Consumption,sys_500,2025-02-10T15:53:23
+notif_501,High Fuel Consumption,sys_501,2025-03-13T17:01:13
+notif_502,High Fuel Consumption,sys_502,2025-08-05T21:26:45
+notif_503,Trip Delay,sys_503,2025-11-06T21:02:16
+notif_504,Trip Delay,sys_504,2025-09-03T05:47:41
+notif_505,Trip Delay,sys_505,2025-12-24T06:05:46
+notif_506,Vehicle Breakdown,sys_506,2025-04-03T07:23:01
+notif_507,Vehicle Breakdown,sys_507,2025-08-23T02:58:54
+notif_508,Vehicle Breakdown,sys_508,2025-05-25T15:16:26
+notif_509,High Fuel Consumption,sys_509,2025-06-12T17:41:09
+notif_510,Emergency Alert,sys_510,2025-03-22T13:06:43
+notif_511,Emergency Alert,sys_511,2025-04-23T20:41:52
+notif_512,High Fuel Consumption,sys_512,2025-05-23T16:04:12
+notif_513,Vehicle Breakdown,sys_513,2025-10-15T05:38:28
+notif_514,High Fuel Consumption,sys_514,2025-01-13T10:32:40
+notif_515,Trip Delay,sys_515,2025-03-30T00:56:00
+notif_516,Emergency Alert,sys_516,2025-02-12T19:30:46
+notif_517,Vehicle Breakdown,sys_517,2025-11-02T06:39:45
+notif_518,Trip Delay,sys_518,2025-03-22T01:12:08
+notif_519,Trip Delay,sys_519,2025-03-19T04:06:02
+notif_520,High Fuel Consumption,sys_520,2025-02-25T04:41:10
+notif_521,Vehicle Breakdown,sys_521,2025-01-02T11:57:11
+notif_522,High Fuel Consumption,sys_522,2025-02-22T08:30:07
+notif_523,Emergency Alert,sys_523,2025-06-09T03:51:41
+notif_524,Emergency Alert,sys_524,2025-06-16T21:24:19
+notif_525,Emergency Alert,sys_525,2025-01-03T22:58:21
+notif_526,Emergency Alert,sys_526,2025-06-16T03:13:29
+notif_527,Emergency Alert,sys_527,2025-02-08T07:24:26
+notif_528,Emergency Alert,sys_528,2025-03-01T17:24:44
+notif_529,Vehicle Breakdown,sys_529,2025-06-23T21:37:16
+notif_530,High Fuel Consumption,sys_530,2025-07-16T01:06:19
+notif_531,Vehicle Breakdown,sys_531,2025-07-06T12:01:14
+notif_532,Emergency Alert,sys_532,2025-05-29T11:31:58
+notif_533,High Fuel Consumption,sys_533,2025-09-06T09:28:00
+notif_534,High Fuel Consumption,sys_534,2025-11-13T09:15:55
+notif_535,High Fuel Consumption,sys_535,2025-08-24T08:18:31
+notif_536,High Fuel Consumption,sys_536,2025-06-07T20:25:29
+notif_537,Trip Delay,sys_537,2025-03-22T06:03:53
+notif_538,Vehicle Breakdown,sys_538,2025-11-24T19:01:32
+notif_539,Trip Delay,sys_539,2025-07-26T04:01:25
+notif_540,High Fuel Consumption,sys_540,2025-07-30T13:53:44
+notif_541,Trip Delay,sys_541,2025-02-04T23:55:44
+notif_542,Trip Delay,sys_542,2025-12-15T00:45:17
+notif_543,Emergency Alert,sys_543,2025-10-17T01:52:21
+notif_544,Vehicle Breakdown,sys_544,2025-07-27T08:40:27
+notif_545,Trip Delay,sys_545,2025-02-14T00:57:51
+notif_546,Vehicle Breakdown,sys_546,2025-06-12T15:01:18
+notif_547,Emergency Alert,sys_547,2025-05-15T07:15:30
+notif_548,Vehicle Breakdown,sys_548,2025-07-02T08:55:56
+notif_549,Emergency Alert,sys_549,2025-03-20T15:15:39
+notif_550,Vehicle Breakdown,sys_550,2025-07-12T02:25:22
+notif_551,Emergency Alert,sys_551,2025-04-25T17:17:04
+notif_552,Trip Delay,sys_552,2025-03-12T22:59:26
+notif_553,Vehicle Breakdown,sys_553,2025-09-11T23:32:50
+notif_554,Emergency Alert,sys_554,2025-02-16T08:29:39
+notif_555,Emergency Alert,sys_555,2025-11-27T01:55:31
+notif_556,High Fuel Consumption,sys_556,2025-02-18T20:01:59
+notif_557,High Fuel Consumption,sys_557,2025-04-06T16:18:48
+notif_558,High Fuel Consumption,sys_558,2025-06-28T15:38:05
+notif_559,Trip Delay,sys_559,2025-12-12T05:48:41
+notif_560,Trip Delay,sys_560,2025-04-01T10:59:44
+notif_561,High Fuel Consumption,sys_561,2025-06-05T01:15:58
+notif_562,Trip Delay,sys_562,2025-11-20T23:41:05
+notif_563,Emergency Alert,sys_563,2025-04-08T05:30:17
+notif_564,High Fuel Consumption,sys_564,2025-05-25T11:52:13
+notif_565,Vehicle Breakdown,sys_565,2025-04-28T12:24:30
+notif_566,Emergency Alert,sys_566,2025-03-06T14:36:56
+notif_567,Trip Delay,sys_567,2025-08-26T21:04:34
+notif_568,Vehicle Breakdown,sys_568,2025-02-02T21:50:54
+notif_569,Trip Delay,sys_569,2025-03-07T08:50:21
+notif_570,High Fuel Consumption,sys_570,2025-10-26T15:02:09
+notif_571,Vehicle Breakdown,sys_571,2025-07-20T16:34:14
+notif_572,Vehicle Breakdown,sys_572,2025-08-10T08:46:08
+notif_573,Trip Delay,sys_573,2025-04-24T10:12:22
+notif_574,Vehicle Breakdown,sys_574,2025-08-19T15:19:06
+notif_575,Vehicle Breakdown,sys_575,2025-08-07T22:19:21
+notif_576,Vehicle Breakdown,sys_576,2025-12-17T06:21:40
+notif_577,High Fuel Consumption,sys_577,2025-08-12T19:10:15
+notif_578,Trip Delay,sys_578,2025-06-27T14:38:26
+notif_579,High Fuel Consumption,sys_579,2025-03-08T07:41:02
+notif_580,Trip Delay,sys_580,2025-06-28T12:52:35
+notif_581,Emergency Alert,sys_581,2025-06-05T14:06:25
+notif_582,Vehicle Breakdown,sys_582,2025-09-28T21:48:31
+notif_583,Trip Delay,sys_583,2025-03-11T16:31:36
+notif_584,Vehicle Breakdown,sys_584,2025-04-14T02:03:03
+notif_585,Vehicle Breakdown,sys_585,2025-04-27T16:55:45
+notif_586,Trip Delay,sys_586,2025-08-17T12:53:18
+notif_587,Trip Delay,sys_587,2025-11-05T06:42:05
+notif_588,High Fuel Consumption,sys_588,2025-05-24T10:25:28
+notif_589,Emergency Alert,sys_589,2025-02-09T18:41:00
+notif_590,Trip Delay,sys_590,2025-07-15T23:30:37
+notif_591,High Fuel Consumption,sys_591,2025-05-26T11:31:50
+notif_592,High Fuel Consumption,sys_592,2025-04-17T22:50:27
+notif_593,Vehicle Breakdown,sys_593,2025-08-17T21:54:42
+notif_594,High Fuel Consumption,sys_594,2025-01-18T02:14:09
+notif_595,Vehicle Breakdown,sys_595,2025-12-13T17:31:40
+notif_596,Trip Delay,sys_596,2025-03-13T04:06:22
+notif_597,High Fuel Consumption,sys_597,2025-10-06T00:20:40
+notif_598,Vehicle Breakdown,sys_598,2025-03-29T11:35:52
+notif_599,Trip Delay,sys_599,2025-12-29T07:57:23
+notif_600,Emergency Alert,sys_600,2025-07-14T20:46:53
+notif_601,Vehicle Breakdown,sys_601,2025-06-30T11:36:36
+notif_602,Vehicle Breakdown,sys_602,2025-07-08T15:34:33
+notif_603,High Fuel Consumption,sys_603,2025-08-16T18:30:14
+notif_604,Vehicle Breakdown,sys_604,2025-10-12T08:26:40
+notif_605,Vehicle Breakdown,sys_605,2025-03-02T01:07:18
+notif_606,Vehicle Breakdown,sys_606,2025-05-29T13:30:11
+notif_607,Vehicle Breakdown,sys_607,2025-06-19T18:55:20
+notif_608,Emergency Alert,sys_608,2025-11-13T08:06:50
+notif_609,Trip Delay,sys_609,2025-12-06T21:55:54
+notif_610,High Fuel Consumption,sys_610,2025-09-12T03:31:13
+notif_611,Trip Delay,sys_611,2025-12-24T04:24:30
+notif_612,Trip Delay,sys_612,2025-01-24T09:40:31
+notif_613,Emergency Alert,sys_613,2025-08-09T02:31:42
+notif_614,Emergency Alert,sys_614,2025-02-23T00:50:10
+notif_615,Vehicle Breakdown,sys_615,2025-04-02T18:01:06
+notif_616,Emergency Alert,sys_616,2025-10-16T15:34:58
+notif_617,Trip Delay,sys_617,2025-08-21T19:12:00
+notif_618,Trip Delay,sys_618,2025-06-10T16:13:18
+notif_619,Emergency Alert,sys_619,2025-01-16T16:22:35
+notif_620,Vehicle Breakdown,sys_620,2025-12-13T06:52:57
+notif_621,Vehicle Breakdown,sys_621,2025-02-15T05:31:26
+notif_622,Trip Delay,sys_622,2025-02-16T21:14:21
+notif_623,Emergency Alert,sys_623,2025-12-15T02:26:34
+notif_624,Trip Delay,sys_624,2025-09-15T09:53:34
+notif_625,Vehicle Breakdown,sys_625,2025-10-14T07:42:54
+notif_626,Trip Delay,sys_626,2025-05-07T18:31:38
+notif_627,High Fuel Consumption,sys_627,2025-12-23T18:47:13
+notif_628,High Fuel Consumption,sys_628,2025-12-18T01:25:39
+notif_629,Trip Delay,sys_629,2025-11-11T02:55:43
+notif_630,Emergency Alert,sys_630,2025-01-03T19:00:58
+notif_631,Emergency Alert,sys_631,2025-07-11T19:56:41
+notif_632,Trip Delay,sys_632,2025-12-28T02:31:09
+notif_633,High Fuel Consumption,sys_633,2025-06-01T22:14:41
+notif_634,Vehicle Breakdown,sys_634,2025-10-04T00:51:32
+notif_635,Vehicle Breakdown,sys_635,2025-07-17T00:22:31
+notif_636,Vehicle Breakdown,sys_636,2025-12-19T01:29:35
+notif_637,Trip Delay,sys_637,2025-02-21T08:13:09
+notif_638,Emergency Alert,sys_638,2025-09-12T19:49:12
+notif_639,Vehicle Breakdown,sys_639,2025-03-30T12:15:47
+notif_640,Emergency Alert,sys_640,2025-05-10T10:16:19
+notif_641,Emergency Alert,sys_641,2025-08-08T02:38:08
+notif_642,Trip Delay,sys_642,2025-07-28T02:16:58
+notif_643,Trip Delay,sys_643,2025-12-30T04:20:01
+notif_644,High Fuel Consumption,sys_644,2025-08-10T23:03:02
+notif_645,Trip Delay,sys_645,2025-01-11T01:27:25
+notif_646,Emergency Alert,sys_646,2025-03-22T00:53:43
+notif_647,Vehicle Breakdown,sys_647,2025-11-18T10:53:15
+notif_648,Emergency Alert,sys_648,2025-01-19T14:39:14
+notif_649,Emergency Alert,sys_649,2025-05-13T01:55:15
+notif_650,High Fuel Consumption,sys_650,2025-12-11T13:21:36
+notif_651,Emergency Alert,sys_651,2025-02-19T13:29:58
+notif_652,Trip Delay,sys_652,2025-09-18T00:26:29
+notif_653,Emergency Alert,sys_653,2025-01-18T18:39:24
+notif_654,Emergency Alert,sys_654,2025-03-03T18:13:49
+notif_655,High Fuel Consumption,sys_655,2025-02-25T06:53:17
+notif_656,High Fuel Consumption,sys_656,2025-11-19T23:36:55
+notif_657,Vehicle Breakdown,sys_657,2025-03-19T11:21:47
+notif_658,Vehicle Breakdown,sys_658,2025-02-17T03:00:02
+notif_659,Vehicle Breakdown,sys_659,2025-09-20T14:13:46
+notif_660,Emergency Alert,sys_660,2025-11-03T11:21:09
+notif_661,Vehicle Breakdown,sys_661,2025-06-03T18:30:53
+notif_662,High Fuel Consumption,sys_662,2025-08-19T15:34:29
+notif_663,High Fuel Consumption,sys_663,2025-05-21T07:05:22
+notif_664,High Fuel Consumption,sys_664,2025-04-12T13:01:04
+notif_665,Vehicle Breakdown,sys_665,2025-11-29T06:54:59
+notif_666,Vehicle Breakdown,sys_666,2025-06-15T01:47:33
+notif_667,Vehicle Breakdown,sys_667,2025-10-18T16:39:26
+notif_668,Vehicle Breakdown,sys_668,2025-09-02T16:09:42
+notif_669,Trip Delay,sys_669,2025-06-11T16:51:39
+notif_670,Emergency Alert,sys_670,2025-09-15T23:05:20
+notif_671,Emergency Alert,sys_671,2025-08-21T13:09:56
+notif_672,High Fuel Consumption,sys_672,2025-09-27T15:14:29
+notif_673,High Fuel Consumption,sys_673,2025-03-05T05:13:05
+notif_674,High Fuel Consumption,sys_674,2025-07-16T22:58:24
+notif_675,High Fuel Consumption,sys_675,2025-05-18T13:02:29
+notif_676,High Fuel Consumption,sys_676,2025-02-17T09:51:12
+notif_677,Vehicle Breakdown,sys_677,2025-09-18T18:49:24
+notif_678,Trip Delay,sys_678,2025-11-15T10:59:02
+notif_679,Trip Delay,sys_679,2025-10-04T17:23:55
+notif_680,High Fuel Consumption,sys_680,2025-03-24T13:41:53
+notif_681,Vehicle Breakdown,sys_681,2025-12-27T21:47:08
+notif_682,Vehicle Breakdown,sys_682,2025-03-11T21:33:36
+notif_683,Vehicle Breakdown,sys_683,2025-09-09T06:59:15
+notif_684,Vehicle Breakdown,sys_684,2025-04-02T12:47:19
+notif_685,Emergency Alert,sys_685,2025-08-16T19:22:29
+notif_686,Vehicle Breakdown,sys_686,2025-03-15T01:27:17
+notif_687,High Fuel Consumption,sys_687,2025-05-09T16:42:19
+notif_688,Vehicle Breakdown,sys_688,2025-07-01T20:51:29
+notif_689,Emergency Alert,sys_689,2025-12-30T23:31:22
+notif_690,High Fuel Consumption,sys_690,2025-03-22T01:16:42
+notif_691,Emergency Alert,sys_691,2025-09-28T01:23:58
+notif_692,Trip Delay,sys_692,2025-04-19T13:37:41
+notif_693,Trip Delay,sys_693,2025-07-15T04:48:43
+notif_694,High Fuel Consumption,sys_694,2025-11-21T02:17:44
+notif_695,Trip Delay,sys_695,2025-11-27T23:52:58
+notif_696,Trip Delay,sys_696,2025-02-24T08:59:00
+notif_697,Trip Delay,sys_697,2025-02-12T22:43:04
+notif_698,Emergency Alert,sys_698,2025-01-22T18:44:17
+notif_699,Emergency Alert,sys_699,2025-09-14T14:10:17
+notif_700,Emergency Alert,sys_700,2025-09-09T00:44:09
+notif_701,Trip Delay,sys_701,2025-01-28T06:03:01
+notif_702,Emergency Alert,sys_702,2025-12-25T11:15:13
+notif_703,Emergency Alert,sys_703,2025-07-09T06:46:17
+notif_704,Trip Delay,sys_704,2025-06-08T21:12:06
+notif_705,Emergency Alert,sys_705,2025-04-01T18:28:48
+notif_706,Trip Delay,sys_706,2025-05-27T03:57:20
+notif_707,High Fuel Consumption,sys_707,2025-11-27T21:09:34
+notif_708,Emergency Alert,sys_708,2025-06-28T12:39:36
+notif_709,Emergency Alert,sys_709,2025-03-21T03:49:04
+notif_710,Trip Delay,sys_710,2025-10-15T15:10:16
+notif_711,High Fuel Consumption,sys_711,2025-02-10T18:59:14
+notif_712,High Fuel Consumption,sys_712,2025-12-16T21:42:55
+notif_713,Emergency Alert,sys_713,2025-09-03T02:57:21
+notif_714,Emergency Alert,sys_714,2025-05-03T18:24:55
+notif_715,Emergency Alert,sys_715,2025-01-08T23:32:23
+notif_716,Emergency Alert,sys_716,2025-10-03T01:30:20
+notif_717,High Fuel Consumption,sys_717,2025-03-30T00:57:58
+notif_718,Trip Delay,sys_718,2025-10-10T16:54:55
+notif_719,Trip Delay,sys_719,2025-10-31T10:28:30
+notif_720,Emergency Alert,sys_720,2025-12-01T08:36:33
+notif_721,Trip Delay,sys_721,2025-04-28T06:51:18
+notif_722,High Fuel Consumption,sys_722,2025-11-30T21:17:57
+notif_723,Trip Delay,sys_723,2025-07-05T09:39:55
+notif_724,High Fuel Consumption,sys_724,2025-10-12T00:07:54
+notif_725,Vehicle Breakdown,sys_725,2025-12-15T09:34:04
+notif_726,Emergency Alert,sys_726,2025-04-29T04:08:46
+notif_727,High Fuel Consumption,sys_727,2025-11-10T18:15:06
+notif_728,Emergency Alert,sys_728,2025-03-21T19:36:41
+notif_729,High Fuel Consumption,sys_729,2025-12-04T12:36:21
+notif_730,Trip Delay,sys_730,2025-08-10T20:50:15
+notif_731,Trip Delay,sys_731,2025-08-22T13:53:06
+notif_732,Emergency Alert,sys_732,2025-05-01T19:50:53
+notif_733,Vehicle Breakdown,sys_733,2025-10-07T15:02:28
+notif_734,Trip Delay,sys_734,2025-02-26T14:25:00
+notif_735,High Fuel Consumption,sys_735,2025-10-10T05:19:23
+notif_736,Emergency Alert,sys_736,2025-11-03T07:45:51
+notif_737,Trip Delay,sys_737,2025-01-11T07:44:16
+notif_738,Trip Delay,sys_738,2025-06-20T19:20:15
+notif_739,High Fuel Consumption,sys_739,2025-11-18T12:21:00
+notif_740,Emergency Alert,sys_740,2025-09-22T02:00:02
+notif_741,Trip Delay,sys_741,2025-08-06T00:36:48
+notif_742,Vehicle Breakdown,sys_742,2025-01-23T21:23:29
+notif_743,High Fuel Consumption,sys_743,2025-12-02T20:46:26
+notif_744,High Fuel Consumption,sys_744,2025-09-30T13:06:45
+notif_745,Vehicle Breakdown,sys_745,2025-12-18T10:42:21
+notif_746,Emergency Alert,sys_746,2025-10-11T01:00:11
+notif_747,Trip Delay,sys_747,2025-06-06T00:50:40
+notif_748,Emergency Alert,sys_748,2025-11-19T06:08:25
+notif_749,High Fuel Consumption,sys_749,2025-02-20T23:35:09
+notif_750,Vehicle Breakdown,sys_750,2025-07-05T01:35:44
+notif_751,Vehicle Breakdown,sys_751,2025-09-14T07:34:01
+notif_752,Trip Delay,sys_752,2025-07-01T05:45:02
+notif_753,Vehicle Breakdown,sys_753,2025-02-14T22:22:39
+notif_754,High Fuel Consumption,sys_754,2025-06-21T15:45:46
+notif_755,Trip Delay,sys_755,2025-01-23T14:48:35
+notif_756,Trip Delay,sys_756,2025-08-31T09:56:24
+notif_757,High Fuel Consumption,sys_757,2025-09-07T21:42:47
+notif_758,Trip Delay,sys_758,2025-03-20T08:06:39
+notif_759,Emergency Alert,sys_759,2025-04-18T09:20:59
+notif_760,High Fuel Consumption,sys_760,2025-01-03T03:40:36
+notif_761,High Fuel Consumption,sys_761,2025-11-10T02:48:08
+notif_762,Emergency Alert,sys_762,2025-06-21T05:29:26
+notif_763,High Fuel Consumption,sys_763,2025-06-07T12:23:09
+notif_764,Trip Delay,sys_764,2025-10-21T05:28:30
+notif_765,Emergency Alert,sys_765,2025-02-02T05:14:12
+notif_766,Trip Delay,sys_766,2025-09-17T16:36:20
+notif_767,Emergency Alert,sys_767,2025-02-24T07:22:28
+notif_768,High Fuel Consumption,sys_768,2025-10-11T06:23:36
+notif_769,High Fuel Consumption,sys_769,2025-04-07T02:01:24
+notif_770,High Fuel Consumption,sys_770,2025-12-09T04:25:21
+notif_771,Vehicle Breakdown,sys_771,2025-10-15T13:21:43
+notif_772,Vehicle Breakdown,sys_772,2025-08-05T17:05:12
+notif_773,High Fuel Consumption,sys_773,2025-07-25T23:51:24
+notif_774,High Fuel Consumption,sys_774,2025-04-08T10:39:14
+notif_775,Emergency Alert,sys_775,2025-09-02T09:00:32
+notif_776,Vehicle Breakdown,sys_776,2025-12-14T00:44:23
+notif_777,High Fuel Consumption,sys_777,2025-06-04T19:10:30
+notif_778,Emergency Alert,sys_778,2025-05-18T03:01:43
+notif_779,High Fuel Consumption,sys_779,2025-02-07T06:29:01
+notif_780,High Fuel Consumption,sys_780,2025-06-19T07:36:07
+notif_781,High Fuel Consumption,sys_781,2025-10-31T15:10:08
+notif_782,Vehicle Breakdown,sys_782,2025-01-31T16:41:09
+notif_783,Emergency Alert,sys_783,2025-12-11T18:44:39
+notif_784,High Fuel Consumption,sys_784,2025-08-03T15:33:09
+notif_785,Vehicle Breakdown,sys_785,2025-09-01T10:35:07
+notif_786,Vehicle Breakdown,sys_786,2025-09-25T15:13:06
+notif_787,Vehicle Breakdown,sys_787,2025-12-26T06:08:11
+notif_788,Emergency Alert,sys_788,2025-05-15T00:46:25
+notif_789,Trip Delay,sys_789,2025-05-13T00:08:14
+notif_790,Trip Delay,sys_790,2025-07-13T03:53:00
+notif_791,Vehicle Breakdown,sys_791,2025-03-18T09:45:26
+notif_792,Emergency Alert,sys_792,2025-03-17T19:21:43
+notif_793,High Fuel Consumption,sys_793,2025-10-16T11:00:01
+notif_794,Trip Delay,sys_794,2025-10-05T00:26:43
+notif_795,Vehicle Breakdown,sys_795,2025-10-01T11:35:25
+notif_796,Emergency Alert,sys_796,2025-02-11T16:38:32
+notif_797,Emergency Alert,sys_797,2025-03-23T04:24:20
+notif_798,High Fuel Consumption,sys_798,2025-05-27T21:50:13
+notif_799,Vehicle Breakdown,sys_799,2025-01-06T10:25:22
+notif_800,Emergency Alert,sys_800,2025-08-31T22:51:47
+notif_801,Emergency Alert,sys_801,2025-07-10T02:51:36
+notif_802,High Fuel Consumption,sys_802,2025-04-22T19:45:06
+notif_803,High Fuel Consumption,sys_803,2025-07-07T15:11:30
+notif_804,Emergency Alert,sys_804,2025-01-13T15:37:57
+notif_805,High Fuel Consumption,sys_805,2025-07-03T09:38:20
+notif_806,High Fuel Consumption,sys_806,2025-06-28T13:45:36
+notif_807,Emergency Alert,sys_807,2025-11-21T13:51:39
+notif_808,Emergency Alert,sys_808,2025-09-01T22:16:08
+notif_809,High Fuel Consumption,sys_809,2025-01-24T07:07:12
+notif_810,Trip Delay,sys_810,2025-06-24T03:43:13
+notif_811,High Fuel Consumption,sys_811,2025-03-01T16:27:05
+notif_812,Trip Delay,sys_812,2025-10-01T18:02:26
+notif_813,Emergency Alert,sys_813,2025-03-22T16:56:44
+notif_814,Vehicle Breakdown,sys_814,2025-07-28T08:56:11
+notif_815,Vehicle Breakdown,sys_815,2025-04-04T04:42:43
+notif_816,Emergency Alert,sys_816,2025-07-14T00:27:44
+notif_817,Trip Delay,sys_817,2025-10-27T08:08:21
+notif_818,Vehicle Breakdown,sys_818,2025-01-01T09:50:45
+notif_819,Vehicle Breakdown,sys_819,2025-09-02T08:35:58
+notif_820,Vehicle Breakdown,sys_820,2025-07-08T16:15:54
+notif_821,Emergency Alert,sys_821,2025-03-13T11:34:27
+notif_822,Trip Delay,sys_822,2025-02-09T16:16:53
+notif_823,High Fuel Consumption,sys_823,2025-08-03T23:41:15
+notif_824,High Fuel Consumption,sys_824,2025-06-28T02:38:19
+notif_825,High Fuel Consumption,sys_825,2025-06-07T04:46:51
+notif_826,Trip Delay,sys_826,2025-03-25T03:05:15
+notif_827,Trip Delay,sys_827,2025-09-19T17:37:15
+notif_828,Emergency Alert,sys_828,2025-09-22T20:45:03
+notif_829,Vehicle Breakdown,sys_829,2025-05-20T08:10:46
+notif_830,Emergency Alert,sys_830,2025-11-06T23:21:03
+notif_831,Emergency Alert,sys_831,2025-05-20T23:14:10
+notif_832,Trip Delay,sys_832,2025-09-18T15:56:18
+notif_833,Emergency Alert,sys_833,2025-06-18T18:41:56
+notif_834,Emergency Alert,sys_834,2025-11-19T01:36:17
+notif_835,Emergency Alert,sys_835,2025-03-17T14:35:12
+notif_836,Trip Delay,sys_836,2025-07-29T23:30:50
+notif_837,Trip Delay,sys_837,2025-06-12T06:40:36
+notif_838,High Fuel Consumption,sys_838,2025-07-23T23:11:12
+notif_839,High Fuel Consumption,sys_839,2025-12-01T22:13:29
+notif_840,Emergency Alert,sys_840,2025-08-22T11:05:27
+notif_841,Trip Delay,sys_841,2025-11-23T23:11:21
+notif_842,Trip Delay,sys_842,2025-05-26T13:39:31
+notif_843,Emergency Alert,sys_843,2025-06-14T23:47:46
+notif_844,High Fuel Consumption,sys_844,2025-04-07T10:28:33
+notif_845,High Fuel Consumption,sys_845,2025-06-11T03:47:58
+notif_846,High Fuel Consumption,sys_846,2025-09-05T05:54:31
+notif_847,Vehicle Breakdown,sys_847,2025-12-09T15:56:49
+notif_848,Emergency Alert,sys_848,2025-02-19T14:17:07
+notif_849,Emergency Alert,sys_849,2025-03-19T14:35:10
+notif_850,Emergency Alert,sys_850,2025-04-11T04:29:04
+notif_851,Vehicle Breakdown,sys_851,2025-01-27T18:53:55
+notif_852,Vehicle Breakdown,sys_852,2025-04-28T17:41:24
+notif_853,Emergency Alert,sys_853,2025-11-06T04:20:33
+notif_854,Emergency Alert,sys_854,2025-05-16T11:42:31
+notif_855,Vehicle Breakdown,sys_855,2025-11-30T13:59:25
+notif_856,Emergency Alert,sys_856,2025-09-23T01:50:14
+notif_857,High Fuel Consumption,sys_857,2025-11-12T07:38:09
+notif_858,Vehicle Breakdown,sys_858,2025-03-14T13:35:16
+notif_859,Vehicle Breakdown,sys_859,2025-01-06T16:19:22
+notif_860,High Fuel Consumption,sys_860,2025-09-02T03:02:48
+notif_861,Vehicle Breakdown,sys_861,2025-06-03T13:22:46
+notif_862,Vehicle Breakdown,sys_862,2025-02-08T14:00:08
+notif_863,Vehicle Breakdown,sys_863,2025-02-27T09:46:20
+notif_864,Trip Delay,sys_864,2025-02-14T23:30:02
+notif_865,Trip Delay,sys_865,2025-03-03T15:41:08
+notif_866,Emergency Alert,sys_866,2025-11-22T09:14:40
+notif_867,High Fuel Consumption,sys_867,2025-10-07T08:11:25
+notif_868,Vehicle Breakdown,sys_868,2025-06-24T06:46:29
+notif_869,Vehicle Breakdown,sys_869,2025-08-12T13:41:51
+notif_870,Vehicle Breakdown,sys_870,2025-02-16T10:43:47
+notif_871,High Fuel Consumption,sys_871,2025-08-01T16:01:35
+notif_872,High Fuel Consumption,sys_872,2025-07-14T13:26:49
+notif_873,High Fuel Consumption,sys_873,2025-10-03T13:34:19
+notif_874,High Fuel Consumption,sys_874,2025-07-18T23:56:52
+notif_875,Emergency Alert,sys_875,2025-04-25T06:37:11
+notif_876,High Fuel Consumption,sys_876,2025-02-10T22:58:50
+notif_877,Emergency Alert,sys_877,2025-09-16T04:41:58
+notif_878,Emergency Alert,sys_878,2025-11-04T04:15:16
+notif_879,Trip Delay,sys_879,2025-12-13T17:18:44
+notif_880,Vehicle Breakdown,sys_880,2025-12-07T00:51:46
+notif_881,High Fuel Consumption,sys_881,2025-01-04T13:04:17
+notif_882,Trip Delay,sys_882,2025-01-02T16:17:41
+notif_883,High Fuel Consumption,sys_883,2025-02-13T13:10:42
+notif_884,Emergency Alert,sys_884,2025-09-08T21:11:38
+notif_885,Emergency Alert,sys_885,2025-10-27T23:54:12
+notif_886,Trip Delay,sys_886,2025-11-08T18:02:43
+notif_887,Vehicle Breakdown,sys_887,2025-11-27T11:33:34
+notif_888,Trip Delay,sys_888,2025-12-17T09:03:12
+notif_889,Trip Delay,sys_889,2025-08-02T03:16:10
+notif_890,Trip Delay,sys_890,2025-07-30T21:02:53
+notif_891,High Fuel Consumption,sys_891,2025-08-20T22:30:25
+notif_892,Trip Delay,sys_892,2025-06-02T05:33:08
+notif_893,Emergency Alert,sys_893,2025-08-12T19:59:31
+notif_894,Trip Delay,sys_894,2025-01-31T09:50:05
+notif_895,Vehicle Breakdown,sys_895,2025-02-11T16:49:49
+notif_896,Vehicle Breakdown,sys_896,2025-08-31T14:08:00
+notif_897,Emergency Alert,sys_897,2025-11-29T11:40:47
+notif_898,High Fuel Consumption,sys_898,2025-08-23T18:07:52
+notif_899,Emergency Alert,sys_899,2025-12-15T03:08:21
+notif_900,High Fuel Consumption,sys_900,2025-04-05T13:17:59
+notif_901,Trip Delay,sys_901,2025-01-31T09:37:50
+notif_902,Vehicle Breakdown,sys_902,2025-06-06T04:15:26
+notif_903,High Fuel Consumption,sys_903,2025-05-22T12:45:02
+notif_904,Emergency Alert,sys_904,2025-04-25T14:25:48
+notif_905,High Fuel Consumption,sys_905,2025-01-04T17:02:42
+notif_906,Vehicle Breakdown,sys_906,2025-01-28T15:19:16
+notif_907,Emergency Alert,sys_907,2025-02-08T17:50:24
+notif_908,Vehicle Breakdown,sys_908,2025-08-12T03:31:12
+notif_909,Vehicle Breakdown,sys_909,2025-10-04T17:45:49
+notif_910,Trip Delay,sys_910,2025-04-04T00:17:29
+notif_911,Vehicle Breakdown,sys_911,2025-02-27T22:50:18
+notif_912,Trip Delay,sys_912,2025-03-09T11:37:06
+notif_913,Trip Delay,sys_913,2025-05-29T03:43:01
+notif_914,Trip Delay,sys_914,2025-09-17T08:58:34
+notif_915,Trip Delay,sys_915,2025-09-22T20:00:48
+notif_916,Vehicle Breakdown,sys_916,2025-10-29T06:39:50
+notif_917,Trip Delay,sys_917,2025-01-22T14:58:47
+notif_918,Vehicle Breakdown,sys_918,2025-01-15T03:26:41
+notif_919,Emergency Alert,sys_919,2025-01-06T22:12:06
+notif_920,Vehicle Breakdown,sys_920,2025-04-27T05:27:56
+notif_921,Trip Delay,sys_921,2025-07-10T13:55:19
+notif_922,Emergency Alert,sys_922,2025-07-25T02:12:30
+notif_923,Emergency Alert,sys_923,2025-08-21T18:27:20
+notif_924,High Fuel Consumption,sys_924,2025-11-06T04:31:49
+notif_925,Emergency Alert,sys_925,2025-08-07T04:07:07
+notif_926,Emergency Alert,sys_926,2025-06-22T17:31:33
+notif_927,High Fuel Consumption,sys_927,2025-07-20T05:24:04
+notif_928,Emergency Alert,sys_928,2025-10-26T11:09:24
+notif_929,Vehicle Breakdown,sys_929,2025-01-03T12:09:09
+notif_930,Vehicle Breakdown,sys_930,2025-12-23T03:53:46
+notif_931,Emergency Alert,sys_931,2025-02-08T03:26:37
+notif_932,Emergency Alert,sys_932,2025-10-26T01:29:08
+notif_933,High Fuel Consumption,sys_933,2025-11-27T10:03:37
+notif_934,Vehicle Breakdown,sys_934,2025-12-10T18:02:51
+notif_935,Vehicle Breakdown,sys_935,2025-08-15T13:13:27
+notif_936,Trip Delay,sys_936,2025-04-21T00:09:36
+notif_937,Emergency Alert,sys_937,2025-01-29T20:06:44
+notif_938,Trip Delay,sys_938,2025-02-05T21:48:34
+notif_939,High Fuel Consumption,sys_939,2025-09-01T23:42:26
+notif_940,Emergency Alert,sys_940,2025-08-19T16:13:01
+notif_941,High Fuel Consumption,sys_941,2025-11-27T11:23:00
+notif_942,Trip Delay,sys_942,2025-08-26T23:33:01
+notif_943,Vehicle Breakdown,sys_943,2025-12-10T20:49:49
+notif_944,High Fuel Consumption,sys_944,2025-10-23T01:39:51
+notif_945,Emergency Alert,sys_945,2025-06-24T17:32:23
+notif_946,Trip Delay,sys_946,2025-04-12T01:58:42
+notif_947,Trip Delay,sys_947,2025-01-02T02:29:16
+notif_948,Trip Delay,sys_948,2025-11-18T22:01:12
+notif_949,High Fuel Consumption,sys_949,2025-10-18T19:21:25
+notif_950,Emergency Alert,sys_950,2025-08-24T03:53:27
+notif_951,Emergency Alert,sys_951,2025-09-12T03:46:07
+notif_952,High Fuel Consumption,sys_952,2025-05-04T16:52:11
+notif_953,High Fuel Consumption,sys_953,2025-12-27T22:16:46
+notif_954,Trip Delay,sys_954,2025-06-24T12:08:23
+notif_955,Trip Delay,sys_955,2025-11-03T16:27:56
+notif_956,Vehicle Breakdown,sys_956,2025-01-01T07:37:03
+notif_957,Emergency Alert,sys_957,2025-05-11T09:32:10
+notif_958,Emergency Alert,sys_958,2025-01-29T05:16:10
+notif_959,Trip Delay,sys_959,2025-03-25T00:31:36
+notif_960,Vehicle Breakdown,sys_960,2025-11-29T18:35:27
+notif_961,Emergency Alert,sys_961,2025-06-28T15:17:51
+notif_962,Emergency Alert,sys_962,2025-11-05T19:18:27
+notif_963,Vehicle Breakdown,sys_963,2025-09-15T17:19:09
+notif_964,Vehicle Breakdown,sys_964,2025-07-28T04:28:59
+notif_965,Vehicle Breakdown,sys_965,2025-04-02T18:30:00
+notif_966,High Fuel Consumption,sys_966,2025-05-04T18:33:31
+notif_967,Vehicle Breakdown,sys_967,2025-01-25T14:24:49
+notif_968,High Fuel Consumption,sys_968,2025-05-09T06:47:47
+notif_969,High Fuel Consumption,sys_969,2025-02-16T18:53:05
+notif_970,Emergency Alert,sys_970,2025-03-17T08:43:50
+notif_971,Emergency Alert,sys_971,2025-11-09T06:39:03
+notif_972,Emergency Alert,sys_972,2025-04-05T22:43:27
+notif_973,High Fuel Consumption,sys_973,2025-07-17T14:51:00
+notif_974,Vehicle Breakdown,sys_974,2025-01-30T17:46:14
+notif_975,Vehicle Breakdown,sys_975,2025-04-09T15:38:42
+notif_976,High Fuel Consumption,sys_976,2025-07-08T15:52:37
+notif_977,Vehicle Breakdown,sys_977,2025-09-07T15:59:09
+notif_978,Vehicle Breakdown,sys_978,2025-12-26T08:27:48
+notif_979,Emergency Alert,sys_979,2025-04-04T00:54:08
+notif_980,Trip Delay,sys_980,2025-06-25T22:16:30
+notif_981,Trip Delay,sys_981,2025-11-10T07:54:59
+notif_982,High Fuel Consumption,sys_982,2025-01-18T04:18:44
+notif_983,Emergency Alert,sys_983,2025-04-29T13:45:34
+notif_984,Vehicle Breakdown,sys_984,2025-10-08T00:21:20
+notif_985,High Fuel Consumption,sys_985,2025-03-02T02:39:53
+notif_986,Vehicle Breakdown,sys_986,2025-11-22T09:21:33
+notif_987,Vehicle Breakdown,sys_987,2025-11-27T21:21:17
+notif_988,High Fuel Consumption,sys_988,2025-04-10T16:40:50
+notif_989,Trip Delay,sys_989,2025-07-09T06:55:33
+notif_990,Trip Delay,sys_990,2025-01-25T08:18:18
+notif_991,Vehicle Breakdown,sys_991,2025-04-21T10:14:39
+notif_992,Vehicle Breakdown,sys_992,2025-06-21T08:44:37
+notif_993,High Fuel Consumption,sys_993,2025-03-13T14:58:19
+notif_994,Trip Delay,sys_994,2025-07-18T08:36:36
+notif_995,Emergency Alert,sys_995,2025-05-08T23:45:43
+notif_996,High Fuel Consumption,sys_996,2025-08-03T15:45:51
+notif_997,High Fuel Consumption,sys_997,2025-01-21T06:50:12
+notif_998,High Fuel Consumption,sys_998,2025-02-25T08:11:08
+notif_999,Vehicle Breakdown,sys_999,2025-02-28T15:28:10
+notif_1000,Emergency Alert,sys_1000,2025-06-02T00:59:50

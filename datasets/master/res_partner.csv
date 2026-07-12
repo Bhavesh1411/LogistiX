@@ -1,0 +1,231 @@
+id,name,type,city,state,gstin,pan,phone,email
+client_1,Reliance Steel,client,Chandigarh,Tamil Nadu,17FTRXC7912B1ZB,CGPOS9928N,+91 7946785248,contact@reliancesteel.com
+client_2,Bajaj FMCG,client,Jammu,Maharashtra,34USIEY6514D1ZF,JJIGB8527R,+91 7536124280,contact@bajajfmcg.com
+client_3,Godrej Retail,client,Kolkata,West Bengal,36QXJEB4733Y1ZS,ZWWJL6977F,+91 8589915144,contact@godrejretail.com
+client_4,Jindal Industries,client,Ranchi,Tamil Nadu,32YQPES3677O1ZY,HYRFI1916H,+91 7137869475,contact@jindalindustries.com
+client_5,Jindal Power,client,Ahmedabad,Haryana,16XOSFM8517E1ZQ,DTOTL7543L,+91 7941975480,contact@jindalpower.com
+client_6,Tata Infra,client,Nashik,Delhi,37CQUKB7252T1Z3,NZWAS9797Y,+91 8146005448,contact@tatainfra.com
+client_7,Jindal Retail,client,Surat,Odisha,15LYWGN3927Q1ZG,WHQPD3646R,+91 9277851678,contact@jindalretail.com
+client_8,Adani Logistics,client,Chennai,Maharashtra,13YWVHB2290C1Z5,VZNDR3705I,+91 9266341635,contact@adanilogistics.com
+client_9,ITC Power,client,Gurugram,Telangana,32IZQLN2982H1ZO,BAOPA1964H,+91 7289482182,contact@itcpower.com
+client_10,Adani Logistics,client,Nashik,Karnataka,18RFDYO8744H1Z4,UECLL8651X,+91 7232663462,contact@adanilogistics.com
+client_11,Reliance Steel,client,Bhopal,Uttar Pradesh,35WGELK5563O1ZP,WBVWC9856A,+91 7400560567,contact@reliancesteel.com
+client_12,Birla Cements,client,Hyderabad,Jammu & Kashmir,25FKBJZ5345Z1Z3,HSSUR8973E,+91 7815605132,contact@birlacements.com
+client_13,Mahindra Industries,client,Pune,Delhi,33IBMXN1931Q1ZF,WBBWK5033S,+91 9553440342,contact@mahindraindustries.com
+client_14,Adani Retail,client,Hyderabad,Uttar Pradesh,18FSGKR5915O1ZU,YYAQO2638C,+91 9309122187,contact@adaniretail.com
+client_15,Birla FMCG,client,Delhi,Bihar,12WJEVS9666A1Z9,HRYDD2753X,+91 9376077463,contact@birlafmcg.com
+client_16,Tata FMCG,client,Surat,Telangana,32IRWNG1832C1Z1,VBIDZ3647X,+91 8897669065,contact@tatafmcg.com
+client_17,L&T Power,client,Kolkata,Maharashtra,13BWXOV3426N1ZI,BJYZB6862G,+91 9929454134,contact@l&tpower.com
+client_18,Birla Retail,client,Indore,Odisha,29TYGEU3900N1ZB,EYUKR5065I,+91 7683749521,contact@birlaretail.com
+client_19,Reliance Power,client,Pune,Jammu & Kashmir,17FXJVW4652A1ZM,KHBUJ9346M,+91 9918508077,contact@reliancepower.com
+client_20,L&T Logistics,client,Mumbai,Rajasthan,18EZGCL6139N1Z6,DXEBL9518Z,+91 9312633708,contact@l&tlogistics.com
+client_21,Birla Logistics,client,Hyderabad,Haryana,31XQRDX9308J1Z0,ISOER7211V,+91 7747441732,contact@birlalogistics.com
+client_22,ITC FMCG,client,Bhopal,Maharashtra,19HLPRM8244V1ZN,NUYTR5649Q,+91 9851230518,contact@itcfmcg.com
+client_23,ITC Logistics,client,Nashik,Karnataka,31IUDBZ2193O1Z0,XOSJK3417U,+91 9953315788,contact@itclogistics.com
+client_24,Adani Retail,client,Ludhiana,Odisha,17EYNBG2988O1ZI,URZPY8251T,+91 9168005699,contact@adaniretail.com
+client_25,Godrej Infra,client,Noida,Jammu & Kashmir,24GGQTN4919I1Z2,CHHIO3267E,+91 7993260504,contact@godrejinfra.com
+client_26,Godrej Cements,client,Bhubaneswar,Telangana,12KIMBV7381Y1ZB,WTJAJ7389N,+91 9311639723,contact@godrejcements.com
+client_27,L&T Industries,client,Chennai,Karnataka,18LAIRK3704O1ZI,ZNXPR2375U,+91 8840877826,contact@l&tindustries.com
+client_28,Tata Infra,client,Noida,Delhi,18JFITJ7906I1ZF,MTBYF2124Y,+91 9799264931,contact@tatainfra.com
+client_29,Adani Steel,client,Jaipur,Telangana,36ADDRO4571O1ZQ,TEPTC3683J,+91 7464280597,contact@adanisteel.com
+client_30,ITC Steel,client,Surat,Jharkhand,22YFPVG5941V1ZH,UOBNR2129Q,+91 9781177100,contact@itcsteel.com
+client_31,Jindal Steel,client,Hyderabad,Jammu & Kashmir,13LJXLD3885X1Z7,ZHVNM8136X,+91 9544659112,contact@jindalsteel.com
+client_32,Mahindra Logistics,client,Jaipur,Haryana,18WGMPJ1470P1ZU,EFUIW5526R,+91 7043598698,contact@mahindralogistics.com
+client_33,L&T Industries,client,Nashik,Karnataka,33KOGMS8342Z1ZB,CFRHP8753R,+91 9280292341,contact@l&tindustries.com
+client_34,Jindal Power,client,Chandigarh,Uttar Pradesh,21SHGDF2958X1Z8,YRETH9595T,+91 8215470157,contact@jindalpower.com
+client_35,Reliance Industries,client,Surat,Karnataka,21EANHZ5786W1ZI,QTCAH8843O,+91 8463320861,contact@relianceindustries.com
+client_36,Tata Steel,client,Ahmedabad,Jammu & Kashmir,13VKBQB3444Z1ZT,CGOKP4697Y,+91 9244431947,contact@tatasteel.com
+client_37,Godrej Infra,client,Bengaluru,West Bengal,37PLOBY2625Y1ZN,QGCGO3564A,+91 8754569613,contact@godrejinfra.com
+client_38,Bajaj Infra,client,Surat,Delhi,17HHWBG5334Z1ZM,LOQXV2169B,+91 7712632936,contact@bajajinfra.com
+client_39,Mahindra FMCG,client,Bengaluru,Rajasthan,24RSYNM2317T1ZC,XTPAF1339Y,+91 9887427412,contact@mahindrafmcg.com
+client_40,Mahindra Steel,client,Ludhiana,Madhya Pradesh,25NLHZL9056C1Z4,JIRWI9117J,+91 9845774616,contact@mahindrasteel.com
+client_41,Godrej Steel,client,Bengaluru,Haryana,20GDUWV1018V1Z8,MBNQM8242Y,+91 7221670908,contact@godrejsteel.com
+client_42,Birla FMCG,client,Kolkata,Gujarat,19LSDZP4920W1ZK,IAKFV2858O,+91 7504513251,contact@birlafmcg.com
+client_43,Tata Infra,client,Bhubaneswar,West Bengal,26SKMML3369M1ZM,XNWWH7798K,+91 9180716723,contact@tatainfra.com
+client_44,Mahindra Steel,client,Surat,West Bengal,36PZMDO6654K1Z9,TJYWZ4912S,+91 8644847276,contact@mahindrasteel.com
+client_45,Birla Power,client,Pune,Uttar Pradesh,33MXJZU3492P1ZC,DZICV2633Q,+91 8962491159,contact@birlapower.com
+client_46,Adani Cements,client,Hyderabad,Gujarat,12MZISQ6383V1Z8,JISTW1588T,+91 7293864877,contact@adanicements.com
+client_47,Birla FMCG,client,Jaipur,Haryana,23ZTSCE5906A1ZC,IBJLG7751S,+91 9928310291,contact@birlafmcg.com
+client_48,Tata Cements,client,Noida,Haryana,29WQGXD8555U1ZQ,LRXMH9955F,+91 7317234448,contact@tatacements.com
+client_49,Bajaj Logistics,client,Lucknow,West Bengal,30ZRLHZ8916D1ZP,JJHSA7484I,+91 7034780500,contact@bajajlogistics.com
+client_50,ITC Steel,client,Kanpur,Jammu & Kashmir,36XHUPJ4115T1ZQ,RSRVQ1645J,+91 8893321208,contact@itcsteel.com
+client_51,Adani Logistics,client,Chandigarh,Gujarat,12XIKFU6994Q1Z6,XVGVM5835X,+91 8454770940,contact@adanilogistics.com
+client_52,Reliance Infra,client,Nashik,Gujarat,34ZWSZZ6992C1ZZ,ANLRR7242U,+91 8595467139,contact@relianceinfra.com
+client_53,Reliance Industries,client,Chennai,Maharashtra,29WOXFB8606W1ZT,QDBAZ2902D,+91 8008458444,contact@relianceindustries.com
+client_54,L&T Cements,client,Bhopal,Punjab,21RTYKT3531N1ZG,VQYHR4559O,+91 8909954149,contact@l&tcements.com
+client_55,Birla Logistics,client,Nagpur,Bihar,27XQBHZ8450C1ZN,QPAUG3063Z,+91 9424843951,contact@birlalogistics.com
+client_56,Birla Retail,client,Ludhiana,Telangana,28FWIDX1046I1ZJ,ZOUCW3159A,+91 8538638860,contact@birlaretail.com
+client_57,Birla Logistics,client,Mumbai,Madhya Pradesh,18BTNTM6931Q1ZG,LFPSX9543J,+91 8967277638,contact@birlalogistics.com
+client_58,Adani Steel,client,Chennai,Jharkhand,23RMXBC3430C1ZI,HQOIZ9692J,+91 8948692883,contact@adanisteel.com
+client_59,L&T Power,client,Nagpur,Rajasthan,37RWOWL4743N1ZV,VKSII5176L,+91 7655579180,contact@l&tpower.com
+client_60,Bajaj Retail,client,Nashik,Haryana,12LTJDB6400V1ZH,KWYKX1842J,+91 9578741716,contact@bajajretail.com
+client_61,Mahindra Logistics,client,Nagpur,Telangana,14RFCVJ5564S1ZO,UVZVP1430T,+91 9825363606,contact@mahindralogistics.com
+client_62,Mahindra Steel,client,Noida,Tamil Nadu,32TXJED7566C1ZJ,TZCNJ8432K,+91 7676067682,contact@mahindrasteel.com
+client_63,Jindal FMCG,client,Chandigarh,Uttar Pradesh,34YPWET1815V1ZF,HRMLH9394D,+91 8482506118,contact@jindalfmcg.com
+client_64,Godrej Retail,client,Surat,Jammu & Kashmir,26RBKPA5938G1ZI,THDML3116M,+91 9287423767,contact@godrejretail.com
+client_65,Birla Logistics,client,Nashik,Jharkhand,37TLLCI8033S1ZZ,SKCAI8538W,+91 8554145481,contact@birlalogistics.com
+client_66,Reliance Power,client,Nagpur,Karnataka,23PNKII6456Y1ZK,BQNFU6752X,+91 9772156452,contact@reliancepower.com
+client_67,Tata Industries,client,Nagpur,Gujarat,18FPTRE9095O1Z2,RWQZI6179E,+91 8888766939,contact@tataindustries.com
+client_68,Reliance Infra,client,Bengaluru,West Bengal,35HBNIL1932L1ZS,BWWPN8581S,+91 9380770668,contact@relianceinfra.com
+client_69,Adani Infra,client,Jammu,Telangana,20PNYLV6626W1ZF,NEGLL9564T,+91 7681809785,contact@adaniinfra.com
+client_70,Jindal Logistics,client,Surat,Jharkhand,23URBQI6401D1Z9,RHSRX3463K,+91 7350048353,contact@jindallogistics.com
+client_71,ITC Cements,client,Indore,West Bengal,30SKPYI7171U1ZV,VRVTR9624C,+91 9774655465,contact@itccements.com
+client_72,Godrej Logistics,client,Mumbai,Bihar,19EFYMF3253E1ZE,HUNOT9626B,+91 9842964443,contact@godrejlogistics.com
+client_73,Jindal Cements,client,Kanpur,Jharkhand,14EVUVE8170B1Z0,JSZPT8355H,+91 9293560436,contact@jindalcements.com
+client_74,Birla FMCG,client,Jammu,Jammu & Kashmir,36FROLU7256Q1Z7,KEFPW1854U,+91 9064121137,contact@birlafmcg.com
+client_75,Jindal Retail,client,Bhubaneswar,Rajasthan,19CELNV2502H1Z2,XYKKJ7326C,+91 8610237679,contact@jindalretail.com
+client_76,Birla Steel,client,Vadodara,Rajasthan,36SIDAX8740W1ZI,TMPXA4533E,+91 9357096258,contact@birlasteel.com
+client_77,ITC Power,client,Nagpur,West Bengal,17HBKUL2816P1Z8,ANGDL6780H,+91 9450982005,contact@itcpower.com
+client_78,Godrej Cements,client,Ranchi,Haryana,26ZBNNZ1333M1Z4,BKJTJ2106L,+91 8035627944,contact@godrejcements.com
+client_79,Reliance Logistics,client,Delhi,Delhi,21OVEUM8840U1ZL,VBULH1717Z,+91 7856716405,contact@reliancelogistics.com
+client_80,Adani Logistics,client,Surat,Jharkhand,36OGTEJ1783U1ZV,HULKL7334K,+91 7802373824,contact@adanilogistics.com
+vendor_fuel_1,Reliance Petroleum Bhubaneswar,vendor_fuel,Chennai,Bihar,35NUSCP3956R1ZS,ICRHP7981F,+91 9962517290,station@reliancepetroleumbhubaneswar.com
+vendor_fuel_2,Reliance Petroleum Indore,vendor_fuel,Bengaluru,Delhi,33WJZHZ1939C1ZZ,JURYD8179B,+91 7542153826,station@reliancepetroleumindore.com
+vendor_fuel_3,IndianOil Jaipur,vendor_fuel,Ludhiana,Bihar,21JOPRY7095O1ZE,ONKQG2858A,+91 7799070274,station@indianoiljaipur.com
+vendor_fuel_4,Reliance Petroleum Coimbatore,vendor_fuel,Bhopal,Rajasthan,18USFPS9047G1ZH,DBESZ6236V,+91 8492180259,station@reliancepetroleumcoimbatore.com
+vendor_fuel_5,Shell India Nashik,vendor_fuel,Kolkata,West Bengal,19WSYQU9335H1ZH,ZUGMJ7044O,+91 9369305560,station@shellindianashik.com
+vendor_fuel_6,Bharat Petroleum Kanpur,vendor_fuel,Nashik,Haryana,19KSMKK2208E1ZU,QLRIW3981Y,+91 7554192345,station@bharatpetroleumkanpur.com
+vendor_fuel_7,Reliance Petroleum Coimbatore,vendor_fuel,Pune,Rajasthan,26DEISI9501J1ZF,GQODH9740C,+91 9158535229,station@reliancepetroleumcoimbatore.com
+vendor_fuel_8,Shell India Noida,vendor_fuel,Lucknow,Gujarat,15RSPVO1464C1ZC,YUGFO1496P,+91 9693648923,station@shellindianoida.com
+vendor_fuel_9,Nayara Energy Surat,vendor_fuel,Patna,West Bengal,25GUKLR3589O1Z0,MFPIS6658M,+91 7561636336,station@nayaraenergysurat.com
+vendor_fuel_10,HP Coimbatore,vendor_fuel,Kolkata,Rajasthan,20GDLDB7293T1Z0,GWEIP6123G,+91 7684370461,station@hpcoimbatore.com
+vendor_fuel_11,Reliance Petroleum Coimbatore,vendor_fuel,Bengaluru,Jammu & Kashmir,19MCKLG6781B1ZD,HPVRH1133D,+91 8850820685,station@reliancepetroleumcoimbatore.com
+vendor_fuel_12,Bharat Petroleum Ahmedabad,vendor_fuel,Chandigarh,Bihar,34KBBOJ5728C1ZY,NTHZR2946E,+91 7415243819,station@bharatpetroleumahmedabad.com
+vendor_fuel_13,Reliance Petroleum Indore,vendor_fuel,Jammu,Uttar Pradesh,27YTFNN1742B1ZI,SUNDX3290K,+91 9633107545,station@reliancepetroleumindore.com
+vendor_fuel_14,HP Noida,vendor_fuel,Bhopal,West Bengal,28IVNSH1272L1ZV,RZPUS1436T,+91 9038349447,station@hpnoida.com
+vendor_fuel_15,HP Patna,vendor_fuel,Jammu,Karnataka,33BMNSU7229E1ZP,AYCAI3481N,+91 9965676060,station@hppatna.com
+vendor_fuel_16,Bharat Petroleum Hyderabad,vendor_fuel,Coimbatore,Jammu & Kashmir,37WSSNO8837Q1ZY,IEXIJ5331T,+91 9079537716,station@bharatpetroleumhyderabad.com
+vendor_fuel_17,Bharat Petroleum Jaipur,vendor_fuel,Ahmedabad,West Bengal,17YZUSR9011K1Z4,JYUHD9899M,+91 8694503971,station@bharatpetroleumjaipur.com
+vendor_fuel_18,HP Ludhiana,vendor_fuel,Jammu,Gujarat,19BYCYR8849G1ZM,VHOHC4920H,+91 7218035843,station@hpludhiana.com
+vendor_fuel_19,Shell India Coimbatore,vendor_fuel,Jaipur,Karnataka,11CIMRD3587N1Z4,MFZIQ2465U,+91 9465883999,station@shellindiacoimbatore.com
+vendor_fuel_20,Bharat Petroleum Kolkata,vendor_fuel,Chandigarh,Delhi,15KVYAV9116F1ZS,WAOCZ5662O,+91 9754415831,station@bharatpetroleumkolkata.com
+vendor_fuel_21,Nayara Energy Coimbatore,vendor_fuel,Chennai,Gujarat,37NHVIT5215W1ZL,AIHRF7643N,+91 9213113588,station@nayaraenergycoimbatore.com
+vendor_fuel_22,HP Nashik,vendor_fuel,Bhopal,Rajasthan,15ZMYAJ8319Y1ZR,YHSAQ4871B,+91 9868119543,station@hpnashik.com
+vendor_fuel_23,IndianOil Bengaluru,vendor_fuel,Surat,Madhya Pradesh,22RYXUR5833L1ZO,FDDTP7813W,+91 9358944233,station@indianoilbengaluru.com
+vendor_fuel_24,Reliance Petroleum Ludhiana,vendor_fuel,Kolkata,Telangana,34GTWCL6927C1ZH,BONOD6375Q,+91 8897690739,station@reliancepetroleumludhiana.com
+vendor_fuel_25,IndianOil Ranchi,vendor_fuel,Gurugram,Jammu & Kashmir,12XLBDK1945R1Z3,RIAGA4570S,+91 7313659437,station@indianoilranchi.com
+vendor_fuel_26,IndianOil Hyderabad,vendor_fuel,Indore,Haryana,27ZYBYA7698F1ZI,TZQKZ7266O,+91 8621334484,station@indianoilhyderabad.com
+vendor_fuel_27,Reliance Petroleum Nashik,vendor_fuel,Ranchi,Gujarat,30WDZKD4648A1ZB,ZMSLJ4762H,+91 8978370498,station@reliancepetroleumnashik.com
+vendor_fuel_28,HP Delhi,vendor_fuel,Ahmedabad,Telangana,33TARPY1256H1ZN,BPLRW5009X,+91 7189995314,station@hpdelhi.com
+vendor_fuel_29,Reliance Petroleum Bengaluru,vendor_fuel,Jaipur,Telangana,34WBNHV6224S1ZU,GWZNK5508B,+91 9391086093,station@reliancepetroleumbengaluru.com
+vendor_fuel_30,Nayara Energy Chandigarh,vendor_fuel,Noida,Odisha,27MZYRU6222W1Z0,KHENG4692J,+91 7619986018,station@nayaraenergychandigarh.com
+vendor_fuel_31,Reliance Petroleum Pune,vendor_fuel,Kolkata,Odisha,23ODGFQ8369L1ZF,NVBJP1647C,+91 7808155185,station@reliancepetroleumpune.com
+vendor_fuel_32,Nayara Energy Chandigarh,vendor_fuel,Ranchi,Telangana,25FXHXF4113X1ZH,TTXSS7498H,+91 9371162526,station@nayaraenergychandigarh.com
+vendor_fuel_33,HP Ludhiana,vendor_fuel,Surat,Jharkhand,24NJGNM2615Z1Z4,TIFIB4625X,+91 7626733282,station@hpludhiana.com
+vendor_fuel_34,IndianOil Ahmedabad,vendor_fuel,Kolkata,Odisha,19DIJVM6530I1Z5,ZQMEU3773E,+91 9347398593,station@indianoilahmedabad.com
+vendor_fuel_35,Reliance Petroleum Noida,vendor_fuel,Kolkata,Delhi,26AWYRT7756E1ZO,BDFLB8916V,+91 9095318649,station@reliancepetroleumnoida.com
+vendor_fuel_36,IndianOil Mumbai,vendor_fuel,Kolkata,Odisha,10ASNHN8054Z1ZL,CCDEN6807I,+91 8704657157,station@indianoilmumbai.com
+vendor_fuel_37,IndianOil Indore,vendor_fuel,Bhopal,Punjab,28GSHVC1519C1ZZ,JOBAE9189N,+91 9769855512,station@indianoilindore.com
+vendor_fuel_38,HP Lucknow,vendor_fuel,Nagpur,Delhi,17FWXMB2218V1ZR,XOAYI4394S,+91 7619298045,station@hplucknow.com
+vendor_fuel_39,Shell India Bhopal,vendor_fuel,Nashik,West Bengal,15OOWRO7288Y1ZI,URCTI2600N,+91 7997050893,station@shellindiabhopal.com
+vendor_fuel_40,IndianOil Vadodara,vendor_fuel,Kanpur,Jharkhand,34IQULF7150N1ZL,RRCQU2204C,+91 8150931110,station@indianoilvadodara.com
+vendor_fuel_41,Bharat Petroleum Bhopal,vendor_fuel,Bhubaneswar,Gujarat,33KJCYL5419D1ZI,CLONC2468L,+91 9380355948,station@bharatpetroleumbhopal.com
+vendor_fuel_42,IndianOil Kanpur,vendor_fuel,Kanpur,Uttar Pradesh,37KHKCX4977S1Z7,EJDHM2036F,+91 8866920369,station@indianoilkanpur.com
+vendor_fuel_43,HP Hyderabad,vendor_fuel,Surat,Jammu & Kashmir,35BGGQP4203O1ZG,DAKVJ6399O,+91 8437681124,station@hphyderabad.com
+vendor_fuel_44,Reliance Petroleum Patna,vendor_fuel,Kanpur,Gujarat,19IYFIZ6228J1Z5,ZUIHU6980D,+91 9421719519,station@reliancepetroleumpatna.com
+vendor_fuel_45,Bharat Petroleum Lucknow,vendor_fuel,Kolkata,Madhya Pradesh,31TASYF5773W1ZE,VUKMQ4965I,+91 9828935922,station@bharatpetroleumlucknow.com
+vendor_fuel_46,Bharat Petroleum Bhubaneswar,vendor_fuel,Hyderabad,Jharkhand,12LPPNY7853R1ZC,UJXNQ2392D,+91 8066143895,station@bharatpetroleumbhubaneswar.com
+vendor_fuel_47,Shell India Ranchi,vendor_fuel,Indore,Madhya Pradesh,30POQQZ6432Z1Z1,CCFTO4621O,+91 8606831312,station@shellindiaranchi.com
+vendor_fuel_48,Reliance Petroleum Bengaluru,vendor_fuel,Ludhiana,Gujarat,21ZMHXC3321L1ZT,IUNJC8412K,+91 7288511612,station@reliancepetroleumbengaluru.com
+vendor_fuel_49,HP Pune,vendor_fuel,Jammu,Rajasthan,10WQREZ4996Q1ZL,OILMU4022F,+91 9750835809,station@hppune.com
+vendor_fuel_50,Shell India Hyderabad,vendor_fuel,Bhopal,Maharashtra,33PFPKS4371I1ZE,PUNJF2867I,+91 9880640679,station@shellindiahyderabad.com
+vendor_maint_1,Local Garage Coimbatore,vendor_maint,Patna,Uttar Pradesh,29KKCJL3826V1ZT,XPRIG2916F,+91 8603337351,garage@localgaragecoimbatore.com
+vendor_maint_2,MyTVS Coimbatore,vendor_maint,Bhopal,Odisha,29DJEQS3838R1ZK,MDILB6882A,+91 9081379485,garage@mytvscoimbatore.com
+vendor_maint_3,MyTVS Gurugram,vendor_maint,Bhopal,Jammu & Kashmir,23RKVMC1505Z1ZO,HHNEL9115R,+91 9193894984,garage@mytvsgurugram.com
+vendor_maint_4,TVS Automobile Solutions Lucknow,vendor_maint,Nagpur,Tamil Nadu,34OZOTT8231R1ZN,ZCVTH1528O,+91 8128782794,garage@tvsautomobilesolutionslucknow.com
+vendor_maint_5,Bosch Car Service Nashik,vendor_maint,Bengaluru,Rajasthan,34VFTRW8015F1ZI,UVUON9827F,+91 8390081665,garage@boschcarservicenashik.com
+vendor_maint_6,Bosch Car Service Surat,vendor_maint,Lucknow,Tamil Nadu,37NXVDT7743B1ZR,WDWGS5055Y,+91 9904405303,garage@boschcarservicesurat.com
+vendor_maint_7,Local Garage Chennai,vendor_maint,Delhi,Tamil Nadu,30KLQWC9447X1ZR,SWLMP2526X,+91 8969024554,garage@localgaragechennai.com
+vendor_maint_8,Bosch Car Service Nashik,vendor_maint,Jammu,Jharkhand,16ZVMIH9967S1ZI,OMIRB2631U,+91 8973888646,garage@boschcarservicenashik.com
+vendor_maint_9,TVS Automobile Solutions Nagpur,vendor_maint,Noida,Punjab,24AYFRD5945F1ZR,CJCRQ1848M,+91 9686949912,garage@tvsautomobilesolutionsnagpur.com
+vendor_maint_10,Bosch Car Service Chandigarh,vendor_maint,Bhubaneswar,Karnataka,23RSAMD4705Q1Z2,ASVZK3165P,+91 7304205279,garage@boschcarservicechandigarh.com
+vendor_maint_11,MyTVS Bhopal,vendor_maint,Nashik,Rajasthan,13IWDUT3181U1ZJ,BOPEJ4490U,+91 7650146942,garage@mytvsbhopal.com
+vendor_maint_12,Local Garage Kanpur,vendor_maint,Ranchi,Punjab,37FXDDS6759N1ZU,UGQGP5668Y,+91 9965572185,garage@localgaragekanpur.com
+vendor_maint_13,TVS Automobile Solutions Ranchi,vendor_maint,Surat,Telangana,26PEKQU4921P1ZY,CMPNZ6916K,+91 7566862173,garage@tvsautomobilesolutionsranchi.com
+vendor_maint_14,Local Garage Lucknow,vendor_maint,Hyderabad,Bihar,27RTYUA2106A1ZQ,FXYKH9209Y,+91 8784266819,garage@localgaragelucknow.com
+vendor_maint_15,Local Garage Bhubaneswar,vendor_maint,Bhopal,Haryana,30NQHIN4329Z1ZJ,NKQVR2083J,+91 8878988236,garage@localgaragebhubaneswar.com
+vendor_maint_16,MyTVS Pune,vendor_maint,Jaipur,Haryana,23DPBRR3877D1ZA,SSEYN5247F,+91 8597167064,garage@mytvspune.com
+vendor_maint_17,MyTVS Chandigarh,vendor_maint,Ludhiana,Tamil Nadu,33XUAUH2046I1ZE,MNBWE3577I,+91 7441973220,garage@mytvschandigarh.com
+vendor_maint_18,Authorized Service Center Ranchi,vendor_maint,Chandigarh,Rajasthan,17TAWAB6963M1ZJ,EYAUS7870H,+91 8382129132,garage@authorizedservicecenterranchi.com
+vendor_maint_19,MyTVS Hyderabad,vendor_maint,Chandigarh,Uttar Pradesh,18VODRB4656Z1Z7,ZYBMH6090K,+91 7371022983,garage@mytvshyderabad.com
+vendor_maint_20,Authorized Service Center Bengaluru,vendor_maint,Mumbai,Bihar,16HUTGJ9083Y1ZM,TOUDY1391H,+91 9325918921,garage@authorizedservicecenterbengaluru.com
+vendor_maint_21,Bosch Car Service Patna,vendor_maint,Bhubaneswar,Maharashtra,20ARWSC9680H1Z0,MBZSC4792Q,+91 8774065466,garage@boschcarservicepatna.com
+vendor_maint_22,Bosch Car Service Bengaluru,vendor_maint,Chandigarh,Haryana,28CDVBO8126V1ZI,GGIUS6345K,+91 8944580162,garage@boschcarservicebengaluru.com
+vendor_maint_23,Bosch Car Service Jaipur,vendor_maint,Nashik,Telangana,14UPEEM7660D1Z8,JULMW2481F,+91 9946583125,garage@boschcarservicejaipur.com
+vendor_maint_24,Bosch Car Service Bhubaneswar,vendor_maint,Bhubaneswar,Delhi,16VICGJ9412B1ZT,GZAKL5093D,+91 8984460654,garage@boschcarservicebhubaneswar.com
+vendor_maint_25,TVS Automobile Solutions Jammu,vendor_maint,Jammu,Gujarat,13AVZDV7098V1ZF,PGVAB8265Z,+91 7553155490,garage@tvsautomobilesolutionsjammu.com
+vendor_maint_26,TVS Automobile Solutions Jammu,vendor_maint,Vadodara,Rajasthan,11YBYLS9128A1ZY,REFEH3435B,+91 9637567649,garage@tvsautomobilesolutionsjammu.com
+vendor_maint_27,Authorized Service Center Kanpur,vendor_maint,Jaipur,West Bengal,25KOBHD4267U1Z7,GZOAJ6883P,+91 9338686158,garage@authorizedservicecenterkanpur.com
+vendor_maint_28,Local Garage Indore,vendor_maint,Lucknow,Uttar Pradesh,22HAPAV5602B1Z4,NTZZC4951I,+91 9292179207,garage@localgarageindore.com
+vendor_maint_29,TVS Automobile Solutions Ludhiana,vendor_maint,Jaipur,Jharkhand,21YZEGI6878S1ZB,SJODY9064R,+91 8327372855,garage@tvsautomobilesolutionsludhiana.com
+vendor_maint_30,MyTVS Chennai,vendor_maint,Pune,Haryana,11GFNAX4300Z1ZI,IEUWB3420S,+91 7608393560,garage@mytvschennai.com
+vendor_maint_31,TVS Automobile Solutions Coimbatore,vendor_maint,Indore,Haryana,21SRPII3580X1Z1,UYQEZ6846H,+91 9858436754,garage@tvsautomobilesolutionscoimbatore.com
+vendor_maint_32,Authorized Service Center Noida,vendor_maint,Bhopal,West Bengal,33RDSYY7415Y1ZC,EIVPQ2705P,+91 7604058666,garage@authorizedservicecenternoida.com
+vendor_maint_33,Bosch Car Service Chandigarh,vendor_maint,Nashik,Karnataka,21ZEXCS6500O1ZA,GGBGC1020B,+91 8657587204,garage@boschcarservicechandigarh.com
+vendor_maint_34,Local Garage Chandigarh,vendor_maint,Hyderabad,Madhya Pradesh,23MJOCM4695F1Z2,BVHIY2215K,+91 7730596287,garage@localgaragechandigarh.com
+vendor_maint_35,Local Garage Noida,vendor_maint,Chandigarh,Haryana,27YZIZX1507N1ZK,PLBIZ7705W,+91 9379894770,garage@localgaragenoida.com
+vendor_maint_36,Authorized Service Center Ahmedabad,vendor_maint,Ranchi,West Bengal,19GBOVD6911A1Z1,CVQMC4390F,+91 9741008001,garage@authorizedservicecenterahmedabad.com
+vendor_maint_37,Bosch Car Service Nashik,vendor_maint,Chennai,Rajasthan,19UMXGQ7349F1ZX,XJLGM4706I,+91 9423420650,garage@boschcarservicenashik.com
+vendor_maint_38,TVS Automobile Solutions Delhi,vendor_maint,Ludhiana,Rajasthan,12RVKTF1999M1Z7,KNWMW8803J,+91 7339109365,garage@tvsautomobilesolutionsdelhi.com
+vendor_maint_39,Local Garage Bhubaneswar,vendor_maint,Pune,Gujarat,13YLYEF4157E1ZC,LZLZQ5225K,+91 7287814151,garage@localgaragebhubaneswar.com
+vendor_maint_40,TVS Automobile Solutions Bhopal,vendor_maint,Kolkata,Jharkhand,27IHLWU9561Z1Z0,CDOPZ2641D,+91 9416708343,garage@tvsautomobilesolutionsbhopal.com
+vendor_maint_41,TVS Automobile Solutions Jammu,vendor_maint,Surat,Bihar,23GROME7602E1ZZ,BXIGT5400L,+91 7086899610,garage@tvsautomobilesolutionsjammu.com
+vendor_maint_42,Bosch Car Service Jammu,vendor_maint,Surat,West Bengal,18VWRZF5923X1Z2,UISPC8237G,+91 8748783374,garage@boschcarservicejammu.com
+vendor_maint_43,Local Garage Ludhiana,vendor_maint,Coimbatore,Bihar,36BUBSK9589S1ZB,EWFBA1828L,+91 7855169963,garage@localgarageludhiana.com
+vendor_maint_44,Bosch Car Service Indore,vendor_maint,Bengaluru,Jharkhand,30XRGML8775S1Z9,JEXTR5670A,+91 8660286914,garage@boschcarserviceindore.com
+vendor_maint_45,TVS Automobile Solutions Noida,vendor_maint,Lucknow,Telangana,37FFFQN1145P1ZI,QPAGU6004W,+91 9760548616,garage@tvsautomobilesolutionsnoida.com
+vendor_maint_46,Bosch Car Service Hyderabad,vendor_maint,Bhopal,Bihar,24GMRVK2676A1Z6,ZZVOP5631J,+91 9939532043,garage@boschcarservicehyderabad.com
+vendor_maint_47,TVS Automobile Solutions Chennai,vendor_maint,Nashik,Uttar Pradesh,18QWGSX5895G1ZJ,NGBWV7620V,+91 8372610291,garage@tvsautomobilesolutionschennai.com
+vendor_maint_48,MyTVS Chandigarh,vendor_maint,Mumbai,Jammu & Kashmir,19GKKAS4111K1ZO,RQMYJ5918F,+91 9824433548,garage@mytvschandigarh.com
+vendor_maint_49,Authorized Service Center Noida,vendor_maint,Surat,Rajasthan,25DGVTE6499U1ZF,FFWKX7089I,+91 9515006996,garage@authorizedservicecenternoida.com
+vendor_maint_50,Bosch Car Service Bengaluru,vendor_maint,Nagpur,Jammu & Kashmir,11WPYBX9199D1ZY,NKWDZ6614N,+91 9445569788,garage@boschcarservicebengaluru.com
+vendor_gen_1,Verma Enterprises,vendor_general,Delhi,Uttar Pradesh,37SUMQE1950A1Z2,HTETM2442E,+91 9639170397,info@vermaenterprises.com
+vendor_gen_2,Joshi Enterprises,vendor_general,Patna,Odisha,22LMANS1230K1Z7,ERQGS6641J,+91 7553753599,info@joshienterprises.com
+vendor_gen_3,Patil Enterprises,vendor_general,Bhopal,West Bengal,15BBYLN9587K1Z1,XZIXJ4087F,+91 8732553940,info@patilenterprises.com
+vendor_gen_4,Sharma Enterprises,vendor_general,Jaipur,Karnataka,33ZFAND1612M1ZQ,UQPBC1323B,+91 9962452613,info@sharmaenterprises.com
+vendor_gen_5,Patil Enterprises,vendor_general,Hyderabad,Punjab,22DGSFR1152J1Z0,RRHPD2718Q,+91 9652992543,info@patilenterprises.com
+vendor_gen_6,Patil Enterprises,vendor_general,Surat,Rajasthan,35CFFGN4304L1Z0,HBMFY6416H,+91 7011759631,info@patilenterprises.com
+vendor_gen_7,Sharma Enterprises,vendor_general,Ranchi,Haryana,13VRDCN2659I1ZO,LZGBV1646J,+91 8547110201,info@sharmaenterprises.com
+vendor_gen_8,Reddy Enterprises,vendor_general,Ranchi,Uttar Pradesh,23TCTBW3793K1ZW,XYGTJ6615F,+91 7488904732,info@reddyenterprises.com
+vendor_gen_9,Joshi Enterprises,vendor_general,Bhopal,Punjab,18VRMKX3732D1ZI,SBYEK8908Z,+91 9443593434,info@joshienterprises.com
+vendor_gen_10,Rathore Enterprises,vendor_general,Bengaluru,Madhya Pradesh,29JJARV3140P1Z5,CKBGI9598Y,+91 9476688619,info@rathoreenterprises.com
+vendor_gen_11,Nair Enterprises,vendor_general,Lucknow,Karnataka,31WNRQL5072P1ZW,RQDVX1894A,+91 9763376419,info@nairenterprises.com
+vendor_gen_12,Deshmukh Enterprises,vendor_general,Coimbatore,Jammu & Kashmir,37METII5557B1Z6,FQKGL8341C,+91 9140852855,info@deshmukhenterprises.com
+vendor_gen_13,Verma Enterprises,vendor_general,Vadodara,Rajasthan,25TAKAO2489Z1ZT,XORLI1889H,+91 8951890759,info@vermaenterprises.com
+vendor_gen_14,Gupta Enterprises,vendor_general,Kolkata,Jammu & Kashmir,32RSCTF6592L1ZS,OJCXM7704D,+91 8092164263,info@guptaenterprises.com
+vendor_gen_15,Yadav Enterprises,vendor_general,Gurugram,Telangana,13YKLUS2765Y1Z0,BQRDX8493V,+91 9531093634,info@yadaventerprises.com
+vendor_gen_16,Chauhan Enterprises,vendor_general,Delhi,Jammu & Kashmir,10NBYVM9328Y1ZL,REVCR6273Q,+91 8652113468,info@chauhanenterprises.com
+vendor_gen_17,Joshi Enterprises,vendor_general,Kanpur,Karnataka,18KIHUD9393J1Z9,WSYQF5760V,+91 8483024614,info@joshienterprises.com
+vendor_gen_18,Rathore Enterprises,vendor_general,Delhi,Madhya Pradesh,26OQSTO7839V1Z8,HWVNA3381B,+91 9878719791,info@rathoreenterprises.com
+vendor_gen_19,Sharma Enterprises,vendor_general,Gurugram,Tamil Nadu,34UZRDB5835G1Z8,AVCWT4675X,+91 9779356860,info@sharmaenterprises.com
+vendor_gen_20,Chauhan Enterprises,vendor_general,Bhopal,Karnataka,26UUHRY7349N1ZU,ZBTFW8259H,+91 9722100861,info@chauhanenterprises.com
+vendor_gen_21,Nair Enterprises,vendor_general,Bhubaneswar,Bihar,34PTFSF8353F1ZE,EENJL5329E,+91 7691184145,info@nairenterprises.com
+vendor_gen_22,Yadav Enterprises,vendor_general,Ahmedabad,Maharashtra,20MYBYP5934P1Z9,JUIFE2117Z,+91 9169561289,info@yadaventerprises.com
+vendor_gen_23,Deshmukh Enterprises,vendor_general,Hyderabad,Jharkhand,12JWRIH9691P1Z9,VZARL4994B,+91 9931535772,info@deshmukhenterprises.com
+vendor_gen_24,Gupta Enterprises,vendor_general,Bhopal,Rajasthan,22GSANU9426Z1Z6,LBXFN2572F,+91 9310584302,info@guptaenterprises.com
+vendor_gen_25,Chauhan Enterprises,vendor_general,Mumbai,Haryana,16RUWLC9810W1Z1,QYTDL6434B,+91 7375899416,info@chauhanenterprises.com
+vendor_gen_26,Patil Enterprises,vendor_general,Pune,Madhya Pradesh,35GBVXK8391U1ZZ,LARNQ2036Y,+91 9515167269,info@patilenterprises.com
+vendor_gen_27,Sharma Enterprises,vendor_general,Bhubaneswar,Haryana,21YCUHC8170M1ZZ,VAEFT9941J,+91 9723205427,info@sharmaenterprises.com
+vendor_gen_28,Deshmukh Enterprises,vendor_general,Surat,Bihar,10OODAP9800R1ZF,HTXIK9397E,+91 7691293717,info@deshmukhenterprises.com
+vendor_gen_29,Deshmukh Enterprises,vendor_general,Jaipur,Tamil Nadu,16CROBT9992O1Z9,BRGFP6420L,+91 7550679848,info@deshmukhenterprises.com
+vendor_gen_30,Rathore Enterprises,vendor_general,Patna,Karnataka,13HBFMI6008W1ZJ,OJILA5033Z,+91 7951445658,info@rathoreenterprises.com
+vendor_gen_31,Nair Enterprises,vendor_general,Chandigarh,Odisha,18VDTWM6877Y1ZT,MCQCH3293R,+91 7843668735,info@nairenterprises.com
+vendor_gen_32,Kumar Enterprises,vendor_general,Chandigarh,Haryana,33BANAP7637Y1ZN,XOOZM3435L,+91 8685767569,info@kumarenterprises.com
+vendor_gen_33,Singh Enterprises,vendor_general,Ludhiana,West Bengal,14MNKNR3717Y1Z6,DEOOW3395X,+91 9076631329,info@singhenterprises.com
+vendor_gen_34,Gupta Enterprises,vendor_general,Pune,Karnataka,34MBJBF6918M1Z4,XWBQC9542U,+91 8174653422,info@guptaenterprises.com
+vendor_gen_35,Iyer Enterprises,vendor_general,Chandigarh,Tamil Nadu,28OEQJQ2275Q1ZQ,JXNJW8976Z,+91 9070647070,info@iyerenterprises.com
+vendor_gen_36,Yadav Enterprises,vendor_general,Mumbai,Gujarat,24ECQFE6934T1ZH,RKICR8848G,+91 9537427612,info@yadaventerprises.com
+vendor_gen_37,Deshmukh Enterprises,vendor_general,Patna,Odisha,10GDPDN3406B1ZK,GEYPO1305X,+91 9842173377,info@deshmukhenterprises.com
+vendor_gen_38,Iyer Enterprises,vendor_general,Surat,Haryana,16LZWEV3338Z1ZL,QNERX2127H,+91 8624405402,info@iyerenterprises.com
+vendor_gen_39,Joshi Enterprises,vendor_general,Delhi,Rajasthan,10FWNKD2577F1Z4,XPWNT2526P,+91 9832069709,info@joshienterprises.com
+vendor_gen_40,Deshmukh Enterprises,vendor_general,Kanpur,Maharashtra,34RLKWS8028H1Z4,UJPTT2600N,+91 7575023565,info@deshmukhenterprises.com
+vendor_gen_41,Kumar Enterprises,vendor_general,Chennai,Karnataka,37CPOGA1116S1Z7,DARRI6935D,+91 7664768939,info@kumarenterprises.com
+vendor_gen_42,Joshi Enterprises,vendor_general,Patna,Tamil Nadu,18WLJHR4337N1Z9,UMJOG6024S,+91 8478999069,info@joshienterprises.com
+vendor_gen_43,Reddy Enterprises,vendor_general,Bhubaneswar,Jharkhand,33DWDFU3650D1ZN,NUUPR1852F,+91 8671187564,info@reddyenterprises.com
+vendor_gen_44,Rathore Enterprises,vendor_general,Mumbai,Haryana,36DYLBF2311T1ZC,SYKRH1941Y,+91 7752783751,info@rathoreenterprises.com
+vendor_gen_45,Rathore Enterprises,vendor_general,Chennai,Punjab,10FRUHA9364Q1ZO,PRJRZ2422I,+91 8715554644,info@rathoreenterprises.com
+vendor_gen_46,Gupta Enterprises,vendor_general,Ranchi,Jharkhand,22PNTBC5661X1Z9,XJZHP4187O,+91 8734979825,info@guptaenterprises.com
+vendor_gen_47,Yadav Enterprises,vendor_general,Mumbai,Tamil Nadu,15KCBHY9409I1Z8,VOSZO4985Y,+91 8458831845,info@yadaventerprises.com
+vendor_gen_48,Reddy Enterprises,vendor_general,Bengaluru,Punjab,28WMGJU4610V1ZO,UKJNS5314H,+91 8233899367,info@reddyenterprises.com
+vendor_gen_49,Patil Enterprises,vendor_general,Bhopal,Uttar Pradesh,12OEIFO3994X1ZM,MFTWF4322H,+91 9656853453,info@patilenterprises.com
+vendor_gen_50,Gupta Enterprises,vendor_general,Delhi,Rajasthan,13XRRPT9871B1Z4,JIXWO5501P,+91 7785428658,info@guptaenterprises.com
