@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Menu Hierarchy Configuration
+    ======================================================================
+    Maps act_window declarations to structured menu items.
+    Structure:
+    LogistiX (Root)
+    ├── Dashboard (Placeholder)
+    ├── Operations
+    │      ├── Trips
+    │      ├── Fuel Logs
+    │      ├── Maintenance
+    │      └── Expenses
+    ├── Fleet
+    │      ├── Vehicles
+    │      ├── Drivers
+    │      ├── Vehicle Documents
+    │      └── Driver Documents
+    ├── Notifications
+    ├── Reports (Placeholder)
+    └── Configuration (Placeholder)
+    ======================================================================
+    -->
+
+    <!-- Root Menu -->
+    <menuitem id="menu_logistix_root" 
+              name="LogistiX" 
+              sequence="10"/>
+
+    <!-- 1. Dashboard (Placeholder) -->
+    <menuitem id="menu_logistix_dashboard" 
+              name="Dashboard" 
+              parent="menu_logistix_root" 
+              sequence="10"/>
+
+    <!-- 2. Operations Submenu -->
+    <menuitem id="menu_logistix_operations_parent" 
+              name="Operations" 
+              parent="menu_logistix_root" 
+              sequence="20"/>
+
+    <menuitem id="menu_logistix_trips" 
+              name="Trips" 
+              parent="menu_logistix_operations_parent" 
+              action="action_logistix_trip" 
+              sequence="10"/>
+
+    <menuitem id="menu_logistix_fuel_logs" 
+              name="Fuel Logs" 
+              parent="menu_logistix_operations_parent" 
+              action="action_logistix_fuel_log" 
+              sequence="20"/>
+
+    <menuitem id="menu_logistix_maintenance" 
+              name="Maintenance" 
+              parent="menu_logistix_operations_parent" 
+              action="action_logistix_maintenance" 
+              sequence="30"/>
+
+    <menuitem id="menu_logistix_expenses" 
+              name="Expenses" 
+              parent="menu_logistix_operations_parent" 
+              action="action_logistix_expense" 
+              sequence="40"/>
+
+    <!-- 3. Fleet Submenu -->
+    <menuitem id="menu_logistix_fleet_parent" 
+              name="Fleet" 
+              parent="menu_logistix_root" 
+              sequence="30"/>
+
+    <menuitem id="menu_logistix_vehicles" 
+              name="Vehicles" 
+              parent="menu_logistix_fleet_parent" 
+              action="action_logistix_vehicle" 
+              sequence="10"/>
+
+    <menuitem id="menu_logistix_drivers" 
+              name="Drivers" 
+              parent="menu_logistix_fleet_parent" 
+              action="action_logistix_driver" 
+              sequence="20"/>
+
+    <menuitem id="menu_logistix_vehicle_documents" 
+              name="Vehicle Documents" 
+              parent="menu_logistix_fleet_parent" 
+              action="action_logistix_vehicle_document" 
+              sequence="30"/>
+
+    <menuitem id="menu_logistix_driver_documents" 
+              name="Driver Documents" 
+              parent="menu_logistix_fleet_parent" 
+              action="action_logistix_driver_document" 
+              sequence="40"/>
+
+    <!-- 4. Notifications Menu -->
+    <menuitem id="menu_logistix_notifications" 
+              name="Notifications" 
+              parent="menu_logistix_root" 
+              action="action_logistix_notification" 
+              sequence="40"/>
+
+    <!-- 5. System Audit Logs (Optional/Technical Access inside Notifications or Operations) -->
+    <menuitem id="menu_logistix_audit_logs" 
+              name="Audit Logs" 
+              parent="menu_logistix_root" 
+              action="action_logistix_audit_log" 
+              sequence="50"/>
+
+    <!-- 6. Reports (Placeholder) -->
+    <menuitem id="menu_logistix_reports" 
+              name="Reports" 
+              parent="menu_logistix_root" 
+              sequence="60"/>
+
+    <!-- 7. Configuration (Placeholder) -->
+    <menuitem id="menu_logistix_config" 
+              name="Configuration" 
+              parent="menu_logistix_root" 
+              sequence="70"/>
+</odoo>

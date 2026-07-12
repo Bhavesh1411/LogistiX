@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Graph Views (Analytical Views)
+    ======================================================================
+    Defines analytical visualizations for trips, financial KPIs, and notifications.
+    ======================================================================
+    -->
+
+    <!-- Graph View: logistix.trip (Revenue & Capacity Metrics) -->
+    <record id="view_logistix_trip_graph" model="ir.ui.view">
+        <field name="name">logistix.trip.graph</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <graph string="Trips and Revenue Performance Analysis" type="bar" sample="1">
+                <!-- Grouping by dispatch date (month) or status -->
+                <field name="dispatch_time" interval="month"/>
+                <!-- Multi-axis measures representing key performance indicators -->
+                <field name="revenue" type="measure"/>
+                <field name="distance_km" type="measure"/>
+                <field name="vehicle_capacity_used" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <!-- Graph View: hr.expense (Operational Expense Analysis) -->
+    <record id="view_logistix_expense_graph" model="ir.ui.view">
+        <field name="name">hr.expense.graph.logistix</field>
+        <field name="model">hr.expense</field>
+        <field name="arch" type="xml">
+            <graph string="Operating Expenses Analysis" type="bar" sample="1">
+                <field name="date" interval="month"/>
+                <field name="total_amount" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <!-- Graph View: logistix.notification (Priority Alert Spread) -->
+    <record id="view_logistix_notification_graph" model="ir.ui.view">
+        <field name="name">logistix.notification.graph</field>
+        <field name="model">logistix.notification</field>
+        <field name="arch" type="xml">
+            <graph string="System Alert Distribution" type="pie" sample="1">
+                <field name="priority"/>
+            </graph>
+        </field>
+    </record>
+</odoo>

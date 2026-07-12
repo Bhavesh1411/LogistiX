@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Fleet Vehicle Inherited Views
+    ======================================================================
+    Extends native fleet.vehicle views using xpath to inject capacity, 
+    health metrics, availability, and dedicated notebook tabs.
+    ======================================================================
+    -->
+
+    <!-- Tree View Inheritance -->
+    <record id="view_fleet_vehicle_tree_inherit" model="ir.ui.view">
+        <field name="name">fleet.vehicle.tree.inherit.logistix</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_tree"/>
+        <field name="arch" type="xml">
+            <!-- Append operational metrics and health/availability to the fleet tree view -->
+            <xpath expr="//field[@name='state_id']" position="before">
+                <field name="capacity_tons" optional="show"/>
+                <field name="mileage_kmpl" optional="hide"/>
+                <field name="fleet_health_score" widget="progressbar" optional="show"/>
+                <field name="availability_status" widget="badge" 
+                       decoration-success="availability_status == 'available'" 
+                       decoration-danger="availability_status == 'unavailable'" 
+                       decoration-warning="availability_status == 'maintenance'"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Form View Inheritance -->
+    <record id="view_fleet_vehicle_form_inherit" model="ir.ui.view">
+        <field name="name">fleet.vehicle.form.inherit.logistix</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_form"/>
+        <field name="arch" type="xml">
+            <!-- Inject LogistiX Header Buttons/Statusbar -->
+            <!-- Note: Standard fleet.vehicle form does not typically have statusbar, we add it to the header -->
+            <xpath expr="//header" position="inside">
+                <!-- Placeholder for future maintenance approval actions -->
+                <button name="action_request_maintenance" string="Request Maintenance" type="object" invisible="availability_status != 'available'"/>
+                <field name="availability_status" widget="statusbar"/>
+            </xpath>
+
+            <!-- Inject general fleet operational properties into the body -->
+            <xpath expr="//group" position="before">
+                <group string="LogistiX Key Metrics" id="logistix_metrics" col="4">
+                    <field name="capacity_tons"/>
+                    <field name="mileage_kmpl"/>
+                    <field name="fleet_health_score" widget="numeric_step" options="{'step': 1}"/>
+                    <field name="current_odometer_snapshot"/>
+                    <field name="purchase_cost"/>
+                </group>
+            </xpath>
+
+            <!-- Add Notebook Pages/Tabs for LogistiX relations -->
+            <xpath expr="//notebook" position="inside">
+                <page string="LogistiX Trips" name="logistix_trips">
+                    <field name="trip_ids" mode="tree" readonly="True">
+                        <tree>
+                            <field name="name"/>
+                            <field name="driver_id"/>
+                            <field name="origin"/>
+                            <field name="destination"/>
+                            <field name="dispatch_time"/>
+                            <field name="trip_status" widget="badge" 
+                                   decoration-success="trip_status == 'completed'" 
+                                   decoration-warning="trip_status == 'in_transit'"/>
+                            <field name="revenue"/>
+                        </tree>
+                    </field>
+                </page>
+                
+                <page string="Compliance Documents" name="compliance_docs">
+                    <field name="document_ids" mode="tree" readonly="True">
+                        <tree>
+                            <field name="name"/>
+                            <field name="document_type"/>
+                            <field name="issue_date"/>
+                            <field name="expiry_date"/>
+                            <field name="document_status" widget="badge" 
+                                   decoration-success="document_status == 'active'" 
+                                   decoration-danger="document_status == 'expired'"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

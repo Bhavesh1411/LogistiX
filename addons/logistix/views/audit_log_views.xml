@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX System Audit Log Views (Tree, Form)
+    ======================================================================
+    Provides a read-only list of system-wide administrative changes.
+    ======================================================================
+    -->
+
+    <!-- Tree View: logistix.audit.log -->
+    <record id="view_logistix_audit_log_tree" model="ir.ui.view">
+        <field name="name">logistix.audit.log.tree</field>
+        <field name="model">logistix.audit.log</field>
+        <field name="arch" type="xml">
+            <tree string="System Audit Logs" create="false" edit="false" delete="false">
+                <field name="action_type"/>
+                <field name="model_name"/>
+                <field name="record_id"/>
+                <field name="performed_by"/>
+                <field name="performed_at"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View: logistix.audit.log -->
+    <record id="view_logistix_audit_log_form" model="ir.ui.view">
+        <field name="name">logistix.audit.log.form</field>
+        <field name="model">logistix.audit.log</field>
+        <field name="arch" type="xml">
+            <form string="Audit Log Record" create="false" edit="false" delete="false">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="action_type" readonly="True"/>
+                        </h1>
+                    </div>
+                    
+                    <group id="general_info">
+                        <group string="Target Record Details" id="left_details">
+                            <field name="model_name" readonly="True"/>
+                            <field name="record_id" readonly="True"/>
+                        </group>
+                        <group string="Operational Context" id="right_details">
+                            <field name="performed_by" readonly="True"/>
+                            <field name="performed_at" readonly="True"/>
+                        </group>
+                    </group>
+                    
+                    <notebook>
+                        <page string="Execution Details &amp; Remarks" name="remarks">
+                            <group id="remarks_content">
+                                <field name="remarks" readonly="True" nolabel="1"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

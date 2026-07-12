@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Trip Views (Tree, Form, Kanban)
+    ======================================================================
+    Contains core data views for the logistix.trip model.
+    ======================================================================
+    -->
+
+    <!-- Tree View: logistix.trip -->
+    <record id="view_logistix_trip_tree" model="ir.ui.view">
+        <field name="name">logistix.trip.tree</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <tree string="Trips">
+                <field name="name" string="Trip Ref"/>
+                <field name="vehicle_id"/>
+                <field name="driver_id"/>
+                <field name="partner_id"/>
+                <field name="origin"/>
+                <field name="destination"/>
+                <field name="dispatch_time"/>
+                <field name="eta" optional="show"/>
+                <field name="actual_arrival" optional="hide"/>
+                <field name="distance_km" sum="Total Distance" optional="show"/>
+                <field name="revenue" sum="Total Revenue" widget="monetary" optional="show"/>
+                <field name="currency_id" column_invisible="True"/>
+                <field name="trip_type" optional="hide"/>
+                <field name="trip_status" widget="badge" 
+                       decoration-info="trip_status == 'draft'" 
+                       decoration-warning="trip_status in ('in_transit', 'delayed')" 
+                       decoration-success="trip_status == 'completed'" 
+                       decoration-danger="trip_status == 'cancelled'"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Kanban View: logistix.trip -->
+    <record id="view_logistix_trip_kanban" model="ir.ui.view">
+        <field name="name">logistix.trip.kanban</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="trip_status" class="o_kanban_small_column">
+                <field name="name"/>
+                <field name="vehicle_id"/>
+                <field name="driver_id"/>
+                <field name="revenue"/>
+                <field name="currency_id"/>
+                <field name="trip_status"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click o_kanban_record d-flex flex-column justify-content-between p-3" style="min-height: 120px; border-radius: 8px;">
+                            <div class="o_kanban_record_top mb-2">
+                                <div class="o_kanban_record_headings">
+                                    <strong class="o_kanban_record_title" style="font-size: 1.1em; color: #2C3E50;">
+                                        <field name="name"/>
+                                    </strong>
+                                </div>
+                            </div>
+                            <div class="o_kanban_record_body mb-2 text-muted" style="font-size: 0.9em;">
+                                <div class="d-flex align-items-center mb-1">
+                                    <span class="fa fa-truck mr-2"/>
+                                    <field name="vehicle_id"/>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="fa fa-user mr-2"/>
+                                    <field name="driver_id"/>
+                                </div>
+                            </div>
+                            <div class="o_kanban_record_bottom d-flex justify-content-between align-items-center">
+                                <div>
+                                    <field name="revenue" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                </div>
+                                <div>
+                                    <field name="trip_status" widget="label_selection" 
+                                           options="{'classes': {'draft': 'default', 'in_transit': 'primary', 'completed': 'success', 'delayed': 'warning', 'cancelled': 'danger'}}"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <!-- Form View: logistix.trip -->
+    <record id="view_logistix_trip_form" model="ir.ui.view">
+        <field name="name">logistix.trip.form</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <form string="Trip Details">
+                <!-- Header Statusbar & Placeholder Actions -->
+                <header>
+                    <!-- Placeholder buttons for future approval workflows -->
+                    <button name="action_submit" string="Submit" type="object" class="oe_highlight" invisible="trip_status != 'draft'"/>
+                    <button name="action_approve" string="Approve" type="object" class="oe_highlight" invisible="trip_status != 'draft'"/>
+                    <field name="trip_status" widget="statusbar" statusbar_visible="draft,in_transit,completed"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="True"/>
+                        </h1>
+                    </div>
+                    
+                    <!-- General Information Group -->
+                    <group id="general_info">
+                        <group id="left_general">
+                            <field name="vehicle_id"/>
+                            <field name="driver_id"/>
+                        </group>
+                        <group id="right_general">
+                            <field name="partner_id"/>
+                            <field name="trip_type"/>
+                        </group>
+                    </group>
+
+                    <!-- Notebook tabs for grouping extra details -->
+                    <notebook>
+                        <!-- Tab 1: Operational Information -->
+                        <page string="Operations" name="operations">
+                            <group id="operational_info">
+                                <group string="Route Details" id="route_details">
+                                    <field name="origin"/>
+                                    <field name="destination"/>
+                                    <field name="distance_km"/>
+                                </group>
+                                <group string="Timings" id="timing_details">
+                                    <field name="dispatch_time"/>
+                                    <field name="eta"/>
+                                    <field name="expected_duration"/>
+                                    <field name="actual_arrival"/>
+                                </group>
+                            </group>
+                        </page>
+
+                        <!-- Tab 2: Financial Information -->
+                        <page string="Financials" name="financials">
+                            <group id="financial_info">
+                                <group string="Revenue Summary" id="revenue_summary">
+                                    <field name="currency_id" invisible="True"/>
+                                    <field name="revenue" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                    <field name="cargo_weight"/>
+                                    <field name="vehicle_capacity_used"/>
+                                </group>
+                            </group>
+                        </page>
+
+                        <!-- Tab 3: Fuel Logs -->
+                        <page string="Fuel Logs" name="fuel_logs">
+                            <field name="fuel_log_ids" mode="tree" readonly="True">
+                                <tree>
+                                    <field name="date"/>
+                                    <field name="liter" sum="Total Liters"/>
+                                    <field name="price_per_liter"/>
+                                    <field name="amount" sum="Total Fuel Cost"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <!-- Tab 4: Expenses -->
+                        <page string="Expenses" name="expenses">
+                            <field name="expense_ids" mode="tree" readonly="True">
+                                <tree>
+                                    <field name="date"/>
+                                    <field name="product_id"/>
+                                    <field name="total_amount" sum="Total Expense Cost"/>
+                                    <field name="state"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+
+                <!-- Mail Thread / Activity / History Integration -->
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+</odoo>

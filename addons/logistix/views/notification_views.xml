@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Alert & Notification Views (Tree, Form, Kanban)
+    ======================================================================
+    Provides visibility into system-generated alerts and compliance updates.
+    ======================================================================
+    -->
+
+    <!-- Tree View: logistix.notification -->
+    <record id="view_logistix_notification_tree" model="ir.ui.view">
+        <field name="name">logistix.notification.tree</field>
+        <field name="model">logistix.notification</field>
+        <field name="arch" type="xml">
+            <tree string="Notifications" decoration-bf="is_read == False">
+                <field name="title"/>
+                <field name="notification_type"/>
+                <field name="notification_date"/>
+                <field name="priority" widget="badge" 
+                       decoration-danger="priority == 'high'" 
+                       decoration-warning="priority == 'medium'" 
+                       decoration-muted="priority == 'low'"/>
+                <field name="is_read"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Kanban View: logistix.notification -->
+    <record id="view_logistix_notification_kanban" model="ir.ui.view">
+        <field name="name">logistix.notification.kanban</field>
+        <field name="model">logistix.notification</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="is_read" class="o_kanban_small_column">
+                <field name="title"/>
+                <field name="notification_type"/>
+                <field name="notification_date"/>
+                <field name="priority"/>
+                <field name="is_read"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click o_kanban_record d-flex flex-column justify-content-between p-3" style="min-height: 100px; border-radius: 8px;">
+                            <div class="o_kanban_record_top">
+                                <div class="o_kanban_record_headings">
+                                    <strong class="o_kanban_record_title" style="font-size: 1.05em; color: #2C3E50;">
+                                        <field name="title"/>
+                                    </strong>
+                                </div>
+                            </div>
+                            <div class="o_kanban_record_body text-muted mb-2" style="font-size: 0.85em;">
+                                <field name="notification_type"/> - <field name="notification_date" widget="datetime"/>
+                            </div>
+                            <div class="o_kanban_record_bottom d-flex justify-content-between align-items-center">
+                                <div>
+                                    <field name="priority" widget="label_selection" 
+                                           options="{'classes': {'low': 'default', 'medium': 'warning', 'high': 'danger'}}"/>
+                                </div>
+                                <div class="text-muted" style="font-size: 0.8em;">
+                                    <t t-if="record.is_read.raw_value">
+                                        <span class="fa fa-envelope-open-o"/> Read
+                                    </t>
+                                    <t t-else="">
+                                        <span class="fa fa-envelope"/> Unread
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <!-- Form View: logistix.notification -->
+    <record id="view_logistix_notification_form" model="ir.ui.view">
+        <field name="name">logistix.notification.form</field>
+        <field name="model">logistix.notification</field>
+        <field name="arch" type="xml">
+            <form string="Notification Details">
+                <!-- Header for marking as read -->
+                <header>
+                    <button name="action_mark_read" string="Mark as Read" type="object" invisible="is_read == True"/>
+                    <field name="is_read" widget="boolean_toggle"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="title" readonly="True"/>
+                        </h1>
+                    </div>
+                    <group id="general_info">
+                        <group string="Categorization" id="left_categ">
+                            <field name="notification_type" readonly="True"/>
+                            <field name="priority" readonly="True"/>
+                        </group>
+                        <group string="Context" id="right_context">
+                            <field name="notification_date" readonly="True"/>
+                            <field name="related_model" readonly="True"/>
+                            <field name="related_record_id" readonly="True"/>
+                        </group>
+                    </group>
+                    
+                    <notebook>
+                        <page string="Alert Content" name="content">
+                            <group id="message_content">
+                                <field name="message" readonly="True" nolabel="1"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Pivot Views (Analytical Views)
+    ======================================================================
+    Defines multi-dimensional pivot tables for operational statistics.
+    ======================================================================
+    -->
+
+    <!-- Pivot View: logistix.trip -->
+    <record id="view_logistix_trip_pivot" model="ir.ui.view">
+        <field name="name">logistix.trip.pivot</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <pivot string="Trips Pivot Analysis" sample="1">
+                <field name="driver_id" type="row"/>
+                <field name="trip_status" type="col"/>
+                <field name="revenue" type="measure"/>
+                <field name="distance_km" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <!-- Pivot View: hr.expense -->
+    <record id="view_logistix_expense_pivot" model="ir.ui.view">
+        <field name="name">hr.expense.pivot.logistix</field>
+        <field name="model">hr.expense</field>
+        <field name="arch" type="xml">
+            <pivot string="Expenses Pivot Analysis" sample="1">
+                <field name="employee_id" type="row"/>
+                <field name="state" type="col"/>
+                <field name="total_amount" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <!-- Pivot View: fleet.vehicle.log.fuel -->
+    <record id="view_logistix_fuel_pivot" model="ir.ui.view">
+        <field name="name">fleet.vehicle.log.fuel.pivot.logistix</field>
+        <field name="model">fleet.vehicle.log.fuel</field>
+        <field name="arch" type="xml">
+            <pivot string="Fuel Logs Pivot Analysis" sample="1">
+                <field name="vehicle_id" type="row"/>
+                <field name="date" interval="month" type="col"/>
+                <field name="amount" type="measure"/>
+                <field name="liter" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <!-- Pivot View: fleet.vehicle.log.services (Maintenance) -->
+    <record id="view_logistix_maintenance_pivot" model="ir.ui.view">
+        <field name="name">fleet.vehicle.log.services.pivot.logistix</field>
+        <field name="model">fleet.vehicle.log.services</field>
+        <field name="arch" type="xml">
+            <pivot string="Maintenance Logs Pivot Analysis" sample="1">
+                <field name="vehicle_id" type="row"/>
+                <field name="date" interval="month" type="col"/>
+                <field name="amount" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+</odoo>

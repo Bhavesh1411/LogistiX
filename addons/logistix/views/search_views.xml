@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Search Views (Including Inherited Native Filters)
+    ======================================================================
+    Defines search, filter, and group-by criteria for operational workflows.
+    ======================================================================
+    -->
+
+    <!-- Search View: logistix.trip -->
+    <record id="view_logistix_trip_search" model="ir.ui.view">
+        <field name="name">logistix.trip.search</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <search string="Search Trips">
+                <!-- Search fields -->
+                <field name="name" string="Trip Ref"/>
+                <field name="vehicle_id"/>
+                <field name="driver_id"/>
+                <field name="partner_id" string="Client"/>
+                <field name="origin"/>
+                <field name="destination"/>
+
+                <!-- Quick Filters -->
+                <filter string="My Trips" name="my_trips" domain="[('driver_id.user_id', '=', uid)]"/>
+                <separator/>
+                <filter string="Today's Trips" name="today_trips" 
+                        domain="[('dispatch_time', '&gt;=', context_today().strftime('%Y-%m-%d 00:00:00')), ('dispatch_time', '&lt;=', context_today().strftime('%Y-%m-%d 23:59:59'))]"/>
+                <separator/>
+                <filter string="Draft" name="draft_trips" domain="[('trip_status', '=', 'draft')]"/>
+                <filter string="In Transit" name="in_transit" domain="[('trip_status', '=', 'in_transit')]"/>
+                <filter string="Delayed" name="delayed" domain="[('trip_status', '=', 'delayed')]"/>
+                <filter string="Completed" name="completed" domain="[('trip_status', '=', 'completed')]"/>
+                <filter string="Cancelled" name="cancelled" domain="[('trip_status', '=', 'cancelled')]"/>
+
+                <!-- Group By Options -->
+                <group expand="0" string="Group By">
+                    <filter string="Driver" name="group_by_driver" context="{'group_by': 'driver_id'}"/>
+                    <filter string="Vehicle" name="group_by_vehicle" context="{'group_by': 'vehicle_id'}"/>
+                    <filter string="Client" name="group_by_partner" context="{'group_by': 'partner_id'}"/>
+                    <filter string="Status" name="group_by_status" context="{'group_by': 'trip_status'}"/>
+                    <filter string="Trip Type" name="group_by_type" context="{'group_by': 'trip_type'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Search View Inheritance: fleet.vehicle -->
+    <record id="view_fleet_vehicle_search_inherit" model="ir.ui.view">
+        <field name="name">fleet.vehicle.search.inherit.logistix</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_search"/>
+        <field name="arch" type="xml">
+            <!-- Add custom operational status filters -->
+            <xpath expr="//filter[@name='alert_ok']" position="before">
+                <filter string="Available Vehicles" name="available_vehicles" domain="[('availability_status', '=', 'available')]"/>
+                <filter string="Under Maintenance" name="maint_vehicles" domain="[('availability_status', '=', 'maintenance')]"/>
+                <separator/>
+            </xpath>
+            <xpath expr="//filter[@name='groupby_status']" position="before">
+                <filter string="LogistiX Status" name="group_by_availability" context="{'group_by': 'availability_status'}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Search View Inheritance: hr.employee -->
+    <record id="view_hr_employee_search_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.search.inherit.logistix</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='inactive']" position="before">
+                <filter string="Active / Available Drivers" name="available_drivers" domain="[('availability_status', '=', 'available')]"/>
+                <separator/>
+            </xpath>
+            <xpath expr="//filter[@name='group_job']" position="before">
+                <filter string="Driver Availability" name="group_by_avail" context="{'group_by': 'availability_status'}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Search View: logistix.vehicle.document -->
+    <record id="view_logistix_vehicle_document_search" model="ir.ui.view">
+        <field name="name">logistix.vehicle.document.search</field>
+        <field name="model">logistix.vehicle.document</field>
+        <field name="arch" type="xml">
+            <search string="Search Vehicle Documents">
+                <field name="name"/>
+                <field name="vehicle_id"/>
+                <field name="document_type"/>
+                
+                <filter string="Active Documents" name="active_docs" domain="[('document_status', '=', 'active')]"/>
+                <filter string="Expired Documents" name="expired_docs" domain="[('document_status', '=', 'expired')]"/>
+                <separator/>
+                <filter string="Expiring within 30 Days" name="expiring_soon" 
+                        domain="[('expiry_date', '&lt;=', (context_today() + datetime.timedelta(days=30)).strftime('%Y-%m-%d'))]"/>
+
+                <group expand="0" string="Group By">
+                    <filter string="Vehicle" name="group_by_vehicle" context="{'group_by': 'vehicle_id'}"/>
+                    <filter string="Document Type" name="group_by_type" context="{'group_by': 'document_type'}"/>
+                    <filter string="Status" name="group_by_status" context="{'group_by': 'document_status'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Search View: logistix.driver.document -->
+    <record id="view_logistix_driver_document_search" model="ir.ui.view">
+        <field name="name">logistix.driver.document.search</field>
+        <field name="model">logistix.driver.document</field>
+        <field name="arch" type="xml">
+            <search string="Search Driver Documents">
+                <field name="name"/>
+                <field name="driver_id"/>
+                <field name="document_type"/>
+                
+                <filter string="Active Documents" name="active_docs" domain="[('document_status', '=', 'active')]"/>
+                <filter string="Expired Documents" name="expired_docs" domain="[('document_status', '=', 'expired')]"/>
+                <separator/>
+                <filter string="Expiring within 30 Days" name="expiring_soon" 
+                        domain="[('expiry_date', '&lt;=', (context_today() + datetime.timedelta(days=30)).strftime('%Y-%m-%d'))]"/>
+
+                <group expand="0" string="Group By">
+                    <filter string="Driver" name="group_by_driver" context="{'group_by': 'driver_id'}"/>
+                    <filter string="Document Type" name="group_by_type" context="{'group_by': 'document_type'}"/>
+                    <filter string="Status" name="group_by_status" context="{'group_by': 'document_status'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Search View: logistix.notification -->
+    <record id="view_logistix_notification_search" model="ir.ui.view">
+        <field name="name">logistix.notification.search</field>
+        <field name="model">logistix.notification</field>
+        <field name="arch" type="xml">
+            <search string="Search Notifications">
+                <field name="title"/>
+                <field name="notification_type"/>
+                
+                <filter string="Unread Notifications" name="unread_notifications" domain="[('is_read', '=', False)]"/>
+                <filter string="Read Notifications" name="read_notifications" domain="[('is_read', '=', True)]"/>
+                <separator/>
+                <filter string="High Priority Alerts" name="high_priority" domain="[('priority', '=', 'high')]"/>
+
+                <group expand="0" string="Group By">
+                    <filter string="Priority" name="group_by_priority" context="{'group_by': 'priority'}"/>
+                    <filter string="Notification Type" name="group_by_type" context="{'group_by': 'notification_type'}"/>
+                    <filter string="Status (Read/Unread)" name="group_by_read" context="{'group_by': 'is_read'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

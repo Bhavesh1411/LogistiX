@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Window Actions
+    ======================================================================
+    All act_window declarations for custom and extended native models.
+    Organized following naming standard: action_logistix_*
+    ======================================================================
+    -->
+
+    <!-- Action: Trips -->
+    <record id="action_logistix_trip" model="ir.actions.act_window">
+        <field name="name">Trips</field>
+        <field name="res_model">logistix.trip</field>
+        <field name="view_mode">tree,kanban,form,calendar,graph,pivot</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first trip!
+            </p>
+            <p>
+                Manage dispatch times, vehicle assignments, driver mapping, and track financial and operational status of trips.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Vehicles (Extended Native fleet.vehicle) -->
+    <record id="action_logistix_vehicle" model="ir.actions.act_window">
+        <field name="name">Vehicles</field>
+        <field name="res_model">fleet.vehicle</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Register a new fleet vehicle
+            </p>
+            <p>
+                Track capacity parameters, fuel efficiency (mileage), health scores, and check operational availability.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Drivers (Extended Native hr.employee) -->
+    <record id="action_logistix_driver" model="ir.actions.act_window">
+        <field name="name">Drivers</field>
+        <field name="res_model">hr.employee</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add your first driver
+            </p>
+            <p>
+                Track compliance certificates, emergency contacts, safety ratings, performance scores, and risk profiles.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Vehicle Documents -->
+    <record id="action_logistix_vehicle_document" model="ir.actions.act_window">
+        <field name="name">Vehicle Documents</field>
+        <field name="res_model">logistix.vehicle.document</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Upload a vehicle document
+            </p>
+            <p>
+                Log registration certificates, PUC certificates, permits, and fitness renewals with active expiry tracking.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Driver Documents -->
+    <record id="action_logistix_driver_document" model="ir.actions.act_window">
+        <field name="name">Driver Documents</field>
+        <field name="res_model">logistix.driver.document</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Upload a driver document
+            </p>
+            <p>
+                Manage driving licenses, medical certificates, and training proofs for your drivers.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Notifications -->
+    <record id="action_logistix_notification" model="ir.actions.act_window">
+        <field name="name">Notifications</field>
+        <field name="res_model">logistix.notification</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No system alerts or notifications
+            </p>
+            <p>
+                Track operational notifications, priority alerts, and compliance expiration notices.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Audit Logs -->
+    <record id="action_logistix_audit_log" model="ir.actions.act_window">
+        <field name="name">System Audit Logs</field>
+        <field name="res_model">logistix.audit.log</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p>
+                No audit logs generated yet.
+            </p>
+            <p>
+                Audit logs are automatically populated by system actions to capture changes in database records.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Fuel Logs (Native fleet.vehicle.log.fuel) -->
+    <record id="action_logistix_fuel_log" model="ir.actions.act_window">
+        <field name="name">Fuel Logs</field>
+        <field name="res_model">fleet.vehicle.log.fuel</field>
+        <field name="view_mode">tree,form,pivot</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Log fuel consumption
+            </p>
+            <p>
+                Link fuel slips directly to trips and fleet vehicles to automatically calculate mileage performance.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Maintenance (Native fleet.vehicle.log.services) -->
+    <record id="action_logistix_maintenance" model="ir.actions.act_window">
+        <field name="name">Maintenance Logs</field>
+        <field name="res_model">fleet.vehicle.log.services</field>
+        <field name="view_mode">tree,form,pivot</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Schedule vehicle maintenance
+            </p>
+            <p>
+                Track service costs, mechanics, and renewal cycles to compute overall vehicle health metrics.
+            </p>
+        </field>
+    </record>
+
+    <!-- Action: Expenses (Native hr.expense) -->
+    <record id="action_logistix_expense" model="ir.actions.act_window">
+        <field name="name">Expenses</field>
+        <field name="res_model">hr.expense</field>
+        <field name="view_mode">tree,form,pivot</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Record an expense slip
+            </p>
+            <p>
+                Log operational expenses, driver payouts, toll fees, and other trip-related expenditures.
+            </p>
+        </field>
+    </record>
+</odoo>

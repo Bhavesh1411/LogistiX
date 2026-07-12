@@ -21,6 +21,23 @@
         "security/groups.xml",
         "security/ir.model.access.csv",
         "security/record_rules.xml",
+        # Actions
+        "views/actions.xml",
+        # Custom & Inherited Form/Tree Views
+        "views/trip_views.xml",
+        "views/vehicle_views.xml",
+        "views/employee_views.xml",
+        "views/vehicle_document_views.xml",
+        "views/driver_document_views.xml",
+        "views/notification_views.xml",
+        "views/audit_log_views.xml",
+        # Search & Analytical Views
+        "views/search_views.xml",
+        "views/graph_views.xml",
+        "views/pivot_views.xml",
+        "views/calendar_views.xml",
+        # Menus
+        "views/menu_views.xml",
     ],
     "application": True,
     "installable": True,

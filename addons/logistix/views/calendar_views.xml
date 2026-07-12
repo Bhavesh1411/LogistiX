@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    ======================================================================
+    LogistiX Calendar Views (Analytical Views)
+    ======================================================================
+    Displays dispatch schedule and estimated times of arrivals for active trips.
+    ======================================================================
+    -->
+
+    <!-- Calendar View: logistix.trip -->
+    <record id="view_logistix_trip_calendar" model="ir.ui.view">
+        <field name="name">logistix.trip.calendar</field>
+        <field name="model">logistix.trip</field>
+        <field name="arch" type="xml">
+            <calendar string="Trips Dispatch Schedule" 
+                      date_start="dispatch_time" 
+                      date_stop="eta" 
+                      color="trip_status" 
+                      mode="month" 
+                      quick_create="false" 
+                      event_open_popup="true">
+                <!-- Displayed fields in popups / event blocks -->
+                <field name="name"/>
+                <field name="driver_id"/>
+                <field name="vehicle_id"/>
+                <field name="actual_arrival"/>
+            </calendar>
+        </field>
+    </record>
+</odoo>
