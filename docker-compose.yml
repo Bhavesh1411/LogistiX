@@ -3,10 +3,8 @@ services:
     image: postgres:16-alpine
     container_name: logistix_db
     restart: unless-stopped
-    environment:
-      POSTGRES_DB: ${POSTGRES_DB}
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    env_file:
+      - .env
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
@@ -28,6 +26,8 @@ services:
         condition: service_healthy
     ports:
       - "8069:8069"
+    env_file:
+      - .env
     environment:
       - HOST=db
       - USER=${POSTGRES_USER}

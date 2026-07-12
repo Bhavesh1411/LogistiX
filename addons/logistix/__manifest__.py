@@ -15,4 +15,6 @@
         "maintenance",
         "hr_expense"
     ],
+    "application": True,
+    "installable": True,
 }
