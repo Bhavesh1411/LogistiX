@@ -15,6 +15,13 @@
         "maintenance",
         "hr_expense"
     ],
+    "data": [
+        # Phase 3 - Security Layer
+        # Load order matters: groups → ACL → record rules
+        "security/groups.xml",
+        "security/ir.model.access.csv",
+        "security/record_rules.xml",
+    ],
     "application": True,
     "installable": True,
 }

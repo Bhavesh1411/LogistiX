@@ -1,4 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Placeholder for LogistiX security groups -->
+    <!--
+    ============================================================
+    LogistiX Security Groups
+    ============================================================
+    Category : LogistiX
+    Groups   : Driver, Dispatcher, Fleet Manager, Finance Manager, Administrator
+    Native Odoo groups are implied (inherited) where appropriate
+    to follow Odoo best practices and avoid duplicate permission management.
+
+    Future-ready: XML structure supports multi-company extension.
+    ============================================================
+    -->
+
+    <!-- ── Application Category ─────────────────────────────────────── -->
+    <record id="module_category_logistix" model="ir.module.category">
+        <field name="name">LogistiX</field>
+        <field name="description">Transport and Fleet Operations Platform</field>
+        <field name="sequence">25</field>
+    </record>
+
+    <!-- ── Group: Driver ─────────────────────────────────────────────── -->
+    <!--
+        Least-privileged role.
+        Drivers interact with their own trips, documents, and read-only notifications.
+        Inherits base.group_user for standard Odoo portal/internal access.
+    -->
+    <record id="group_logistix_driver" model="res.groups">
+        <field name="name">Driver</field>
+        <field name="category_id" ref="module_category_logistix"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="comment">
+            Drivers can view only their own trips, their own compliance documents,
+            and read system notifications. No write or delete privileges.
+        </field>
+    </record>
+
+    <!-- ── Group: Dispatcher ─────────────────────────────────────────── -->
+    <!--
+        Operational role.
+        Dispatchers create and manage trips, assign drivers/vehicles,
+        and manage notifications. Read-only access to documents.
+        Inherits base.group_user.
+    -->
+    <record id="group_logistix_dispatcher" model="res.groups">
+        <field name="name">Dispatcher</field>
+        <field name="category_id" ref="module_category_logistix"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="comment">
+            Dispatchers can create and update trips, assign drivers and vehicles,
+            and manage notifications. Read-only access to vehicle and driver documents.
+        </field>
+    </record>
+
+    <!-- ── Group: Fleet Manager ──────────────────────────────────────── -->
+    <!--
+        Fleet operational role.
+        Full access to vehicles, trips, maintenance, fuel logs, and documents.
+        Inherits fleet.fleet_group_manager for native fleet model permissions.
+    -->
+    <record id="group_logistix_fleet_manager" model="res.groups">
+        <field name="name">Fleet Manager</field>
+        <field name="category_id" ref="module_category_logistix"/>
+        <field name="implied_ids" eval="[
+            (4, ref('base.group_user')),
+            (4, ref('fleet.fleet_group_manager'))
+        ]"/>
+        <field name="comment">
+            Fleet Managers have full control over vehicles, trips, fuel logs,
+            maintenance records, and compliance documents.
+            Inherits native fleet manager permissions from Odoo Fleet module.
+        </field>
+    </record>
+
+    <!-- ── Group: Finance Manager ────────────────────────────────────── -->
+    <!--
+        Finance role.
+        Read access to trips for cost/revenue analysis.
+        Full access to expenses and fuel cost records.
+        Inherits hr_expense.group_hr_expense_manager for native expense management.
+    -->
+    <record id="group_logistix_finance_manager" model="res.groups">
+        <field name="name">Finance Manager</field>
+        <field name="category_id" ref="module_category_logistix"/>
+        <field name="implied_ids" eval="[
+            (4, ref('base.group_user')),
+            (4, ref('hr_expense.group_hr_expense_manager'))
+        ]"/>
+        <field name="comment">
+            Finance Managers have read access to trips for revenue/cost analysis,
+            and full access to expenses and fuel costs via the native expense module.
+        </field>
+    </record>
+
+    <!-- ── Group: Administrator ──────────────────────────────────────── -->
+    <!--
+        Highest privilege role.
+        Full unrestricted access to all LogistiX models and operations.
+        Inherits all LogistiX sub-groups and base.group_system (Settings / Technical).
+        This group is the single source of truth for administrative control.
+    -->
+    <record id="group_logistix_admin" model="res.groups">
+        <field name="name">Administrator</field>
+        <field name="category_id" ref="module_category_logistix"/>
+        <field name="implied_ids" eval="[
+            (4, ref('logistix.group_logistix_driver')),
+            (4, ref('logistix.group_logistix_dispatcher')),
+            (4, ref('logistix.group_logistix_fleet_manager')),
+            (4, ref('logistix.group_logistix_finance_manager')),
+            (4, ref('base.group_system'))
+        ]"/>
+        <field name="comment">
+            LogistiX Administrators have full CRUD access to all custom models,
+            all native fleet and expense records, and Odoo system settings.
+            This group supersedes all other LogistiX groups.
+        </field>
+    </record>
+
 </odoo>
