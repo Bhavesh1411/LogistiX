@@ -16,3 +16,6 @@ acl_logistix_notification_fleet_manager,logistix.notification fleet manager,mode
 acl_logistix_notification_dispatcher,logistix.notification dispatcher,model_logistix_notification,logistix.group_logistix_dispatcher,1,1,1,0
 acl_logistix_notification_driver,logistix.notification driver,model_logistix_notification,logistix.group_logistix_driver,1,0,0,0
 acl_logistix_audit_log_admin,logistix.audit.log admin,model_logistix_audit_log,logistix.group_logistix_admin,1,0,1,0
+acl_logistix_finance_fuel_log,fleet.vehicle.log.fuel finance,model_fleet_vehicle_log_fuel,logistix.group_logistix_finance_manager,1,0,0,0
+acl_logistix_finance_maintenance,fleet.vehicle.log.services finance,model_fleet_vehicle_log_services,logistix.group_logistix_finance_manager,1,0,0,0
+acl_logistix_finance_expense,hr.expense finance,model_hr_expense,logistix.group_logistix_finance_manager,1,0,0,0

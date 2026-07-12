@@ -23,5 +23,7 @@ All notable changes to the LogistiX project will be documented in this file.
 - Audit Log made immutable: Administrator read/create only, no write or delete for any role.
 - Notifications set to read-only for Drivers (system-generated).
 - Created 18 explicit record rules with no unrestricted access for restricted roles.
-- Verified: no ACL conflicts, no duplicate XML IDs, no orphan record rules.
+- Applied enterprise-grade naming conventions (rule_logistix_*), robust XML comments, and strict hr.employee linkage for drivers.
+- Added Finance Manager read-only ACL placeholders for native fuel logs, maintenance, and expenses.
+- Verified: no ACL conflicts, no duplicate XML IDs, no orphan record rules, no recursive group implied_ids.
 

@@ -17,8 +17,11 @@
          MODEL: logistix.trip
          ================================================================ -->
 
+    <!-- Placeholder for Future: Trip Approval Workflow Rules -->
+    <!-- Examples: Draft -> Submitted -> Approved -> In Transit -->
+
     <!-- Rule: Administrator — Full access to all trips -->
-    <record id="rule_trip_admin_all" model="ir.rule">
+    <record id="rule_logistix_trip_admin_all" model="ir.rule">
         <field name="name">Trips: Administrator Full Access</field>
         <field name="model_id" ref="model_logistix_trip"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_admin'))]"/>
@@ -30,7 +33,7 @@
     </record>
 
     <!-- Rule: Fleet Manager — Full access to all trips -->
-    <record id="rule_trip_fleet_manager_all" model="ir.rule">
+    <record id="rule_logistix_trip_fleet_manager_all" model="ir.rule">
         <field name="name">Trips: Fleet Manager Full Access</field>
         <field name="model_id" ref="model_logistix_trip"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_fleet_manager'))]"/>
@@ -42,7 +45,7 @@
     </record>
 
     <!-- Rule: Dispatcher — Create and update trips; cannot delete historical trips -->
-    <record id="rule_trip_dispatcher_no_delete" model="ir.rule">
+    <record id="rule_logistix_trip_dispatcher_no_delete" model="ir.rule">
         <field name="name">Trips: Dispatcher Create and Update Only</field>
         <field name="model_id" ref="model_logistix_trip"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_dispatcher'))]"/>
@@ -54,7 +57,7 @@
     </record>
 
     <!-- Rule: Dispatcher — Read all trips (including completed/historical) -->
-    <record id="rule_trip_dispatcher_read_all" model="ir.rule">
+    <record id="rule_logistix_trip_dispatcher_read_all" model="ir.rule">
         <field name="name">Trips: Dispatcher Read All</field>
         <field name="model_id" ref="model_logistix_trip"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_dispatcher'))]"/>
@@ -66,7 +69,7 @@
     </record>
 
     <!-- Rule: Finance Manager — Read all trips for revenue/cost analysis -->
-    <record id="rule_trip_finance_manager_read" model="ir.rule">
+    <record id="rule_logistix_trip_finance_manager_read" model="ir.rule">
         <field name="name">Trips: Finance Manager Read All</field>
         <field name="model_id" ref="model_logistix_trip"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_finance_manager'))]"/>
@@ -78,11 +81,12 @@
     </record>
 
     <!-- Rule: Driver — Can access only their own trips -->
-    <record id="rule_trip_driver_own" model="ir.rule">
+    <record id="rule_logistix_trip_driver_own" model="ir.rule">
         <field name="name">Trips: Driver Own Trips Only</field>
         <field name="model_id" ref="model_logistix_trip"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_driver'))]"/>
         <!-- Link logged-in user → hr.employee.user_id → logistix.trip.driver_id -->
+        <!-- If user is not linked to hr.employee, this evaluates to False, denying access securely. -->
         <field name="domain_force">[('driver_id.user_id', '=', user.id)]</field>
         <field name="perm_read" eval="True"/>
         <field name="perm_write" eval="False"/>
@@ -95,7 +99,7 @@
          ================================================================ -->
 
     <!-- Rule: Administrator — Full access to all vehicle documents -->
-    <record id="rule_vehicle_document_admin_all" model="ir.rule">
+    <record id="rule_logistix_vehicle_document_admin_all" model="ir.rule">
         <field name="name">Vehicle Documents: Administrator Full Access</field>
         <field name="model_id" ref="model_logistix_vehicle_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_admin'))]"/>
@@ -107,7 +111,7 @@
     </record>
 
     <!-- Rule: Fleet Manager — Full access to all vehicle documents -->
-    <record id="rule_vehicle_document_fleet_manager_all" model="ir.rule">
+    <record id="rule_logistix_vehicle_document_fleet_manager_all" model="ir.rule">
         <field name="name">Vehicle Documents: Fleet Manager Full Access</field>
         <field name="model_id" ref="model_logistix_vehicle_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_fleet_manager'))]"/>
@@ -119,7 +123,7 @@
     </record>
 
     <!-- Rule: Dispatcher — Read all vehicle documents (reference only) -->
-    <record id="rule_vehicle_document_dispatcher_read" model="ir.rule">
+    <record id="rule_logistix_vehicle_document_dispatcher_read" model="ir.rule">
         <field name="name">Vehicle Documents: Dispatcher Read All</field>
         <field name="model_id" ref="model_logistix_vehicle_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_dispatcher'))]"/>
@@ -135,7 +139,7 @@
          ================================================================ -->
 
     <!-- Rule: Administrator — Full access to all driver documents -->
-    <record id="rule_driver_document_admin_all" model="ir.rule">
+    <record id="rule_logistix_driver_document_admin_all" model="ir.rule">
         <field name="name">Driver Documents: Administrator Full Access</field>
         <field name="model_id" ref="model_logistix_driver_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_admin'))]"/>
@@ -147,7 +151,7 @@
     </record>
 
     <!-- Rule: Fleet Manager — Full access to all driver documents -->
-    <record id="rule_driver_document_fleet_manager_all" model="ir.rule">
+    <record id="rule_logistix_driver_document_fleet_manager_all" model="ir.rule">
         <field name="name">Driver Documents: Fleet Manager Full Access</field>
         <field name="model_id" ref="model_logistix_driver_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_fleet_manager'))]"/>
@@ -159,7 +163,7 @@
     </record>
 
     <!-- Rule: Dispatcher — Read all driver documents (reference only) -->
-    <record id="rule_driver_document_dispatcher_read" model="ir.rule">
+    <record id="rule_logistix_driver_document_dispatcher_read" model="ir.rule">
         <field name="name">Driver Documents: Dispatcher Read All</field>
         <field name="model_id" ref="model_logistix_driver_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_dispatcher'))]"/>
@@ -171,11 +175,12 @@
     </record>
 
     <!-- Rule: Driver — Can access only their own compliance documents -->
-    <record id="rule_driver_document_driver_own" model="ir.rule">
+    <record id="rule_logistix_driver_document_driver_own" model="ir.rule">
         <field name="name">Driver Documents: Driver Own Documents Only</field>
         <field name="model_id" ref="model_logistix_driver_document"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_driver'))]"/>
         <!-- Link logged-in user → hr.employee.user_id → logistix.driver.document.driver_id -->
+        <!-- If user is not linked to hr.employee, this evaluates to False, denying access securely. -->
         <field name="domain_force">[('driver_id.user_id', '=', user.id)]</field>
         <field name="perm_read" eval="True"/>
         <field name="perm_write" eval="False"/>
@@ -190,7 +195,7 @@
          ================================================================ -->
 
     <!-- Rule: Administrator — Full access to all notifications -->
-    <record id="rule_notification_admin_all" model="ir.rule">
+    <record id="rule_logistix_notification_admin_all" model="ir.rule">
         <field name="name">Notifications: Administrator Full Access</field>
         <field name="model_id" ref="model_logistix_notification"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_admin'))]"/>
@@ -202,7 +207,7 @@
     </record>
 
     <!-- Rule: Fleet Manager — Full access to all notifications -->
-    <record id="rule_notification_fleet_manager_all" model="ir.rule">
+    <record id="rule_logistix_notification_fleet_manager_all" model="ir.rule">
         <field name="name">Notifications: Fleet Manager Full Access</field>
         <field name="model_id" ref="model_logistix_notification"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_fleet_manager'))]"/>
@@ -214,7 +219,7 @@
     </record>
 
     <!-- Rule: Dispatcher — Create and read notifications (no delete of system records) -->
-    <record id="rule_notification_dispatcher_create" model="ir.rule">
+    <record id="rule_logistix_notification_dispatcher_create" model="ir.rule">
         <field name="name">Notifications: Dispatcher Read and Create</field>
         <field name="model_id" ref="model_logistix_notification"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_dispatcher'))]"/>
@@ -226,14 +231,16 @@
     </record>
 
     <!-- Rule: Driver — Read only their own notifications -->
-    <record id="rule_notification_driver_own" model="ir.rule">
+    <record id="rule_logistix_notification_driver_own" model="ir.rule">
         <field name="name">Notifications: Driver Own Notifications Only</field>
         <field name="model_id" ref="model_logistix_notification"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_driver'))]"/>
         <!--
             Notifications created by or for the logged-in driver.
-            Uses create_uid as a safe proxy for ownership of system-generated notifications.
-            Future: extend with a 'recipient_user_id' field for precise targeting.
+            Currently uses create_uid as a proxy for ownership.
+            FUTURE MIGRATION: Shift to relation-based ownership using
+            ['|', ('related_model', '=', 'logistix.trip'), ('related_record_id', '=', trip.id)] 
+            or similar when models are linked.
         -->
         <field name="domain_force">[('create_uid', '=', user.id)]</field>
         <field name="perm_read" eval="True"/>
@@ -249,8 +256,14 @@
          No record rules for other groups (ACL blocks access entirely).
          ================================================================ -->
 
+    <!-- Placeholder for Future: Expense Approval Workflow -->
+    <!-- Examples: Draft -> Submitted -> Approved by Finance -> Paid -->
+
+    <!-- Placeholder for Future: Maintenance Approval Workflow -->
+    <!-- Examples: Requested -> Fleet Manager Approved -> In Progress -> Done -->
+
     <!-- Rule: Administrator — Read and Create audit logs (no modify, no delete) -->
-    <record id="rule_audit_log_admin_immutable" model="ir.rule">
+    <record id="rule_logistix_audit_log_admin_immutable" model="ir.rule">
         <field name="name">Audit Log: Administrator Read and Create Only</field>
         <field name="model_id" ref="model_logistix_audit_log"/>
         <field name="groups" eval="[(4, ref('logistix.group_logistix_admin'))]"/>
