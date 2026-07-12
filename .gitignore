@@ -1,9 +1,19 @@
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 env/
+venv/
 .ipynb_checkpoints/
-.streamlit/secrets.toml
 .env
 .DS_Store
 Thumbs.db
+*.log
+
+# Odoo specific ignores
+odoo.conf
+filestore/
+*.filestore
+addons/
+data/
